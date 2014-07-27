@@ -1,0 +1,4480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Altis Life RPG">
+<Package name="Global">
+<Key ID="STR_Global_Close">
+<French>Close</French>
+<English>Close</English>
+<German>schließen</German>
+<Original>Fermer</Original>
+<Italian>Chiudi</Italian>
+</Key>
+<Key ID="STR_Global_Sell">
+<French>Sell</French>
+<English>Sell</English>
+<German>verkaufen</German>
+<Original>Vendre</Original>
+<Italian>Vendi</Italian>
+</Key>
+<Key ID="STR_Global_Buy">
+<French>Buy</French>
+<English>Buy</English>
+<German>kaufen</German>
+<Original>Acheter</Original>
+<Italian>Compra</Italian>
+</Key>
+<Key ID="STR_Global_Give">
+<French>Give</French>
+<English>Give</English>
+<German>geben</German>
+<Original>Donner</Original>
+<Italian>Dai</Italian>
+</Key>
+<Key ID="STR_Global_Use">
+<French>Use</French>
+<English>Utiliser</English>
+<German>benutzen</German>
+<Original>Utiliser</Original>
+<Italian>Usa</Italian>
+</Key>
+<Key ID="STR_Global_Remove">
+<French>Remove</French>
+<English>Remove</English>
+<German>entfernen</German>
+<Original>Supprimer</Original>
+<Italian>Rimuovi</Italian>
+</Key>
+<Key ID="STR_Global_Settings">
+<French>Settings</French>
+<English>Settings</English>
+<German>Einstellungen</German>
+<Original>Paramètres</Original>
+<Italian>Impostazioni</Italian>
+</Key>
+<Key ID="STR_Global_RentVeh">
+<French>Rent</French>
+<English>Rent</English>
+<German>mieten</German>
+<Original>Louer</Original>
+<Italian>Affitta</Italian>
+</Key>
+<Key ID="STR_Global_Retrieve">
+<French>Retrieve</French>
+<English>Retrieve</English>
+<German>abrufen</German>
+<Original>Récupérer</Original>
+<Italian>Ritira</Italian>
+</Key>
+<Key ID="STR_Global_NoSelection">
+<French>You did not select anything.</French>
+<English>You did not select anything.</English>
+<German>Du hast nichts ausgewählt</German>
+<Original>Vous n'avez rien sélectionné.</Original>
+<Italian>Non hai selezionato nulla.</Italian>
+</Key>
+<Key ID="STR_Global_Yes">
+<French>Yes</French>
+<English>Yes</English>
+<German>Ja</German>
+<Original>Oui</Original>
+<Italian>Si</Italian>
+</Key>
+<Key ID="STR_Global_No">
+<French>No</French>
+<English>No</English>
+<German>Nein</German>
+<Original>Aucun</Original>
+<Italian>No</Italian>
+</Key>
+<Key ID="STR_Global_Cancel">
+<French>Cancel</French>
+<English>Cancel</English>
+<German>abbrechen</German>
+<Original>Annulée</Original>
+<Italian>Annulla</Italian>
+</Key>
+</Package>
+<Package name="Admin_Menu">
+<Key ID="STR_Admin_Title">
+<French>Admin Menu</French>
+<English>Admin Menu</English>
+<German>Admin Menü</German>
+<Italian>Menu Admin</Italian>
+</Key>
+<Key ID="STR_Admin_GetID">
+<French>Get ID</French>
+<English>Get ID</English>
+<German>Get ID</German>
+<Original>Obtenir ID</Original>
+<Italian>Vedi ID</Italian>
+</Key>
+<Key ID="STR_Admin_Spectate">
+<Original>Spectate</Original>
+<English>Spectate</English>
+<German>Zuschauen</German>
+<French>Regardez</French>
+</Key>
+<Key ID="STR_Admin_Teleport">
+<Original>Teleport</Original>
+<English>Teleport</English>
+<German>Teleport</German>
+<French>Teleport</French>
+</Key>
+<Key ID="STR_Admin_TpHere">
+<Original>TP Here</Original>
+<English>TP Here</English>
+<German>TP Hier</German>
+<French>TP Ici</French>
+</Key>
+<Key ID="STR_Admin_Debug">
+<Original>Debug</Original>
+<English>Debug</English>
+<German>Debug</German>
+<French>Debug</French>
+</Key>
+<Key ID="STR_Admin_Compensate">
+<Original>Comp</Original>
+<English>Comp</English>
+<German>Comp</German>
+<French>Comp</French>
+</Key>
+<Key ID="STR_Admin_God">
+<Original>GodMode</Original>
+<English>GodMode</English>
+<German>Gott</German>
+<French>Dieu</French>
+</Key>
+<Key ID="STR_Admin_Freeze">
+<Original>Freeze</Original>
+<English>Freeze</English>
+<German>Freeze</German>
+<French>Geler</French>
+</Key>
+<Key ID="STR_Admin_Markers">
+<Original>Markers</Original>
+<English>Markers</English>
+<German>Markers</German>
+<French>Markers</French>
+</Key>
+<Key ID="STR_ANOTF_CompWarn">
+<Original>You are about to give yourself $%1 to compensate to another player &lt;br/&gt;&lt;br/&gt;You must give this cash to the person you are compensating manually.</Original>
+<English>You are about to give yourself $%1 to compensate to another player &lt;br/&gt;&lt;br/&gt;You must give this cash to the person you are compensating manually.</English>
+<German>To Be Changed</German>
+<French>Vous êtes sur le point de vous donner $%1 pour compenser à un autre joueur &lt;br/&gt;&lt;br/&gt; S'il vous plaît donner à cette à la personne vous compensez manuellement</French>
+</Key>
+<Key ID="STR_ANOTF_Success">
+<Original>You have added $%1 to your account.</Original>
+<English>You have added $%1 to your account.</English>
+<German>To Be Changed</German>
+<French>Vous avez ajouté $%1 à votre compte</French>
+</Key>
+<Key ID="STR_ANOTF_Fail">
+<Original>You can not go above 999999.</Original>
+<English>You can not go above 999999.</English>
+<German>To Be Changed</German>
+<French>Vous ne pouvez pas aller au-dessus $999999</French>
+</Key>
+<Key ID="STR_ANOTF_Amount">
+<Original>Please type in the amount to compensate.</Original>
+<English>Please type in the amount to compensate.</English>
+<German>To Be Changed</German>
+<French>S'il vous plaît entrer la quantité pour compenser</French>
+</Key>
+<Key ID="STR_ANOTF_Frozen">
+<Original>You have disabled %1's input.</Original>
+<English>You have disabled %1's input.</English>
+<German>To Be Changed</German>
+<French>Vous avez désactivé %1's contrôles</French>
+</Key>
+<Key ID="STR_ANOTF_Unfrozen">
+<Original>You have enabled %1's input.</Original>
+<English>You have enabled %1's input.</English>
+<German>To Be Changed</German>
+<French>Vous avez permis %1's contrôles</French>
+</Key>
+<Key ID="STR_ANOTF_Error">
+<Original>You can't do that dumbass.</Original>
+<English>You can't do that dumbass.</English>
+<German>To Be Changed</German>
+<French>Vous ne pouvez pas le faire sur vous-même</French>
+</Key>
+<Key ID="STR_ANOTF_ErrorLevel">
+<Original>Your Admin Level is not high enough.</Original>
+<English>Your Admin Level is not high enough.</English>
+<German>To Be Changed</German>
+<French>Votre Niveau admin n'est pas suffisamment élevée</French>
+</Key>
+<Key ID="STR_ANOTF_MDisabled">
+<Original>Player Markers Disabled.</Original>
+<English>Player Markers Disabled.</English>
+<German>To Be Changed</German>
+<French>Votre Niveau admin n'est pas suffisamment élevée</French>
+</Key>
+<Key ID="STR_ANOTF_MEnabled">
+<Original>Player Markers Enabled.</Original>
+<English>Player Markers Enabled.</English>
+<German>To Be Changed</German>
+<French>Votre Niveau admin n'est pas suffisamment élevée</French>
+</Key>
+<Key ID="STR_NOTF_ActionCancel">
+<Original>Action Cancelled</Original>
+<English>Action Cancelled</English>
+<German>Aktion abgebrochen</German>
+<French>Action Annulée</French>
+</Key>
+<Key ID="STR_Global_Yes">
+<Original>Yes</Original>
+<English>Yes</English>
+<German>Ja</German>
+<French>Oui</French>
+</Key>
+<Key ID="STR_Global_No">
+<Original>No</Original>
+<English>No</English>
+<German>Nein</German>
+<French>Aucun</French>
+</Key>
+</Package>
+<Package name="Admin_Notifications">
+<Key ID="STR_ANOTF_Query">
+<French>Querying...</French>
+<English>Querying...</English>
+<German>Abfrage läuft...</German>
+<Original>Interrogation...</Original>
+<Italian>Ricerca...</Italian>
+</Key>
+<Key ID="STR_ANOTF_QueryGarage">
+<French>Searching Database for vehicles...</French>
+<English>Searching Database for vehicles...</English>
+<German>Suche nach Fahrzeugen...</German>
+<Original>Recherche des véhicules dans le garage...</Original>
+<Italian>Ricerca di veicoli nel Database...</Italian>
+</Key>
+<Key ID="STR_ANOTF_Query_2">
+<French>You are already querying a player.</French>
+<English>You are already querying a player.</English>
+<German>Du fragst bereits einen Spieler ab</German>
+<Original>Vous avez déjà interrogé ce joueur.</Original>
+<Italian>Stai già ispezionando un giocatore.</Italian>
+</Key>
+<Key ID="STR_ANOTF_QueryFail">
+<French>Player no longer exists?</French>
+<English>Player no longer exists?</English>
+<German>Spieler existiert nicht mehr?</German>
+<Original>Le joueur ne semble pas exister</Original>
+<Italian>Il giocatore non esiste più</Italian>
+</Key>
+<Key ID="STR_NOTF_Frozen">
+<Original>You have been frozen by an administrator</Original>
+<English>You have been frozen by an administrator</English>
+<German>To Be Changed</German>
+</Key>
+<Key ID="STR_NOTF_Unfrozen">
+<Original>You have been unfrozen by an administrator</Original>
+<English>You have been unfrozen by an administrator</English>
+<German>To Be Changed</German>
+</Key>
+</Package>
+<Package name="ATM_Strings">
+<Key ID="STR_ATM_Title">
+<French>Bank Account Management</French>
+<English>Bank Account Management</English>
+<German>Bankkonto verwalten</German>
+<Original>Gestion du Compte Bancaire</Original>
+<Italian>Gestione Bancaria</Italian>
+</Key>
+<Key ID="STR_ATM_Withdraw">
+<French>Withdraw</French>
+<English>Withdraw</English>
+<German>abheben</German>
+<Original>Retirer</Original>
+<Italian>Preleva</Italian>
+</Key>
+<Key ID="STR_ATM_Deposit">
+<French>Deposit</French>
+<English>Deposit</English>
+<German>einzahlen</German>
+<Original>Déposer</Original>
+<Italian>Deposita</Italian>
+</Key>
+<Key ID="STR_ATM_Transfer">
+<French>Transfer</French>
+<English>Transfer</English>
+<German>überweisen</German>
+<Original>Transférer</Original>
+<Italian>Trasferisci</Italian>
+</Key>
+<Key ID="STR_ATM_GreaterThan">
+<French>You can't deposit more then $999,999 at a time</French>
+<English>You can't deposit more then $999,999 at a time</English>
+<German>Du kannst nicht mehr als $999,999 gleichzeitig einzahlen</German>
+<Original>Vous ne pouvez pas déposer plus de $999,999</Original>
+<Italian>Non puoi depositare più di €999,999 alla volta</Italian>
+</Key>
+<Key ID="STR_ATM_notnumeric">
+<French>The amount entered isn't a numeric value.</French>
+<English>The amount entered isn't a numeric value.</English>
+<German>Die eingegebene Zahl ist keine richtige Zahl</German>
+<Original>Vous devez entrer un nombre.</Original>
+<Italian>L'importo inserito non è numerico.</Italian>
+</Key>
+<Key ID="STR_ATM_DepositMSG">
+  <French>You have deposited $%1 into your bank account</French>
+  <English>You have deposited $%1 into your bank account</English>
+<German>Du hast $%1 auf dein Bankkonto überwiesen</German>
+  <Original>Vous avez déposé $%1 dans votre compte bancaire</Original>
+<Italian>Hai despositato €%1 nel tuo conto bancario</Italian>
+  </Key>
+  <Key ID="STR_ATM_NoneSelected">
+  <French>You need to select someone to transfer to</French>
+  <English>You need to select someone to transfer to</English>
+<German>Du hast niemanden ausgewählt</German>
+  <Original>Sélectionnez une personne pour le transfert</Original>
+<Italian>Devi selezionare qualcuno per trasferire fondi</Italian>
+
+  </Key>
+  <Key ID="STR_ATM_DoesntExist">
+  <French>The player selected doesn't seem to exist?</French>
+  <English>The player selected doesn't seem to exist?</English>
+<German>Der Spieler scheint nicht zu existieren</German>
+  <Italian>Sembra che il giocatore selezionato non esista</Italian>
+  </Key>
+  <Key ID="STR_ATM_TransferMax">
+  <French>You can't transfer more then $999,999</French>
+  <English>You can't transfer more then $999,999</English>
+<German>Du kannst nicht mehr als $999,999 überweisen</German>
+  <Original>Vous ne pouvez pas transférer plus de $999,999</Original>
+<Italian>Non puoi trasferire più di €999.000 alla volta</Italian>
+  </Key>
+  <Key ID="STR_ATM_NotEnoughFunds">
+  <French>You don't have that much in your bank account!</French>
+  <English>You don't have that much in your bank account!</English>
+<German>Du hast nicht soviel auf deinem Bankkonto</German>
+  <Original>Vous n'avez pas autant dans votre compte bancaire</Original>
+<Italian>Non hai fondi sufficienti nel tuo conto in banca!</Italian>
+  </Key>
+  <Key ID="STR_ATM_SentMoneyFail">
+  <French>You do not have enough money in your bank account, to transfer $%1 you will need $%2 as a tax fee.</French>
+  <English>You do not have enough money in your bank account, to transfer $%1 you will need $%2 as a tax fee.</English>
+<German>Du hast nicht genug Geld auf deinem Konto, es kostet $%2 um $%1 zu überweisen </German>
+  <Original>Vous n'avez pas assez d'agent dans votre compte bancaire, pour transférer $%1 vous devez payer $%2 de taxe</Original>
+<Italian>Non hai fondi sufficienti nel tuo conto in banca, per trasferire €%1 necessiti di €%2 per pagare la tassa di traferimento.</Italian>
+  </Key>
+  <Key ID="STR_ATM_SentMoneySuccess">
+  <French>You have transfered $%1 to %2.\n\nA tax fee of $%3 was taken for the wire transfer.</French>
+  <English>You have transfered $%1 to %2.\n\nA tax fee of $%3 was taken for the wire transfer.</English>
+<German>Du hast %2 an $%1 überwiesen \n\nA es wurde eine Gebühr von $%3 berechnet</German>
+  <Original>Vous avez transférer $%1 à %2.\n\nA La taxe de $%3 vous à été prélevée pendant le transfert.</Original>
+<Italian>Hai trasferito €%1 a €%2.\n\nSono stati trattenuti €%3 di tassa per il trasferimento.</Italian>
+  </Key>
+  <Key ID="STR_ATM_WithdrawMax">
+  <French>You can't withdraw more then $999,999</French>
+  <English>You can't withdraw more then $999,999</English>
+<German>Du kannst nicht mehr als $999,999 abheben</German>
+  <Original>Vous ne pouvez pas retirer plus de $999,999</Original>
+<Italian>Non puoi prelevare più di €999.000 in una volta</Italian>
+  </Key>
+  <Key ID="STR_ATM_WithdrawMin">
+  <French>You can't withdraw less then $100</French>
+  <English>You can't withdraw less then $100</English>
+<German>Du kannst nicht weniger als $100 abheben</German>
+  <Original>Vous ne pouvez pas retirer moins de $100</Original>
+<Italian>Non puoi prelevare meno di €100</Italian>
+  </Key>
+  <Key ID="STR_ATM_WithdrawSuccess">
+  <French>You have withdrawn $%1 from your bank account</French>
+  <English>You have withdrawn $%1 from your bank account</English>
+<German>Du hast $%1 von deinem Bankkonto abgehoben</German>
+  <Original>Vous avez retiré $%1 de votre compte en banque</Original>
+<Italian>Hai prelevato €%1 dal tuo conto in banca</Italian>
+  </Key>
+  <Key ID="STR_ATM_NotEnoughCash">
+  <French>You do not have that much cash on you.</French>
+  <English>You do not have that much cash on you.</English>
+<German>Du hast nicht so viel Geld</German>
+  <Original>Vous n'avez pas autant d'agent sur vous.</Original>
+<Italian>Non hai abbastanza fondi con te.</Italian>
+  </Key>
+  <Key ID="STR_ATM_DepositGang">
+  <French>You have deposited $%1 into your gangs bank account</French>
+  <English>You have deposited $%1 into your gangs bank account</English>
+<German>Du hast $%1 auf dein Gang Konto überwiesen</German>
+  <Original>Vous avez déposé $%1 sur le compte bancaire de votre gang.</Original>
+<Italian>Hai despoitato €%1 nel conto bancario della tua gang</Italian>
+  </Key>
+</Package>
+<Package name="Cell_Phone">
+<Key ID="STR_CELL_Title">
+<French>Altis Mobile</French>
+  <English>Altis Mobile</English>
+  <German>Altis Mobilfunk</German>
+<Original>Altis mobile</Original>
+<Italian>Cellulare Altis</Italian>
+</Key>
+<Key ID="STR_CELL_TextToSend">
+<French>Message To Send:</French>
+<English>Message To Send:</English>
+<German>Deine Nachricht:</German>
+<Original>SMS à Envoyer :</Original>
+<Italian>Messaggio da mandare:</Italian>
+</Key>
+<Key ID="STR_CELL_TextMSGBtn">
+<French>Text Message:</French>
+<English>Text Message:</English>
+<German>Nachricht:</German>
+<Original>Text Message:</Original>
+<Italian>Msg Giocatore:</Italian>
+</Key>
+<Key ID="STR_CELL_TextPolice">
+<French>Text Police</French>
+<English>Text Police</English>
+<German>An die Polizei</German>
+<Original>Text Police</Original>
+<Italian>Msg Polizia</Italian>	
+</Key>
+<Key ID="STR_CELL_TextAdmins">
+<French>Text Admins</French>
+<English>Text Admins</English>
+<German>An die Admins</German>
+<Original>Text Admins</Original>
+<Italian>Msg Admin</Italian>
+</Key>
+<Key ID="STR_CELL_AdminMsg">
+<French>Admin Message</French>
+<English>Admin Message</English>
+<German>Admin@User</German>
+<Original>Admin Message</Original>
+<Italian>Admin Msg</Italian>
+</Key>
+<Key ID="STR_CELL_AdminMSGAll">
+<French>Admin Msg All</French>
+<English>Admin Msg All</English>
+<German>Admin@All</German>
+<Original>Admin Msg ALL</Original>
+<Italian>Admin Msg</Italian>	
+</Key>
+<Key ID="STR_CELL_EMSRequest">
+<French>Request EMS</French>
+<English>Request EMS</English>
+<German>An die Sanitäter</German>
+<Original>Requête Medecin</Original>
+<Italian>Msg medici</Italian>
+</Key>
+</Package>
+<Package name="Chop_Shop">
+<Key ID="STR_ChopShop_Title">
+<French>Local Chop Shop</French>
+<English>Local Chop Shop</English>
+<German>illegaler Fahrzeughändler</German>
+<Original>Concessionnaire de véhicule volé</Original>
+<Italian>Ricettatore</Italian>
+</Key>
+</Package>
+<Package name="Gang_Menu">
+<Key ID="STR_Gang_Title">
+<French>Gang Management</French>
+<English>Gang Management</English>
+<German>Gang Verwaltung</German>
+<Original>Gestion du Gang</Original>
+<Italian>Gestione Gang</Italian>
+</Key>
+<Key ID="STR_Gang_Title2">
+<French>Gang Management - Current Gangs</French>
+<English>Gang Management - Current Gangs</English>
+<German>Gang Übersicht - Aktuelle Gangs</German>
+<Original>Gestion de Gangs - Liste des Gangs Actuels</Original>
+<Italian>Gestione Gang - Gang Attuali</Italian>
+</Key>
+<Key ID="STR_Gang_Join">
+<French>Join</French>
+<English>Join</English>
+<German>beitreten</German>
+<Original>Rejoindre</Original>
+<Italian>Unisciti</Italian>
+</Key>
+<Key ID="STR_Gang_Leave">
+<French>Leave</French>
+<English>Leave</English>
+<German>verlassen</German>
+<Original>Quitter</Original>
+<Italian>Abbandona</Italian>
+</Key>
+<Key ID="STR_Gang_UpgradeSlots">
+<French>Upgrade Slots</French>
+<English>Upgrade Slots</English>
+<German>Mehr Slots</German>
+<Original>Augmenter Slots</Original>
+<Italian>Aumenta Posti</Italian>
+</Key>
+<Key ID="STR_Gang_Kick">
+<French>Kick</French>
+<English>Kick</English>
+<German>kicken</German>
+<Original>Virer</Original>
+<Italian>Espelli</Italian>
+</Key>
+<Key ID="STR_Gang_SetLeader">
+<French>Set Leader</French>
+<English>Set Leader</English>
+<German>neuer Anführer</German>
+<Original>Passer Chef</Original>
+<Italian>Imposta Capo</Italian>
+</Key>
+<Key ID="STR_Gang_PriceTxt">
+<French>To create a gang it costs $%1</French>
+<English>To create a gang it costs $%1</English>
+<German>Eine Gang kostet $%1</German>
+<Original>Pour créer un gang ça coute %1$</Original>
+<Italian>Creare una gang costa €%1</Italian>
+</Key>
+<Key ID="STR_Gang_Create">
+<French>Create</French>
+<English>Create</English>
+<German>erstellen</German>
+<Original>Créer</Original>
+<Italian>Crea</Italian>
+</Key>
+<Key ID="STR_Gang_YGN">
+<French>Your Gang Name</French>
+<English>Your Gang Name</English>
+<German>Dein Gang Name</German>
+<Original>Nom de ton Gang</Original>
+<Italian>Nome della tua Gang</Italian>
+</Key>
+<Key ID="STR_Gang_MainMenu">
+<French>You aren't in a gang currently, what do you want to do?</French>
+<English>You aren't in a gang currently, what do you want to do?</English>
+<German>Du bist in keiner Gang, was möchtest du machen?</German>
+<Original>Tu n'as pas de gang actuellement</Original>
+<Italian>Non sei in una gang, cosa intendi fare?</Italian>
+</Key>
+<Key ID="STR_Gang_Browse">
+<French>Browse</French>
+<English>Browse</English>
+<German>durchsuchen</German>
+<Original>Parcourir</Original>
+<Italian>Cerca</Italian>
+</Key>
+<Key ID="STR_Gang_Invite_Player">
+<French>Invite Player</French>
+<English>Invite Player</English>
+<German>Spieler einladen</German>
+<Original>Inviter joueur</Original>
+<Italian>Invita Giocatore</Italian>
+</Key>
+<Key ID="STR_Gang_Disband_Gang">
+<French>Disband Gang</French>
+<English>Disband Gang</English>
+<German>Gang auflösen</German>
+<Original>Dissoudre Gang</Original>
+<Italian>Sciogli Gang</Italian>	
+</Key>
+<Key ID="STR_Gang_Invitation">
+<French>Gang Invitation</French>
+<English>Gang Invitation</English>
+<German>Gang Einladung </German>	
+<Original>Invitation de Gang</Original>
+<Italian>Invito Gang</Italian>
+</Key>
+<Key ID="STR_Gang_Transfer">
+<French>Transfer Gang Leadership</French>
+<English>Transfer Gang Leadership</English>
+<German>Gangführung übertragen</German>	
+<Original>Transfert du commandement du Gang</Original>
+<Italian>Trasferisci Comando</Italian>
+</Key>
+<Key ID="STR_Gang_UpgradeMax">
+<French>Upgrade Maximum Allowed Gang Members</French>
+<English>Upgrade Maximum Allowed Gang Members</English>
+<German>Upgrade Maximum von erlaubten Gang-Mitgliedern</German>	
+<Original>Augmentation du nombre de membre acceptés</Original>
+<Italian>Aumenta numero massimo membri della Gang</Italian>
+</Key>
+</Package>
+<Package name="Gang_Notification">
+<Key ID="STR_GNOTF_CreateGang">
+<French>You must create a gang first before capturing it!</French>
+<English>You must create a gang first before capturing it!</English>
+<German>Du musst zuerst in einer Gang sein!</German>	
+<Original>Vous devez créer un gang avant de le capturer!</Original>
+<Italian>Devi creare una gang prima di catturarla!</Italian>
+</Key>
+<Key ID="STR_GNOTF_Controlled">
+<French>Your gang already has control over this hideout!</French>
+<English>Your gang already has control over this hideout!</English>
+<German>Deine Gang hat bereits die Kontrolle über dieses Versteck!</German>	
+<Original>Votre bande a déjà le contrôle de cette cachette!</Original>
+<Italian>La tua Gang ha già il controllo di questo Covo</Italian>
+</Key>
+<Key ID="STR_GNOTF_Captured">
+<French>Only one person shall capture at once!</French>
+<English>Only one person shall capture at once!</English>
+<German>Nur eine Person kann das Versteck einnehmen!</German>	
+<Original>Une seule personne doit capturer à la fois!</Original>
+<Italian>Può conquistare solo una persona alla volta!</Italian>
+</Key>
+<Key ID="STR_GNOTF_AlreadyControlled">
+<French>This hideout is controlled by %1.&lt;br/&gt;&lt;br/&gt;Are you sure you want to take over their gang area?</French>
+<English>This hideout is controlled by %1.&lt;br/&gt;&lt;br/&gt;Are you sure you want to take over their gang area?</English>
+<German>Das Versteck wird durch %1 kontrolliert.&lt;br/&gt;&lt;br/&gt; Möchtest du das Versteck übernehmen wollen?</German>
+<Original>Cette cachette est contrôlée par %1.&lt;br/&gt;&lt;br/&gt;Etes-vous sûr que vous voulez prendre en charge leur zone de gang?</Original>
+<Italian>Questo Covo è controllato da %1.&lt;br/&gt;&lt;br/&gt;Sicuro di voler prendere il controllo della loro area?</Italian>
+</Key>
+<Key ID="STR_GNOTF_CurrentCapture">
+<French>Hideout is currently under control...</French>
+<English>Hideout is currently under control...</English>
+<German>Versteck ist derzeit unter Kontrolle...</German>
+<Original>La cachette est actuellement sous contrôle ...</Original>
+<Italian>Il Covo è già sotto controllo...</Italian>
+</Key>
+<Key ID="STR_GNOTF_CaptureCancel">
+<French>Capturing cancelled</French>
+<English>Capturing cancelled</English>
+<German>Einnehmen abgebrochen</German>
+<Original>Capture annulée</Original>
+<Italian>Cattura annullata</Italian>
+</Key>
+<Key ID="STR_GNOTF_Capturing">
+<French>Capturing Hideout</French>
+<English>Capturing Hideout</English>
+<German>Versteck einnehmen</German>
+<Original>Capture cachette</Original>
+<Italian>Catturando il Covo</Italian>
+</Key>
+<Key ID="STR_GNOTF_CaptureSuccess">
+<French>%1 and his gang: %2 - have taken control of a local hideout!</French>
+<English>%1 and his gang: %2 - have taken control of a local hideout!</English>
+<German>%1 und seine Gang: 2% - haben die Kontrolle über ein lokales Versteck übernommen!</German>
+<Original>%1 et sa gang: %2 ont pris le controle de la cachette !</Original>
+<Italian>%1 e la sua Gang: % 2 - hanno preso il controllo di un Covo!</Italian>
+</Key>
+<Key ID="STR_GNOTF_Over32">
+<French>You can't have a gang name longer then 32 characters.</French>
+<English>You can't have a gang name longer then 32 characters.</English>
+<German>Dein Gang Name kann nicht länger als 32 Zeichen sein.</German>
+<Original>Vous ne pouvez pas avoir un nom de gang de plus de 32 caractères.</Original>
+<Italian>%1 e la sua Gang: % 2 - hanno preso il controllo di un Covo!</Italian>
+</Key>
+<Key ID="STR_GNOTF_IncorrectChar">
+<French>You have invalid characters in your gang name. It can only consist of Numbers and letters with an underscore</French>
+<English>You have invalid characters in your gang name. It can only consist of Numbers and letters with an underscore</English>
+<German>Du hast ein ungültiges Zeichen in deinem Namen. Er darf nur aus Zahlen und Buchstaben bestehen</German>	
+<Original>Vous avez des caractères non valides dans le nom de votre gang. Il ne peut être constitué de chiffres amd lettres avec un trait de soulignement</Original>
+<Italian>Hai inserito caratteri non validi nel nome della Gang. Puoi inserire solo numeri e lettere con un underscore</Italian>
+</Key>
+<Key ID="STR_GNOTF_NotEnoughMoney">
+<French>You do not have enough money in your bank account.\n\nYou lack: $%1</French>
+<English>You do not have enough money in your bank account.\n\nYou lack: $%1</English>
+<German>Du hast nicht genug Geld auf deinem Bankkonto.\n\nDir fehlen: $%1</German>
+<Original>Vous n'avez pas assez d'argent dans votre compte bancaire.\n\nVous manquez de: $%1</Original>
+<Italian>Non hai abbastanza fondi nel tuo conto in banca.\n\nTi mancano: €%1</Italian>
+</Key>
+<Key ID="STR_GNOTF_CreateSuccess">
+<French>You have created the gang %1 for $%2</French>
+<English>You have created the gang %1 for $%2</English>
+<German>Du hast die Gang %1 für %2$ erstellt</German>
+<Original>Vous avez créé la bande %1 pour $%2</Original>
+<Italian>Hai creato la Gang %1 al costo di €%2</Italian>
+</Key>
+<Key ID="STR_GNOTF_DisbandWarn">
+<French>You are about to disband the gang, by disbanding the gang it will be removed from the database and the group will be dropped. &lt;br/&gt;&lt;br/&gt;Are you sure you want to disband the group? You will not be refunded the price for creating it.</French>
+<English>You are about to disband the gang, by disbanding the gang it will be removed from the database and the group will be dropped. &lt;br/&gt;&lt;br/&gt;Are you sure you want to disband the group? You will not be refunded the price for creating it.</English>
+<German>Du bist dabei, die Gang aufzulösen, durch Auflösung der Gang wird sie aus der Datenbank entfernt. &lt;br/&gt;&lt;br/&gt;Bist du sicher, dass du die Gang auflösen willst? Du erhältst den Preis für die Erstellung nicht zurück.</German>
+<Original>Vous vous apprêtez à dissoudre le gang, en démantelant le gang, il sera supprimé de la base de données et le groupe sera supprimé. &lt;br/&gt;&lt;br/&gt;Etes-vous sûr de vouloir dissoudre le groupe? Vous ne serez pas remboursé le prix de sa création</Original>
+<Italian>Stai per sciogliere la Gang, facendolo sarà rimossa dal Database e il gruppo verrà cancellato. &lt;br/&gt;&lt;br/&gt;Sei sicuro di voler sciogliere il gruppo? Non verrai rimborsato dei fondi spesi per crearlo.</Italian>
+</Key>
+<Key ID="STR_GNOTF_DisbandGangPro">
+<French>Disbanding the gang...</French>
+<English>Disbanding the gang...</English>
+<German>Gang Auflösung...</German>
+<Original>Démantèlement du gang ...</Original>
+<Italian>Sciogliendo la Gang...</Italian>
+</Key>
+<Key ID="STR_GNOTF_DisbandGangCanc">
+<French>Disbanding cancelled</French>
+<English>Disbanding cancelled</English>
+<German>Auflösung abgebrochen</German>
+<Original>Démantèlement annulé</Original>
+<Italian>Scioglimento annullato</Italian>
+</Key>
+<Key ID="STR_GNOTF_DisbandWarn_2">
+<French>The leader has disbanded the gang.</French>
+<English>Disbanding cancelled</English>
+<German>Der Leader hat die Gang aufgelöst.</German>
+<Original>Le chef a démantelé le gang.</Original>
+<Italian>Il Capo ha sciolto la Gang</Italian>
+</Key>
+<Key ID="STR_GNOTF_InviteMSG">
+<French>%1 has invited you to a gang called %2&lt;br/&gt;If you accept the invitation you will be a part of their gang and will have access to the gang funds and controlled gang hideouts.</French>
+<English>%1 has invited you to a gang called %2&lt;br/&gt;If you accept the invitation you will be a part of their gang and will have access to the gang funds and controlled gang hideouts.</English>
+<German>%1 hat dich zu einer Gang namens %2 eingeladen &lt;br/&gt; Wenn Du die Einladung annimmst wirst du ein Teil der Gang und bekommst Zugang zu den Gang-Konten und kontrollierten Gang Verstecken</German>
+<Original>%1 vous a invité à un gang appelé %2&lt;br/&gt;Si vous acceptez l'invitation que vous serez une partie de leur gang et aurez accès à des fonds de gangs et des cachettes de gangs contrôlés.</Original>
+<Italian>%1 ti ha invitato nella Gang: %2&lt;br/&gt;Se vuoi accettarai l'invito entrerai a far parte della loro Gang ed avrai accesso ai loro fondi e ai loro Covi.</Italian>
+</Key>
+<Key ID="STR_GNOTF_InvitePlayerMSG">
+<French>You are about to invite %1 to your gang, if they accept the invite they will have access to the gang's funds.</French>
+<English>You are about to invite %1 to your gang, if they accept the invite they will have access to the gang's funds.</English>
+<German>Du bist dabei %1 in deine Gang einzuladen, wenn er akzeptiert hat er Zugang zu den Mitteln der Gang.</German>
+<Original>Vous êtes sur le point d'inviter %1 à votre gang, s'ils acceptent l'invitation, ils auront accès à des fonds du gang.</Original>
+<Italian>Stai per invitare %1 nella tua Gang, se accetterà l'invito avrà accesso ai fondi della Gang.</Italian>
+</Key>
+<Key ID="STR_GNOTF_SelectPerson">
+<French>You need to select a person to invite!</French>
+<English>You need to select a person to invite!</English>
+<German>Du musst einen Spieler auswählen!</German>
+<Original>Vous devez sélectionner une personne à inviter!</Original>
+<Italian>Devi selezionare una persona da invitare!</Italian>
+</Key>
+<Key ID="STR_GNOTF_InviteSent">
+<French>You have sent a invite to your gang to %1</French>
+<English>You have sent a invite to your gang to %1</English>
+<German>Du hast eine Einladung an %1 gesendet</German>
+<Original>Vous avez envoyé une invitation à votre gang à %1</Original>
+<Italian>Hai mandato l'invito alla tua Gang a %1</Italian>
+</Key>
+<Key ID="STR_GNOTF_InviteCancel">
+<French>Invitation Cancelled</French>
+<English>Invitation Cancelled</English>
+<German>Einladung abgebrochen</German>
+<Original>Invitation Annulées</Original>
+<Italian>Invito Annullato</Italian>
+</Key>
+<Key ID="STR_GNOTF_KickSelf">
+<French>You cannot kick yourself!</French>
+<English>You cannot kick yourself!</English>
+<German>Du kannst dich nicht selbst kicken!</German>
+<Original>Vous ne pouvez pas kicker vous-même!</Original>
+<Italian>Non puoi espellerti da solo!</Italian>
+</Key>
+<Key ID="STR_GNOTF_MaxSlot">
+<French>Your gang has reached its maximum allowed slots, please upgrade your gangs slot limit.</French>
+<English>Your gang has reached its maximum allowed slots, please upgrade your gangs slot limit.</English>
+<German>Deine Gang hat die maximale Anzahl an Plätzen erreicht, bitte erhöhe das Limit deiner Gang.</German>
+<Original>Votre gang à atteint le nombre de membre maximum, veuillez augmenter cette limite.</Original>
+<Italian>la tua Gang ha raggiungo il numero massimo di posti consentiti, aumentane il limite.</Italian>
+</Key>
+<Key ID="STR_GNOTF_SelectKick">
+<French>You need to select a person to kick!</French>
+<English>You need to select a person to kick!</English>
+<German>Du musst einen Spieler auswählen um ihn zu kicken!</German>
+<Original>Vous devez choisir une personne pour le kick!</Original>
+<Italian>Devi selezionare una persona da espellere!</Italian>
+</Key>
+<Key ID="STR_GNOTF_LeaderLeave">
+<French>You cannot leave the gang without appointing a new leader first!</French>
+<English>You cannot leave the gang without appointing a new leader first</English>
+<German>Du kannst die Gang nicht verlassen, ohne die Ernennung eines neuen Anführers!</German>
+<Original>Vous ne pouvez pas quitter le gang sans la nomination d'un nouveau chef d'abord!</Original>
+<Italian>Non puoi abbandonare la Gang prima di aver selezionato un nuovo Capo!</Italian>
+</Key>
+<Key ID="STR_GNOTF_TransferMSG">
+<French>You are about to transfer leadership over to %1&lt;br/&gt;By transferring leadership you will no longer be in control of the gang unless ownership is transferred back.</French>
+<English>You are about to transfer leadership over to %1&lt;br/&gt;By transferring leadership you will no longer be in control of the gang unless ownership is transferred back.</English>
+<German>Du bist dabei,die Führung über %1 zu übertragen &lt;br/&gt;Durch die Übertragung der Gang hast du keine Kontrolle mehr.</German>
+<Original>Vous allez transférer le commandement à %1&lt;br/&gt;En transférant le commandement, vous ne serez plus le chef du gang, sauf si le commandement est transféré de nouveau.</Original>
+<Italian>Stai per traferire il comando a %1&lt;br/&gt;Facendolo non avrai più il controllo della Gang fino a quando non ti verrà restituito il comando.</Italian>
+</Key>
+<Key ID="STR_GNOTF_TransferCancel">
+<French>Transfer of leadership cancelled.</French>
+<English>Transfer of leadership cancelled.</English>
+<German>Übertragung der Führung abgebrochen.</German>
+<Original>Transfert du commandement annulée.</Original>
+<Italian>Trasferimento del comando annullato.</Italian>
+</Key>
+<Key ID="STR_GNOTF_TransferSelf">
+<French>You are already the leader!</French>
+<English>You are already the leader!</English>
+<German>Du bist bereits der Anführer!</German>
+<Original>Vous êtes déjà leader!</Original>
+<Italian>Sei già il Capo!</Italian>
+<Italian>Sei già il Capo!</Italian>
+</Key>
+<Key ID="STR_GNOTF_TransferSelect">
+<French>You need to select a person first!</French>
+<English>You need to select a person first!</English>
+<German>Du musst erst eine Person auswählen!</German>
+<Original>Vous devez choisir une personne d'abord!</Original>
+<Italian>Devi selezionare una persona!</Italian>
+</Key>
+<Key ID="STR_GNOTF_MaxMemberMSG">
+<French>You are about to upgrade the maximum members allowed for your gang.</French>
+<English>You are about to upgrade the maximum members allowed for your gang.</English>
+<German>Du bist dabei, die maximale Anzahl an Mitgliedern zu erhöhen</German>
+<Original>Vous êtes sur le point de mettre à niveau la limite de membre autorisées pour votre gang.</Original>
+<Italian>Stai aumentando il numero massimo di membri consentiti all'interno della tua Gang</Italian>
+</Key>
+<Key ID="STR_GNOTF_CurrentMax">
+<French>Current Max: %1</French>
+<English>Current Max: %1</English>
+<German>Aktuelle Max: %1</German>
+<Original>Max actuelle: %1</Original>
+<Italian>Attuali Max: %1</Italian>
+</Key>
+<Key ID="STR_GNOTF_UpgradeMax">
+<French>Upgraded Max: %2</French>
+<English>Upgraded Max: %2</English>
+<German>Upgrade Max: %2</German>
+<Original>Mise à niveau Max: %2</Original>
+<Italian>Aumento Max: %2</Italian>
+</Key>
+<Key ID="STR_GNOTF_Price">
+<French>Price:</French>
+<English>Price:</English>
+<German>Preis:</German>
+<Original>Prix:</Original>
+<Italian>Costo:</Italian>
+</Key>
+<Key ID="STR_GNOTF_NotEoughMoney_2">
+<French>You do not have enough money in your bank account to upgrade the gangs maximum member limit.</French>
+<English>You do not have enough money in your bank account to upgrade the gangs maximum member limit.</English>
+<German>DU hast nicht genug Geld auf deinem Bankkonto, um die Gang zu vergrößern.</German>
+<Original>Vous n'avez pas assez d'argent dans votre compte de banque pour mettre à niveau la limite de membre maximale.</Original>
+<Italian>Non hai abbastanza fondi nel tuo conto in banca per aumentare il limite massimo di membri.</Italian>
+</Key>
+<Key ID="STR_GNOTF_Current">
+<French>Current:</French>
+<English>Current:</English>
+<German>Aktuell:</German>
+<Original>Actuel:</Original>
+<Italian>Attuale:</Italian>
+</Key>
+<Key ID="STR_GNOTF_Lacking">
+<French>Lacking:</French>
+<English>Lacking:</English>
+<German>Fehlend:</German>
+<Original>Manquant:</Original>
+<Italian>Mancanza:</Italian>
+</Key>
+<Key ID="STR_GNOTF_UpgradeSuccess">
+<French>You have upgraded from %1 to %2 maximum slots for &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt;</French>
+<English>You have upgraded from %1 to %2 maximum slots for &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt;</English>
+<German>Du hast von %1 zu %2 Plätzen für &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt; upgedatet</German>
+<Original>Vous avez mis à niveau à partir de %1 à %2 membres maximum for &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt;</Original>
+<Italian>Hai aumentato i posti massimi da %1 a %2 per &lt;t color='#8cff9b'&gt;€%3&lt;/t&gt;</Italian>
+</Key>
+<Key ID="STR_GNOTF_UpgradeCancel">
+<French>Upgrade cancelled.</French>
+<English>Upgrade cancelled.</English>
+<German>Upgrade abgebrochen.</German>
+<Original>Mise à jour annulée.</Original>
+<Italian>Aumento annullato.</Italian>
+</Key>
+<Key ID="STR_GNOTF_Funds">
+<French>Funds:</French>
+<English>Funds:</English>
+<German>Geld:</German>
+<Original>Fonds:</Original>
+<Italian>Fondi</Italian>
+</Key>
+<Key ID='STR_GNOTF_GangLeader'>
+<French>(Gang Leader)</French>
+<English>(Gang Leader)</English>
+<German>(Anführer)</German>
+<Original>(Gang Leader)</Original>
+<Italian>(Capo Gang)</Italian>
+</Key>
+</Package>
+<Package name="Garage_Strings">
+<Key ID="STR_Garage_Title">
+<French>Vehicle Garage</French>
+<English>Vehicle Garage</English>
+<German>Fahrzeug Garage</German>
+<Original>Garage Vehicule</Original>
+<Italian>Garage Veicoli</Italian>	
+</Key>
+<Key ID="STR_Garage_GetVehicle">
+<French>Get Vehicle</French>
+<English>Get Vehicle</English>
+<German>Ausparken</German>	
+<Original>Récupérer</Original>
+<Italian>Ritira Veicolo</Italian>
+</Key>
+<Key ID="STR_Garage_SellVehicle">
+<French>Sell Vehicle</French>
+<English>Sell Vehicle</English>
+<German>Fahrzeug verkaufen</German>
+<Original>Vendre</Original>
+<Italian>Vendi Veicolo</Italian>
+</Key>
+<Key ID="STR_Garage_SellPrice">
+<French>Sell Price</French>
+<English>Sell Price</English>
+<German>Verkaufspreis</German>
+<Original>Prix de vente</Original>
+<Italian>Prezzo di vendita</Italian>
+</Key>
+<Key ID="STR_Garage_SFee">
+<French>Storage Fee</French>
+<English>Storage Fee</English>
+<German>Lagergebühr</German>
+<Original>Frais de Stockage</Original>
+<Italian>Costo ritiro</Italian>
+</Key>
+<Key ID="STR_Garage_NoVehicles">
+<French>No vehicles found in garage.</French>
+<English>No vehicles found in garage.</English>
+<German>Keine Fahrzeuge gefunden.</German>
+<Original>Aucuns Vehicules.</Original>	
+<Italian>Non hai veicoli nel Garage.</Italian>	
+</Key>
+<Key ID="STR_Garage_CashError">
+<French>You don't have $%1 in your bank account</French>
+<English>You don't have $%1 in your bank account</English>
+<German>Du hast keine $%1 auf deinem Bankkonto</German>
+<Original>Tu n'as pas %1$ sur ton compte en banque.</Original>
+<Italian>Non hai €%1 nel tuo conto in banca</Italian>
+</Key>
+<Key ID="STR_Garage_SpawningVeh">
+<French>Spawning vehicle please wait...</French>
+<English>Spawning vehicle please wait...</English>
+<German>Fahrzeug bereitstellen, bitte warten...</German>
+<Original>Mise en place du Véhicule, merci de patienter...</Original>
+<Italian>Creazione veicolo attendere...</Italian>
+</Key>
+<Key ID="STR_Garage_SQLError_Destroyed">
+<French>Sorry but %1 was classified as a destroyed vehicle and was sent tot he scrap yard.</French>
+<English>Sorry but %1 was classified as a destroyed vehicle and was sent tot he scrap yard.</English>
+<German>Sorry, aber dein %1 wurde zerstört und wurde auf den Schrottplatz geschickt.</German>
+<Original>Désolé mais votre %1 à été détruit et vendu à la casse.</Original>
+<Italian>Purtroppo %1 è stato classificato come veicolo distrutto ed è stato mandato allo sfascio.</Italian>
+</Key>
+<Key ID="STR_Garage_SQLError_Active">
+<French>Sorry but %1 is already active somewhere in the world and cannot be spawned.</French>
+<English>Sorry but %1 is already active somewhere in the world and cannot be spawned.</English>
+<German>Sorry, aber dein %1 ist bereits ausgeparkt worden.</German>
+<Original>Désolé mais votre %1 à déjà été sortit du garage.</Original>
+<Italian>Purtroppo %1 è già presente nella mappa e non può essere ricreato</Italian>
+</Key>
+<Key ID="STR_Garage_SpawnPointError">
+<French>There is already a vehicle on the spawn point. You will be refunded the cost of getting out out.</French>
+<English>There is already a vehicle on the spawn point. You will be refunded the cost of getting out out.</English>
+<German>Es steht ein Fahrzeug auf dem Spawnpunkt</German>
+<Original>Il y a déjà un véhicule sur le point de spawn. Le coût de sortie du véhicule vous sera remboursé.</Original>
+<Italian>C'è già un veicolo nel punto di creazione. Verrai rimborsato della spesa appena effettuata.</Italian>
+</Key>
+<Key ID="STR_Garage_SoldCar">
+<French>You sold that vehicle for $%1</French>
+<English>You sold that vehicle for $%1</English>
+<German>Du verkaufst dein Fahrzeug für $1%</German>
+<Original>Vous avez vendu votre véhicule pour $%1</Original>
+<Italian>Hai venduto il veicolo per €%1</Italian>
+</Key>
+<Key ID="STR_Garage_Store_NotPersistent">
+<French>That vehicle is a rental and cannot be stored in your garage.</French>
+<English>That vehicle is a rental and cannot be stored in your garage.</English>
+<German>Mietwagen können nicht in der Garage geparkt werden.</German>
+<Original>Ce véhicule est une location et ne peut pas être stockée dans votre garage.</Original>
+<Italian>Il veicolo è in affitto e non può essere depositato in garage.</Italian>
+</Key>
+<Key ID="STR_Garage_Store_NoOwnership">
+<French>That vehicle doesn't belong to you therefor you cannot store it in your garage.</French>
+<English>That vehicle doesn't belong to you therefor you cannot store it in your garage.</English>
+<German>Das Fahrzeug gehört nicht dir und kann deshalb nicht in der Garage geparkt werden.</German>
+<Original>Ce véhicule ne vous appartient pas, vous ne pouvez pas le stocker dans votre garage.</Original>
+<Italian>Il veicolo non ti appartiene e quindi non puoi depositarlo nel tuo garage.</Italian>
+</Key>
+<Key ID="STR_Garage_Store_Success">
+<French>The vehicle has been stored in your garage.</French>
+<English>The vehicle has been stored in your garage.</English>
+<German>Das Fahrzeug wurde in der Garage geparkt.</German>
+<Original>Le véhicule a été entreposé dans le garage.</Original>
+<Italian>Il veicolo è stato depositato nel tuo garage.</Italian>
+</Key>
+<Key ID="STR_Garage_Store_Server">
+<French>The server is trying to store the vehicle...</French>
+<English>The server is trying to store the vehicle...</English>
+<German>Der Server versucht, das Fahrzeug zu speichern...</German>	
+<Original>Le serveur tente de stocker le véhicule ...</Original>
+<Italian>Il server cercando di depositare il veicolo...</Italian>
+</Key>
+<Key ID="STR_Garage_Selection_Error">
+<French>The selection had a error...</French>
+<English>The selection had a error...</English>
+<German>Die Auswahl hat einen Fehler</German>	
+<Original>La selection à une erreur...</Original>
+<Italian>La selezione ha avuto un errore...</Italian>
+</Key>
+<Key ID="STR_Garage_NoNPC">
+<French>There isn't a vehicle near the NPC.</French>
+<English>There isn't a vehicle near the NPC.</English>
+<German>Es ist kein Fahrzeug in der Nähe des NPC</German>
+<Original>Il n'y a pas de véhicule près du PNJ</Original>
+<Italian>Non c'è alcun veicolo vicino all'NPC.</Italian>
+</Key>
+</Package>
+<Package name="Key_Chain">
+<Key ID="STR_Keys_Title">
+<French>Key Chain - Current List of Keys</French>
+<English>Key Chain - Current List of Keys</English>
+<German>Schlüsselbund - Aktuelle Liste</German>
+<Original>Porte-clés - Liste actuelle des clés</Original>
+<Italian>Portachiavi - Lista delle Chiavi</Italian>
+</Key>
+<Key ID="STR_Keys_DropKey">
+<French>Drop Key</French>
+<English>Drop Key</English>
+<German>wegwerfen</German>
+<Original>Jeter Clef</Original>
+<Italian>Abbandona Chiave</Italian>
+</Key>
+<Key ID="STR_Keys_GiveKey">
+<French>Give Key</French>
+<English>Give Key</English>
+<German>geben</German>
+<Original>Donner Clef</Original>
+<Italian>Dai Chiave</Italian>
+</Key>
+</Package>
+<Package name="Player_Menu">
+<Key ID="STR_PM_Title">
+<French>Player Menu</French>
+<English>Player Menu</English>
+<German>Spieler Menü</German>
+<Original>Menu du Joueur</Original>
+<Italian>Menu Giocatore</Italian>
+</Key>
+<Key ID="STR_PM_cItems">
+<French>Current Items</French>
+<English>Current Items</English>
+<German>aktuelle Items</German>
+<Original>Objets Actuels</Original>
+<Italian>Oggetti Attuali</Italian>
+</Key>
+<Key ID="STR_PM_Licenses">
+<French>Licenses</French>
+<English>Licenses</English>
+<German>Lizenzen</German>
+<Original>Licences</Original>
+<Italian>Licenze</Italian>
+</Key>
+<Key ID="STR_PM_MoneyStats">
+<French>Money Stats</French>
+<English>Money Stats</English>
+<German>Geld</German>
+<Original>Stats Monétaires</Original>
+<Italian>Statistiche Fondi</Italian>
+</Key>
+<Key ID="STR_PM_MyGang">
+<French>My Gang</French>
+<English>My Gang</English>
+<German>Meine Gang</German>
+<Original>Mon Gang</Original>
+<Italian>Mia Gang</Italian>
+</Key>
+<Key ID="STR_PM_WantedList">
+<French>Wanted List</French>
+<English>Wanted List</English>
+<German>Fahndungsliste</German>
+<Original>Interpol</Original>
+<Italian>Lista Ricercati</Italian>
+</Key>
+<Key ID="STR_PM_CellPhone">
+<French>Cell Phone</French>
+<English>Cell Phone</English>
+<German>Telefon</German>
+<Original>Téléphone</Original>
+<Italian>Cellulare</Italian>
+</Key>
+<Key ID="STR_PM_KeyChain">
+<French>Key Chain</French>
+<English>Key Chain</English>
+<German>Schlüssel</German>
+<Original>Porte-clés</Original>
+<Italian>Portachiavi</Italian>
+</Key>
+<Key ID="STR_PM_AdminMenu">
+<French>Admin Menu</French>
+<English>Admin Menu</English>
+<German>Admin Menü</German>
+<Original>Menu Admin</Original>
+<Italian>Menu Admin</Italian>
+</Key>
+<Key ID="STR_PM_SyncData">
+<French>Sync Data</French>
+<English>Sync Data</English>
+<German>speichern</German>
+<Original>Sync Data</Original>
+<Italian>Salva Dati</Italian>
+</Key>
+</Package>
+<Package name="Settings_Menu">
+<Key ID="STR_SM_Title">
+<French>Settings Menu</French>
+<English>Settings Menu</English>
+<German>Einstellungen</German>
+<Original>Menu Paramètres</Original>
+<Italian>Menu Impostazioni</Italian>
+</Key>
+<Key ID="STR_SM_onFoot">
+<French>On Foot:</French>
+<English>On Foot:</English>
+<German>zu Fuß:</German>
+<Original>A Pied:</Original>
+<Italian>A piedi:</Italian>
+</Key>
+<Key ID="STR_SM_inCar">
+<French>In Car:</French>
+<English>In Car:</English>
+<German>Auto:</German>
+<Original>Terre:</Original>
+<Italian>Auto:</Italian>
+</Key>
+<Key ID="STR_SM_inAir">
+<French>In Air:</French>
+<English>In Air:</English>
+<German>Luft:</German>
+<Original>Air:</Original>
+<Italian>Aria:</Italian>
+</Key>
+<Key ID="STR_SM_ToolTip1">
+<French>View distance while on foot</French>
+<English>View distance while on foot</English>
+<German>Sichtweite zu Fuß</German>
+<Original>Distance de vue à pied</Original>
+<Italian>Distanza visiva a piedi</Italian>
+</Key>
+<Key ID="STR_SM_ToolTip2">
+<French>View distance while in a land vehicle</French>
+<English>View distance while in a land vehicle</English>
+<German>Sichtweite in Fahrzeugen</German>
+<Original>Distance de vue en voiture</Original>
+<Italian>Distanza visiva su veicolo di terra</Italian>
+</Key>
+<Key ID="STR_SM_ToolTip3">
+<French>View distance while in a air vehicle</French>
+<English>View distance while in a air vehicle</English>
+<German>Sichtweite in Helikoptern</German>
+<Original>Distance de vue dans les airs</Original>
+<Italian>Distanza visiva su velivolo</Italian>
+</Key>
+<Key ID="STR_SM_PlayerTags">
+<French>Player Tags</French>
+<English>Player Tags</English>
+<German>Spieler Namen</German>
+<Original>Tags Joueurs</Original>
+<Italian>Tag Giocatore</Italian>	
+</Key>
+<Key ID="STR_SM_TagsON">
+<French>Tags ON</French>
+<English>Tags ON</English>
+<German>Tags ON</German>
+<Original>Tags ON</Original>
+<Italian>Tags ON</Italian>
+</Key>
+<Key ID="STR_SM_TagsOFF">
+<French>Tags OFF</French>
+<English>Tags OFF</English>
+<German>Tags OFF</German>
+<Original>Tags OFF</Original>
+<Italian>Tags OFF</Italian>
+</Key>
+<Key ID="STR_SM_SC">
+<French>Sidechat Settings</French>
+<English>Sidechat Settings</English>
+<German>Sidechat Settings</German>
+<Original>Sidechat Paramètres</Original>
+<Italian>Impostazioni chat fazione</Italian>
+</Key>
+<Key ID="STR_SM_SCOFF">
+<French>Sidechat OFF</French>
+<English>Sidechat OFF</English>
+<German>Sidechat OFF</German>
+<Original>Sidechat OFF</Original>
+<Italian>Chat fazione OFF</Italian>
+</Key>
+<Key ID="STR_SM_SCON">
+<French>Sidechat ON</French>
+<English>Sidechat ON</English>
+<German>Sidechat ON</German>
+<Original>Sidechat ON</Original>	
+<Italian>Chat fazione ON</Italian>	
+</Key>
+</Package>
+<Package name="Virt_Shop">
+<Key ID="STR_VS_SI">
+<French>Shop Inventory</French>
+<English>Shop Inventory</English>
+<German>Shop Inventar</German>
+<Original>Boutique</Original>
+<Italian>Inventario Negozio</Italian>
+</Key>
+<Key ID="STR_VS_PI">
+<French>Your Inventory</French>
+<English>Your Inventory</English>
+<German>eigenes Inventar</German>
+<Original>Ton Inventaire</Original>
+<Italian>Inventario Personale</Italian>	
+</Key>
+<Key ID="STR_VS_BuyItem">
+<French>Buy Item</French>
+<English>Buy Item</English>
+<German>kaufen</German>
+<Original>Acheter Objet</Original>
+<Italian>Compra Oggetto</Italian>
+</Key>
+<Key ID="STR_VS_SellItem">
+<French>Sell Item</French>
+<English>Sell Item</English>
+<German>verkaufen</German>
+<Original>Vendre Objet</Original>
+<Italian>Vendi Oggetto</Italian>
+</Key>
+</Package>
+<Package name="Spawn_Menu">
+<Key ID="STR_Spawn_Title">
+<French>Spawn Selection</French>
+<English>Spawn Selection</English>
+<German>Spawn Auswahl</German>
+<Original>Selection du Spawn</Original>
+<Italian>Selezione Spawn</Italian>
+</Key>
+<Key ID="STR_Spawn_Spawn">
+<French>Spawn</French>
+<English>Spawn</English>
+<German>Spawn</German>
+<Original>Spawn</Original>
+<Italian>Spawn</Italian>
+</Key>
+<Key ID="STR_Spawn_CSP">
+<French>Current Spawn Point</French>
+<English>Current Spawn Point</English>
+<German>Aktueller Spawnpunkt</German>
+<Original>Point de Spawn Actuel</Original>
+<Italian>Punto di Spawn corrente</Italian>
+</Key>
+<Key ID="STR_Spawn_Spawned">
+<French>You have spawned at</French>
+<English>You have spawned at</English>
+<German>Du bist gespawnt in</German>
+<Original>Tu as spawn à</Original>
+<Italian>Ti trovi a</Italian>
+</Key>
+</Package>
+<Package name="Ticket_Menu">
+<Key ID="STR_Ticket_GiveTicket">
+<French>Give Ticket</French>
+<English>Give Ticket</English>
+<German>Ticket geben</German>
+<Original>Verbaliser</Original>
+<Italian>Dai Multa</Italian>
+</Key>
+<Key ID="STR_Ticket_PayTicket">
+<French>Pay Ticket</French>
+<English>Pay Ticket</English>
+<German>bezahlen</German>
+<Original>Payer l'amende</Original>
+<Italian>Paga Multa</Italian>
+</Key>
+<Key ID="STR_Ticket_RefuseTicket">
+<French>Refuse Ticket</French>
+<English>Refuse Ticket</English>
+<German>ablehnen</German>
+<Original>Contester l'amende</Original>
+<Italian>Rifiuta Multa</Italian>
+</Key>
+</Package>
+<Package name="Trunk_Menu">
+<Key ID="STR_Trunk_TInventory">
+<French>Trunk Inventory</French>
+<English>Trunk Inventory</English>
+<German>Lager Inventar</German>
+<Original>Coffre</Original>
+<Italian>Inventario Veicolo</Italian>
+</Key>
+<Key ID="STR_Trunk_PInventory">
+<French>Player Inventory</French>
+<English>Player Inventory</English>
+<German>Spieler Inventar</German>
+<Original>Inventaire Joueur</Original>
+<Italian>Inventario Giocatore</Italian>
+</Key>
+<Key ID="STR_Trunk_Take">
+<French>Take</French>
+<English>Take</English>
+<German>nehmen</German>
+<Original>Récupérer</Original>
+<Italian>Prendi</Italian>	
+</Key>
+<Key ID="STR_Trunk_Store">
+<French>Store</French>
+<English>Store</English>
+<German>lagern</German>
+<Original>Déposer</Original>
+<Italian>Deposita</Italian>
+</Key>
+</Package>
+<Package name="Wanted_Menu">
+<Key ID="STR_Wanted_Title">
+<French>APD Wanted List</French>
+<English>APD Wanted List</English>
+<German>Fahndungsliste</German>
+<Original>Interpol</Original>
+<Italian>Lista Ricercati</Italian>
+</Key>
+<Key ID="STR_Wanted_Pardon">
+<French>Pardon</French>
+<English>Pardon</English>
+<German>löschen</German>
+<Original>Excuser</Original>
+<Italian>Perdona</Italian>
+</Key>
+</Package>
+<Package name="Animals">
+<Key ID="STR_ANIM_Salema">
+<French>Salema</French>
+<English>Salema</English>
+<German>Salema</German>
+<Original>Saumon</Original>
+<Italian>Salmone</Italian>
+</Key>
+<Key ID="STR_ANIM_Ornate">
+<French>Ornate</French>
+<English>Ornate</English>
+<German>Ornate</German>
+<Original>Ornate</Original>
+<Italian>Orata</Italian>	
+</Key>
+<Key ID="STR_ANIM_Mackerel">
+<French>Mackerel</French>
+<English>Mackerel</English>
+<German>Makrele</German>
+<Original>Maquereau</Original>
+<Italian>Sgombro</Italian>
+</Key>
+<Key ID="STR_ANIM_Tuna">
+<French>Tuna</French>
+<English>Tuna</English>
+<German>Thunfisch</German>
+<Original>Thon</Original>
+<Italian>Tonno</Italian>
+</Key>
+<Key ID="STR_ANIM_Mullet">
+<French>Mullet</French>
+<English>Mullet</English>
+<German>Barbe</German>
+<Original>Mulet</Original>
+<Italian>Triglia</Italian>
+</Key>
+<Key ID="STR_ANIM_Catshark">
+<French>Cat Shark</French>
+<English>Cat Shark</English>
+<German>Katzenhai</German>
+<Original>Poisson Chat</Original>
+<Italian>Squalo</Italian>
+</Key>
+<Key ID="STR_ANIM_Rabbit">
+<French>Rabbit</French>
+<English>Rabbit</English>
+<German>Hase</German>
+<Original>Lapin</Original>
+<Italian>Coniglio</Italian>
+</Key>
+</Package>
+<Package name="Notifications">
+<Key ID="STR_NOTF_NE_1">
+<French>You do not have $%1 for a %2</French>
+<English>You do not have $%1 for a %2</English>
+<German>Du hast keine $%1 für einen %2</German>
+<Original>Tu n'as pas %1$ pour cet élément : %2</Original>
+<Italian>Non hai €%1 per $2</Italian>
+</Key>
+<Key ID="STR_NOTF_B_1">
+<French>You bought a %1 for $%2</French>
+<English>You bought a %1 for $%2</English>
+<German>Du hast einen %1 für $%2 gekauft</German>
+<Original>Tu as acheté cet élément : %1 pour %2$</Original>
+<Italian>Hai comprato un %1 per €%2</Italian>	
+</Key>
+<Key ID="STR_NOTF_Arrested_1">
+<French>%1 was arrested by %2</French>
+<English>%1 was arrested by %2</English>
+<German>%1 wurde von %2 verhaftet</German>
+<Original>%1 a été arrêté par %2</Original>
+<Italian>%1 è stato arrestato da %2</Italian>
+</Key>
+<Key ID="STR_NOTF_Fishing">
+<French>You caught a %1</French>
+<English>You caught a %1</English>
+<German>Du hast einen %1 gefangen</German>
+<Original>Tu as attrapé un(e) %1</Original>
+<Italian>Hai pescato %1</Italian>
+</Key>
+<Key ID="STR_NOTF_CaughtTurtle">
+<French>You have taken some turtle meat</French>
+<English>You have taken some turtle meat</English>
+<German>Du hast etwas Schildkrötenfleisch bekommen</German>
+<Original>Tu as récupéré un peu de viande de tortue</Original>
+<Italian>Hai raccolto della carne di tartaruga</Italian>
+</Key>
+<Key ID="STR_NOTF_Earned_1">
+<French>You have earned $%1</French>
+<English>You have earned $%1</English>
+<German>Du hast $%1 verdient</German>
+<Original>Tu as gagné %1$</Original>
+<Italian>Hai guadagnato €%1</Italian>
+</Key>
+<Key ID="STR_NOTF_NetDrop">
+<French>Dropping fishing net...</French>
+<English>Dropping fishing net...</English>
+<German>Fischernetz auswerfen...</German>
+<Original>Déploiement du filet de pêche....</Original>
+<Italian>Posizionando la rete da pesca...</Italian>
+</Key>
+<Key ID="STR_NOTF_NetDropFail">
+<French>Didn't catch any fish...</French>
+<English>Didn't catch any fish...</English>
+<German>keinen Fisch gefangen...</German>
+<Original>Tu n'as réussi à attraper aucun poisson...</Original>
+<Italian>Non hai pescato nulla...</Italian>
+</Key>
+<Key ID="STR_NOTF_NetUp">
+<French>Fishing net pulled up.</French>
+<English>Fishing net pulled up.</English>
+<German>Fischernetz einholen.</German>
+<Original>Le filet de pêche a été entièrement relevé.</Original>
+<Italian>Rete da pesca recuperata.</Italian>
+</Key>
+<Key ID="STR_NOTF_InvFull">
+<French>Your inventory space is full.</French>
+<English>Your inventory space is full.</English>
+<German>Dein Inventar ist voll.</German>
+<Original>Tu n'as plus de place dans ton inventaire.</Original>
+<Italian>Il tuo inventario è pieno.</Italian>
+</Key>
+<Key ID="STR_NOTF_Gathering">
+<French>Gathering %1...</French>
+<English>Gathering %1...</English>
+<German>Sammle %1 ...</German>
+<Original>Ramassage %1...</Original>
+<Italian>Raccogliendo %1</Italian>
+</Key>
+<Key ID="STR_NOTF_ChopSoldCar">
+<French>You have sold a %1 for %2$</French>
+<English>You have sold a %1 for %2$</English>
+<German>Du hast einen %1 für %2$ verkauft</German>
+<Original>Tu as vendu cet élément : %1 pour %2$</Original>
+<Italian>Hai venduto un %1 per %2€</Italian>
+</Key>
+<Key ID="STR_NOTF_Picked">
+<French>You have picked %1 %2</French>
+<English>You have picked %1 %2</English>
+<German>Du hast %1 %2 gesammelt</German>
+<Original>Tu as ramassé : %1 %2</Original>
+<Italian>Hai trovato %1 %2</Italian>
+</Key>
+<Key ID="STR_NOTF_Collected">
+<French>You have collected some %1</French>
+<English>You have collected some %1</English>
+<German>Du hast %1 gesammelt</German>
+<Original>Tu as ramassé %1</Original>
+<Italian>Hai raccolto %1</Italian>
+</Key>
+<Key ID="STR_NOTF_DPStart">
+<French>You are to deliver this package to %1</French>
+<English>You are to deliver this package to %1</English>
+<German>Du musst das Paket zu %1 bringen</German>
+<Original>Vous avez livré ce packet à %1</Original>
+<Italian>Devi consegnare questo pacco al %1</Italian>
+</Key>
+<Key ID="STR_NOTF_DPTask">
+<French>Deliver this package to %1</French>
+<English>Deliver this package to %1</English>
+<German>Bringe das Paket zu %1</German>
+<Original>Livrer ce paquet à %1</Original>
+<Italian>Consegna questo pacco al %1</Italian>
+</Key>
+<Key ID="STR_NOTF_DPFailed">
+<French>You failed to deliver the package because you died.</French>
+<English>You failed to deliver the package because you died.</English>
+<German>Du hast es nicht geschafft, das Paket zu liefern, da du gestorben bist.</German>
+<Original>Vous avez omis de livrer le colis car vous êtes morts.</Original>
+<Italian>Compra Oggetto</Italian>	
+</Key>
+<Key ID="STR_NOTF_HS_NoCash">
+<French>You do not have $%1 to be healed</French>
+<English>You do not have $%1 to be healed</English>
+<German>Du hast keine $%1, um geheilt zu werden.</German>
+<Original>Vous n'avez pas $%1 pour vous soignez.</Original>
+<Italian>Non hai €$1 per essere curato</Italian>
+</Key>
+<Key ID="STR_NOTF_HS_Healing">
+<French>Please stay still</French>
+<English>Please stay still</English>
+<German>Bitte warten</German>
+<Original>Ne bougez pas</Original>
+<Italian>Attendi pazientemente</Italian>
+</Key>
+<Key ID="STR_NOTF_HS_ToFar">
+<French>You need to be within 5m while the doctor is healing you</French>
+<English>You need to be within 5m while the doctor is healing you</English>
+<German>Du musst in der Nähe des Doktors bleiben, während du geheilt wirst</German>
+<Original>Vous devez être à moins de 5m pendant que le médecin vous soigne</Original>
+<Italian>Devi restare entro 5m dal dottore per essere curato</Italian>
+</Key>
+<Key ID="STR_NOTF_HS_Healed">
+<French>You are now fully healed.</French>
+<English>You are now fully healed.</English>
+<German>Du wurdest geheilt.</German>
+<Original>Vous êtes completement soigner.</Original>
+<Italian>Sei stato curato completamente.</Italian>
+</Key>
+<Key ID="STR_NOTF_BeingImpounded">
+<French>%1 your %2 is being impounded by the police.</French>
+<English>%1 your %2 is being impounded by the police.</English>
+<German>%1 dein %2 wird von der Polizei beschlagnahmt.</German>
+<Original>%1 votre %2 est envoyé a la fourrière par la police.</Original>
+<Italian>%1 il tuo %2 sta per essere sequestrato dalla Polizia.</Italian>
+</Key>
+<Key ID="STR_NOTF_Impounding">
+<French>Impounding Vehicle</French>
+<English>Impounding Vehicle</English>
+<German>beschlagnahmen</German>
+<Original>Mise en fourrière</Original>
+<Italian>Sequestro Veicolo in corso</Italian>
+</Key>
+<Key ID="STR_NOTF_ImpoundingCancelled">
+<French>Impounding has been cancelled.</French>
+<English>Impounding has been cancelled.</English>
+<German>beschlagnahmen abgebrochen.</German>
+<Original>Mise en fourrière annulée.</Original>
+<Italian>Il sequestro è stato annullato.</Italian>
+</Key>
+<Key ID="STR_NOTF_Impounded">
+<French>You have impounded a %1\n\nYou have received $%2 for cleaning up the streets!</French>
+<English>You have impounded a %1\n\nYou have received $%2 for cleaning up the streets!</English>
+<German>Du hast einen %1 beschlagnahmt\n\nDu hast $%2 für das Aufräumen der Straßen bekommen!</German>
+<Original>Vous avez mis en fourrière un(e) %1\n\nVous avez reçus $%2 pour avoir nettoyé les rues!</Original>
+<Italian>Hai sequestrato un %1\n\nHai ricevuto €%2 per aver mantenuto l'ordine nelle strade!</Italian>
+</Key>
+<Key ID="STR_NOTF_HasImpounded">
+<French>%1 has impounded %2's %3</French>
+<English>%1 has impounded %2's %3</English>
+<German>%1 hat %2's %3 beschlagnahmt</German>
+<Original>%1 a mis en fourrière le %3 de %2.</Original>
+<Italian>%1 ha sequestrato il %2 di %3</Italian>
+</Key>
+<Key ID="STR_NOTF_AbortESC">
+<French>Abort available in %1</French>
+<English>Abort available in %1</English>
+<German>Abbruch möglich in %1</German>
+<Original>Abandonner disponible dans %1</Original>
+<Italian>Abbandona disponibile in %1</Italian>
+</Key>
+<Key ID="STR_NOTF_DeviceIsMining">
+<French>This vehicle is already mining</French>
+<English>This vehicle is already mining</English>
+<German>Dieses Fahrzeug ist schon am sammeln</German>
+<Original>Ce véhicule est déjà en train de miner</Original>
+<Italian>Questo veicolo sta già estraendo risorse</Italian>
+</Key>
+<Key ID="STR_NOTF_DeviceFull">
+<French>The vehicle is full</French>
+<English>The vehicle is full</English>
+<German>Das Fahrzeug ist voll.</German>
+<Original>Le véhicule est plein.</Original>
+<Italian>Il veicolo è pieno</Italian>
+</Key>
+<Key ID="STR_NOTF_notNearResource">
+<French>You are not near a resource field</French>
+<English>You are not near a resource field</English>
+<German>Du bist nicht in der Nähe einer Mine</German>
+<Original>Vous n'êtes pas à proximité d'un champ de ressources</Original>
+<Italian>Non sei vicino ad un campo risorse</Italian>
+</Key>
+<Key ID="STR_NOTF_MiningStopped">
+<French>You cannot turn the vehicle on when mining</French>
+<English>You cannot turn the vehicle on when mining</English>
+<German>Du kannst das Fahrzeug nicht starten solange es am sammeln ist</German>
+<Original>Le moteur doit être arreté pour que le véhicule mine</Original>
+<Italian>Non puoi accendere il veicolo mentre estrae risorse</Italian>
+</Key>
+<Key ID="STR_NOTF_DeviceMining">
+<French>The Device is mining...</French>
+<English>The Device is mining...</English>
+<German>Das Fahrzeug sammelt...</German>
+<Original>Le véhicule est en train de miner...</Original>
+<Italian>Il veicolo sta estrando risorse...</Italian>
+</Key>
+<Key ID="STR_NOTF_DeviceMined">
+<French>Completed cycle, the device has mined %1</French>
+<English>Completed cycle, the device has mined %1</English>
+<German>Sammeln beendet, das Gerät hat %1 gesammelt</German>
+<Original>Cycle terminé, le véhicule à miné %1</Original>
+<Italian>Ciclo completato, il veicolo ha raccolto %1</Italian>
+</Key>
+<Key ID="STR_NOTF_OutOfFuel">
+<French>Vehicle is out of fuel</French>
+<English>Vehicle is out of fuel</English>
+<German>Das Fahrzeug hat keinen Sprit mehr</German>
+<Original>Le véhicule n'a plus d'essence.</Original>
+<Italian>Il veicolo è senza carburante</Italian>
+</Key>
+<Key ID="STR_NOTF_SpikeStrip">
+<French>You have packed up the spike strip.</French>
+<English>You have packed up the spike strip.</English>
+<German>Nagelband einpacken.</German>
+<Original>Vous avez emballé la herse.</Original>
+<Italian>Hai raccolto una striscia chiodata.</Italian>
+</Key>
+<Key ID="STR_NOTF_PickedEvidence">
+<French>%1 has been placed in evidence, you have received $%2 as a reward.</French>
+<English>%1 has been placed in evidence, you have received $%2 as a reward.</English>
+<German>%1 hat Beweise hinterlassen, Du hast eine Belohnung von $%2 erhalten</German>
+<Original>Vous avez ramassé la drogue de %1, vous avez reçu $%2 comme une récompense.</Original>
+<Italian>E' stata trovata della merce illegale: %1, hai ricevuto €%2 come ricompensa.</Italian>
+</Key>
+<Key ID="STR_NOTF_PickedMoney">
+<French>You have picked up $%1</French>
+<English>You have picked up $%1</English>
+<German>Du hast $1% aufgehoben</German>
+<Original>Vous avez ramassé $%1</Original>
+<Italian>Hai raccolto €%1</Italian>
+</Key>
+<Key ID="STR_NOTF_Bail_Post">
+<French>You must wait at least 3 minutes in jail before paying a bail.</French>
+<English>You must wait at least 3 minutes in jail before paying a bail.</English>
+<German>Du musst mindestens 3 Minuten lang im Gefängnis bleiben bevor du die Kaution beantragen kannst.</German>
+<Original>Vous devez attendre au moins 3 minutes en prison avant de payer une caution.</Original>
+<Italian>Devi aspettare almeno 3 minuti in prigione prima di poter pagare la cauzione.</Italian>
+</Key>
+<Key ID="STR_NOTF_Bail_NotEnough">
+<French>You do not have $%1 in your bank account to pay bail.</French>
+<English>You do not have $%1 in your bank account to pay bail.</English>
+<German>DU hast keine $%1 auf deinem Bankkonto um die Kaution zu bezahlen.</German>
+<Original>Vous n'avez pas $%1 dans votre compte en banque pour payer la caution.</Original>
+<Italian>Non hai €%1 nel tuo conto in banca per poter pagare la cauzione.</Italian>
+</Key>
+<Key ID="STR_NOTF_Bail_Bailed">
+<French>%1 has posted bail!</French>
+<English>%1 has posted bail!</English>
+<German>%1 hat die Kaution bezahlt!</German>
+<Original>%1 a payé sa caution!</Original>
+<Italian>%1 ha pagato la cauzione!</Italian>
+</Key>
+<Key ID="STR_NOTF_VehicleNear">
+<French>There isn't a vehicle nearby...</French>
+<English>There isn't a vehicle nearby...</English>
+<German>Es ist kein Fahrzeug in der Nähe ...</German>
+<Original>Il n'y a pas de véhicule à proximité...</Original>
+<Italian>Non c'è alcun veicolo qui vicino...</Italian>
+</Key>
+<Key ID="STR_NOTF_Restrained">
+<French>%1 was restrained by %2</French>
+<English>%1 was restrained by %2</English>
+<German>%1 wurde von %2 festgenommen</German>
+<Original>%1 a été menotté par %2</Original>
+<Italian>%1 è stato ammanettato da %2</Italian>
+</Key>
+<Key ID="STR_NOTF_Searching">
+<French>Searching...</French>
+<English>Searching...</English>
+<German>suche...</German>
+<Original>Recherche...</Original>
+<Italian>Ricerca...</Italian>
+</Key>
+<Key ID="STR_NOTF_SearchVehFail">
+<French>Couldn't search the vehicle</French>
+<English>Couldn't search the vehicle</English>
+<German>Das Fahrzeug konnte nicht durchsucht werden</German>
+<Original>Impossible de fouiller le véhicule</Original>
+<Italian>Impossibile ispezionare il veicolo</Italian>
+</Key>
+<Key ID="STR_NOTF_VehCheat">
+<French>This vehicle has no information, it was probably spawned in through cheats. \n\nDeleting vehicle.</French>
+<English>This vehicle has no information, it was probably spawned in through cheats. \n\nDeleting vehicle.</English>
+<German>Über das Fahrzeug gibt es keine Informationen, es wurde vermutlich durch Cheats gespawnt. \n\nLösche Fahrzeuge. </German>
+<Original>Ce véhicule dispose d'aucune information, il a probablement été engendré en travers tricheurs. \n\ véhicule Deleting.</Original>
+<Italian>Il veicolo è privo di identificativi, probabilmente è stato creato mediante cheat. \n\nCancellazione veicolo.</Italian>
+</Key>
+<Key ID="STR_NOTF_Action">
+<French>You are already doing an action. Please wait for it to end.</French>
+<English>You are already doing an action. Please wait for it to end.</English>
+<German>Du führst bereits eine Aktion aus. Bitte warte bis diese beendet ist.</German>
+<Original>Vous faites déjà une action. S'il vous plaît attendre qu'elle se termine.</Original>
+<Italian>Stai già compiendo un'azione, attendi che finisca.</Italian>
+</Key>
+<Key ID="STR_NOTF_Unrestrain">
+<French>%1 was unrestrained by %2</French>
+<English>%1 was unrestrained by %2</English>
+<German>%1 wurde von %2 freigelassen</German>
+<Original>%1 a été démenotté par %2</Original>
+<Italian>%2 ha tolto le manette a %1</Italian>
+</Key>
+<Key ID="STR_NOTF_Robbed">
+<French>%1 has robbed %2 for $%3</French>
+<English>%1 has robbed %2 for $%3</English>
+<German>%1 hat von %2 $%3 gestohlen</German>
+<Original>%1 a volés %2 pour $%3</Original>
+<Italian>%1 ha rapinato %2 di €%3</Italian>
+</Key>
+<Key ID="STR_NOTF_RobFail">
+<French>%1 doesn't have any money.</French>
+<English>%1 doesn't have any money.</English>
+<German>1% hat keine Geld.</German>
+<Original>%1 n'a pas d'argent.</Original>
+<Italian>%1 non ha alcun soldo.</Italian>
+</Key>
+<Key ID="STR_NOTF_Tazed">
+<French>%1 was tazed by %2</French>
+<English>%1 was tazed by %2</English>
+<German>%1 wurde von %2 getazert</German>
+<Original>%1 a été tazé par %2</Original>
+<Italian>%1 è stato taserato da %2</Italian>
+</Key>
+<Key ID="STR_NOTF_VehContraband">
+<French>A vehicle was searched and has $%1 worth of drugs / contraband.</French>
+<English>A vehicle was searched and has $%1 worth of drugs / contraband.</English>
+<German>Ein Fahrzeug wurde durchsucht und es wurden Drogen / Schmuggelware im Wert von $%1 gefunden.</German>
+<Original>Un véhicule venant d'être fouillé avait $%1 de drogue / contrebande.</Original>
+<Italian>Un veidolo è stato ispezionato e sono stati sequestrati €%1 in materiale illegale.</Italian>
+</Key>
+<Key ID="STR_NOTF_PulledOut">
+<French>You have been pulled out of the vehicle</French>
+<English>You have been pulled out of the vehicle</English>
+<German>Sie wurden aus dem Fahrzeug gezogen</German>
+<Original>Vous avez sortie les personnes du véhicule</Original>
+<Italian>Sei stato estratto dal veicolo</Italian>
+</Key>
+<Key ID="STR_NOTF_GivenItem">
+<French>%1 has gave you %2 %3</French>
+<English>%1 has gave you %2 %3</English>
+<German>%1 hat Ihnen %2 %3 gegeben</German>
+<Original>%1 vous a donné %2 %3</Original>
+<Italian>%1 ti ha dato %2 %3</Italian>
+</Key>
+<Key ID="STR_NOTF_GivenMoney">
+<French>%1 has given you $%2</French>
+<English>%1 has given you $%2</English>
+<German>%1 hat Ihnen $%2 gegeben</German>
+<Original>%1 vous a donné $%2</Original>
+<Italian>%1 ti ha dato €%2</Italian>
+</Key>
+<Key ID="STR_NOTF_SendingData">
+<French>Sending information to server please wait.....</French>
+<English>Sending information to server please wait.....</English>
+<German>Sende Informationen an den Server, bitte warten.....</German>
+<Original>Envoi d'informations au serveur, patienter s'il vous plait....</Original>
+<Italian>Invio delle informazioni al server, attendere prego......</Italian>
+</Key>
+<Key ID="STR_NOTF_ActionCancel">
+<French>Action Cancelled</French>
+<English>Action Cancelled</English>
+<German>Aktion abgebrochen</German>
+<Original>Action Annulée</Original>
+<Italian>Azione Annullata</Italian>
+</Key>
+<Key ID="STR_NOTF_ActionInProc">
+<French>An action is already being processed...</French>
+<English>An action is already being processed...</English>
+<German>Es wird bereits eine Aktion ausgeführt...</German>
+<Original>Une action est déjà en cours de traitement ...</Original>
+<Italian>Un'azione è già in corso...</Italian>
+</Key>
+<Key ID="STR_NOTF_NoSpace">
+<French>You don't have enough space for that amount!</French>
+<English>You don't have enough space for that amount!</English>
+<German>Du hast nicht genug Platz dafür!</German>
+<Original>Vous n'avez pas assez d'espace!</Original>
+<Italian>Non hai abbastanza spazio per quel quantitativo!</Italian>
+</Key>
+<Key ID="STR_NOTF_NotEnoughMoney">
+<French>You don't have that much money!</French>
+<English>You don't have that much money!</English>
+<German>Du hast nicht so viel Geld!</German>
+<Original>Vous n'avez pas assez d'argent!</Original>
+<Italian>Non hai tutti quei soldi!</Italian>
+</Key>
+<Key ID="STR_NOTF_NotACop">
+<French>You are not a cop.</French>
+<English>You are not a cop.</English>
+<German>Du bist kein Polizist.</German>
+<Original>Vous n'êtes pas flic.</Original>
+<Italian>Non sei un poliziotto.</Italian>
+</Key>
+<Key ID="STR_NOTF_NoRoom">
+<French>You don't have enough room for that item.</French>
+<English>You don't have enough room for that item.</English>
+<German>Du hast nicht genug Platz für das Item.</German>
+<Original>Vous n'avez pas assez de place.</Original>
+<Italian>Non hai abbastanza spazio per quell'oggetto.</Italian>
+</Key>
+  <Key ID="STR_NOTF_RapidAction">
+  <French>You can't rapidly use action keys!</French>
+  <English>You can't rapidly use action keys!</English>
+  <German>Die Aktionstaste kann nicht so schnell hintereinander genutzt werden!</German>
+<Original>Vous ne pouvez pas utiliser rapidement les touches d'action!</Original>
+<Italian>Non puoi riusare così rapidamente il tasto azione!</Italian>
+  </Key>
+  <Key ID="STR_NOTF_NotEnoughFunds">
+  <French>You do not have enough funds in your bank account</French>
+  <English>You do not have enough funds in your bank account</English>
+<German>Du hast nicht genug Geld auf deinem Bankkonto</German>
+  <Original>Vous n'avez pas assez de fond dans votre compte bancaire</Original>
+<Italian>Non hai abbastanza fondi nel tuo conto in banca</Italian>
+  </Key>
+  <Key ID="STR_NOTF_CouldntAdd">
+  <French>Couldn't add it to your inventory.</French>
+  <English>Couldn't add it to your inventory.</English>
+<German>Es konnte nichts zu deinem Inventar hinzugefügt werden</German>
+  <Original>Impossible d'ajouter cela à votre inventaire</Original>
+<Italian>Non puoi aggiungerlo al tuo inventario.</Italian>
+  </Key>
+<Key ID="STR_NOTF_EatMSG_1">
+  <French>You haven't eaten anything in awhile, You should find something to eat soon!</French>
+  <English>You haven't eaten anything in awhile, You should find something to eat soon!</English>
+<German>Du hast schon eine Weile nichts mehr gegessen, du solltest schnell etwas zum essen suchen</German>
+<Original>Vous n'avez rien mangé depuis un certain temps, vous devriez trouver quelque chose à manger!</Original>
+<Italian>E' da tempo che non mangi qualcosa, dovresti trovare qualcosa da mettere sotto i denti in fretta!</Italian>
+  </Key>
+  <Key ID="STR_NOTF_EatMSG_2">
+  <French>You are starting to starve, you need to find something to eat otherwise you will die.</French>
+  <English>You are starting to starve, you need to find something to eat otherwise you will die.</English>
+<German>Du hast Hunger, du solltest schnell etwas essen oder du wirst verhungern.</German>
+<Original>Vous commencez à mourir de faim, vous avez besoin de trouver quelque chose à manger, sinon, vous allez mourrir</Original>
+<Italian>Ti stai indebolendo, devi trovare qualcosa da mangiare o morirai.</Italian>
+  </Key>
+  <Key ID="STR_NOTF_EatMSG_3">
+  <French>You are now starving to death, you will die very soon if you don't eat something</French>
+  <English>You are now starving to death, you will die very soon if you don't eat something</English>
+<German>Du bist am verhungern, du wirst sterben wenn du nichts zum essen findest</German>
+<Original>Vous êtes en train de mourir de faim, vous allez mourir très bientôt si vous ne mangez pas quelque chose</Original>
+<Italian>Stai perdendo le forze, se non mangi qualcosa in fretta morirai.</Italian>
+  </Key>
+  <Key ID="STR_NOTF_EatMSG_Death">
+  <French>You have starved to death.</French>
+  <English>You have starved to death.</English>
+<German>Du bist verhungert.</German>
+<Original>Vous êtes mort de faim.</Original>
+<Italian>Sei morto per la fame.</Italian>
+  </Key>
+  <Key ID="STR_NOTF_DrinkMSG_1">
+  <French>You haven't drank anything in awhile, You should find something to drink soon.</French>
+  <English>You haven't drank anything in awhile, You should find something to drink soon.</English>
+<German>Du hast schon eine weile nichts mehr getrunken, du solltest schnell etwas zum trinken suchen</German>
+<Original>Vous n'avez rien bu depuis un certain temps, vous devriez trouver quelque chose à boire!</Original>
+<Italian>E' da parecchio tempo che non bevi qualcosa, dovresti trovare qualcosa da bere.</Italian>
+  </Key>
+  <Key ID="STR_NOTF_DrinkMSG_2">
+  <French>You haven't drank anything in along time, you should find something to drink soon or you'll start to die from dehydration.</French>
+  <English>You haven't drank anything in along time, you should find something to drink soon or you'll start to die from dehydration.</English>
+<German>Du hast Durst, du solltest schnell etwas trinken oder du wirst verdursten.</German>
+<Original>Vous commencez à mourir de soif, vous avez besoin de trouver quelque chose à boire, sinon, vous allez mourrir</Original>
+<Italian>E' troppo tempo che non bevi qualcosa, dovresti trovare qualcosa da bere o comincerai a disitratarti.</Italian>
+  </Key>
+  <Key ID="STR_NOTF_DrinkMSG_3">
+  <French>You are now suffering from severe dehydration find something to drink quickly!</French>
+  <English>You are now suffering from severe dehydration find something to drink quickly!</English>
+<German>Du bist am verdursten, du wirst sterben wenn du nichts zum trinken findest</German>
+<Original>Vous êtes en train de mourir de soif, vous allez mourir très bientôt si vous ne buvez pas quelque chose</Original>
+<Italian>Stai soffrendo per una grave deidratazione, trova velocemente qualcosa da bere o morirai!</Italian>
+  </Key>
+  <Key ID="STR_NOTF_DrinkMSG_Death">
+  <French>You have died from dehydration.</French>
+  <English>You have died from dehydration.</English>
+<German>Du bist verdurstet.</German>
+<Original>Vous êtes mort de soif.</Original>
+<Italian>Sei morto per disidratazione.</Italian>
+  </Key>
+  <Key ID="STR_NOTF_MaxWeight">
+  <French>You are over carrying your max weight! You will not be able to run or move fast till you drop some items!</French>
+  <English>You are over carrying your max weight! You will not be able to run or move fast till you drop some items!</English>
+<German>Du trägst ein zu hohes Gewicht! Du bist nicht in der Lage zu rennen oder dich schnell zu bewegen bis du Items abgelegt hast</German>
+<Original>Vous êtes surchargé, vous ne pouvez plus courrir ou bouger rapidement à moins de lacher quelques objets!</Original>
+<Italian>Stai trasportando oltre il tuo carico massimo! Non riuscirai a correre fino a quando non ti libererai di qualche oggetto!</Italian>
+  </Key>
+</Package>
+<Package name="Jail_Strings">
+<Key ID="STR_Jail_Warn">
+<French>You have been arrested, wait your time out. If you attempt to respawn or reconnect your time will increase!</French>
+<English>You have been arrested, wait your time out. If you attempt to respawn or reconnect your time will increase!</English>
+<German>Du wurdest festgenommen, sitze deine Zeit ab. Wenn du versuchst zu respawnen oder reconnecten erhöht sich deine Zeit! </German>
+<Original>Vous avez été arrêté, attendez que votre peine soit terminée. Si vous tentez de respawn ou reconnectez votre temps sera augmenté!</Original>
+<Italian>Sei stato arrestato, sconta la tua pena. Se cercherai di rinascere o di riconnettere il tuo tempo aumenterà!</Italian>
+</Key>
+<Key ID="STR_Jail_LicenseNOTF">
+<French>For being arrested you have lost the following licenses if you own them\n\nFirearms License\nRebel License</French>
+<English>For being arrested you have lost the following licenses if you own them\n\nFirearms License\nRebel License</English>
+<German>Bei der Verhaftung haben sie folgende Lizenzen verloren\n\nWaffen Lizenz\nRebellen Lizenz</German>
+<Original>Après votre mise en prison, vous avez perdu les licences suivante si vous les aviez\n\nFirearms License\nRebel License</Original>
+<Italian>A causa del tuo arresto hai perso le seguenti licenze, se le possedevi\n\nPorto d'armi\nLicenza Ribelle</Italian>
+</Key>
+<Key ID="STR_Jail_EscapeNOTF">
+<French>%1 has escaped from jail!</French>
+<English>%1 has escaped from jail!</English>
+<German>%1 ist aus dem Gefängnis ausgebrochen!</German>
+<Original>%1 s'est échappé de prison!</Original>
+<Italian>%1 è scappato dalla prigione!</Italian>
+</Key>
+<Key ID="STR_Jail_EscapeSelf">
+<French>You have escaped from jail, you still retain your previous crimes and now have a count of escaping jail.</French>
+<English>You have escaped from jail, you still retain your previous crimes and now have a count of escaping jail.</English>
+<German>Du bist aus dem Gefängnis ausgebrochen, die Polizei sucht bereits nach dir</German>
+<Original>Vous vous êtes échappé de prison, vous conserver toujours vos crimes précédents et ils savent maintenant que vous vous êtes échappé de prison.</Original>
+<Italian>Sei scappato di prigione, rimarrai ricercato per i crimini da te commessi in precedenza e in aggiunta per essere scappato di prigione.</Italian>
+</Key>
+<Key ID="STR_Jail_Released">
+<French>You have served your time in jail and have been released.</French>
+<English>You have served your time in jail and have been released.</English>
+<German>Du hast deine Zeit im Gefängnis abgesessen.</German>
+<Original>Vous avez terminé votre peine, vous êtes libre.</Original>
+<Italian>Hai scontato la tua pena in prigione e sei stato rilasciato.</Italian>
+</Key>
+<Key ID="STR_Jail_Time">
+<French>Time Remaining:</French>
+<English>Time Remaining:</English>
+<German>verbleibende Zeit:</German>
+<Original>Temps restant:</Original>
+<Italian>Tempo rimanente:</Italian>
+</Key>
+<Key ID="STR_Jail_Pay">
+<French>Can pay bail:</French>
+<English>Can pay bail:</English>
+<German>kann Kaution zahlen:</German>
+<Original>Peut payer la caution:</Original>
+<Italian>Puoi pagare la cauzione:</Italian>
+</Key>
+<Key ID="STR_Jail_Price">
+<French>Bail Price:</French>
+<English>Bail Price:</English>
+<German>Kautions Preis:</German>
+<Original>Prix de la caution:</Original>
+<Italian>Costo cauzione:</Italian>
+</Key>
+<Key ID="STR_Jail_Paid">
+<French>You have paid your bail and are now free.</French>
+<English>You have paid your bail and are now free.</English>
+<German>Du hast deine Kaution bezahlt und bist nun frei</German>
+<Original>Vous avez payé votre caution, vous êtes désormais libres.</Original>
+<Italian>Hai pagato la cauzione e sei libero.</Italian>
+</Key>
+</Package>
+<Package name="Civ_Strings">
+<Key ID="STR_Civ_KnockedOut">
+<French>%1 has knocked you out.</French>
+<English>%1 has knocked you out.</English>
+<German>%1 hat dich niedergeschlagen.</German>
+<Original>%1 vous a assommé.</Original>
+<Italian>%1 ti ha colpito stordendoti.</Italian>
+</Key>
+<Key ID="STR_Civ_LicenseRemove_1">
+<French>You have lost all your motor vehicle licenses for vehicular manslaughter.</French>
+<English>You have lost all your motor vehicle licenses for vehicular manslaughter.</English>
+<German>Du hast alle deine Kfz-Lizenzen durch fahrlässige Tötung verloren.</German>
+<Original>Vous avez perdu tout vos permis véhicule pour avoir écrasé quelqu'un.</Original>
+<Italian>Hai perso tutte le tue licenze di guida a causa di un omicidio stradale.</Italian>
+</Key>
+<Key ID="STR_Civ_LicenseRemove_2">
+<French>You have lost your firearms license for manslaughter.</French>
+<English>You have lost your firearms license for manslaughter.</English>
+<German>Du hast deinen Waffenschein wegen Mordes verloren.</German>
+<Original>Vous avez perdu votre permis d'armes à feu pour homicide involontaire.</Original>
+<Italian>Hai perso il tuo Porto d'Armi a causa di un omicidio</Italian>
+</Key>
+<Key ID="STR_Civ_RobFail">
+<French>They didn't have any cash...</French>
+<English>They didn't have any cash...</English>
+<German>Er hatte kein Geld...</German>
+<Original>Ils n'ont pas l'agent...</Original>
+<Italian>Non hai soldi...</Italian>
+</Key>
+<Key ID="STR_Civ_Robbed">
+<French>You stole $%1</French>
+<English>You stole $%1</English>
+<German>Du hast $%1 gestohlen.</German>
+<Original>Vous avez volé $%1</Original>
+<Italian>Hai rubato €%1</Italian>
+</Key>
+<Key ID="STR_Civ_VaultEmpty">
+<French>The safe is empty!</French>
+<English>The safe is empty!</English>
+<German>Der Safe ist leer!</German>
+<Original>Le coffre est vide</Original>
+<Italian>La cassaforte è vuota!</Italian>
+</Key>
+<Key ID="STR_Civ_VaultInUse">
+<French>Someone is already accessing the safe..</French>
+<English>Someone is already accessing the safe..</English>
+<German>Jemand greift bereits auf den Safe zu</German>
+<Original>Quelqu'un accède déjà au coffre..</Original>
+<Italian>Qualcuno sta già interagendo con la cassaforte..</Italian>
+</Key>
+<Key ID="STR_Civ_NotEnoughCops">
+<French>There needs to be 5 or more cops online to continue.</French>
+<English>There needs to be 5 or more cops online to continue.</English>
+<German>Es müssen 5 oder mehr Polizisten online sein.</German>
+<Original>Il faut au minimum 5 flic pour continuer</Original>
+<Italian>Servono almeno 5 poliziotti online per continuare.</Italian>
+</Key>
+<Key ID="STR_Civ_SafeInv">
+<French>Safe Inventory</French>
+<English>Safe Inventory</English>
+<German>Safe Inventar</German>
+<Original>Coffre</Original>
+<Italian>Inventario cassaforte</Italian>
+</Key>
+<Key ID="STR_Civ_SelectItem">
+<French>You need to select an item!</French>
+<English>You need to select an item!</English>
+<German>Du musst ein Item auswählen</German>
+<Original>Vous devez sélectionner un objet</Original>
+<Italian>Devi selezionare un oggetto!</Italian>
+</Key>
+<Key ID="STR_Civ_IsntEnoughGold">
+<French>There isn't %1 gold bar(s) in the safe!</French>
+<English>There isn't %1 gold bar(s) in the safe!</English>
+<German>Es sind keine %1 Goldbarren im Safe!</German>
+<Original>Il n'y a pas %1 lingot(s) d'or dans le coffre</Original>
+<Italian>Nella cassaforte non ci sono %1 lingotti d'oro</Italian>
+</Key>
+</Package>
+<Package name="Cop_Strings">
+<Key ID="STR_Cop_TicketError">
+<French>Couldn't open the ticketing interface</French>
+<English>Couldn't open the ticketing interface</English>
+<German>Der Bußgeldkatalog konnte nicht geöffnet werden</German>
+<Original>Impossible d'ouvrir l'interface d'amendement</Original>
+<Italian>Impossibile aprire l'interfaccia per le multe</Italian>
+</Key>
+<Key ID="STR_Cop_Ticket">
+<French>Ticketing %1</French>
+<English>Ticketing %1</English>
+<German>verrechne %1</German>
+<Original>Mise de l'amende à %1</Original>
+<Italian>Multando %1</Italian>
+</Key>
+<Key ID="STR_Cop_TicketNil">
+<French>Person to ticket is nil</French>
+<English>Person to ticket is nil</English>
+<German>Person ist Null</German>
+<Original>La personne à verbaliser est nulle</Original>
+<Italian>La persona da multare è nil</Italian>
+</Key>
+<Key ID="STR_Cop_TicketExist">
+<French>Person to ticket doesn't exist.</French>
+<English>Person to ticket doesn't exist.</English>
+<German>die Person gibt es nicht.</German>
+<Original>La personne à verbaliser est inexistante</Original>
+<Italian>La persona da multare non esiste.</Italian>
+</Key>
+<Key ID="STR_Cop_TicketNum">
+<French>You didn't enter actual number.</French>
+<English>You didn't enter actual number.</English>
+<German>Das ist keine Zahl</German>
+<Original>Vous n'avez pas saisi de nombre.</Original>
+<Italian>Non hai inserito un numero correttamente.</Italian>
+</Key>
+<Key ID="STR_Cop_TicketOver100">
+<French>Tickets can not be more than $100,000!</French>
+<English>Tickets can not be more than $100,000!</English>
+<German>Strafzettel können nicht mehr als $100.000 betragen!</German>
+<Original>Les billets ne peuvent être plus de $ 100,000!</Original>
+<Italian>La multa non può essere più di €100.000!</Italian>
+</Key>
+<Key ID="STR_Cop_TicketGive">
+<French>%1 gave a ticket of $%2 to %3</French>
+<English>%1 gave a ticket of $%2 to %3</English>
+<German>%1 hat %3 einen Strafzettel über $%2 ausgestellt</German>
+<Original>%1 a mis une contravention de $%2 à %3</Original>
+<Italian>%1 ha dato una multa di €%2 a %3</Italian>
+</Key>	
+<Key ID="STR_Cop_Ticket_NotEnough">
+<French>You don't have enough money in your bank account or on you to pay the ticket.</French>
+<English>You don't have enough money in your bank account or on you to pay the ticket.</English>
+<German>Du hast nicht genug Geld auf deinem Bankkonto um den Strafzettel zu bezahlen.</German>
+<Original>Vous n'avez pas assez d'argent dans votre compte bancaire ou sur vous pour payer l'amende.</Original>
+<Italian>Non hai fondi sufficienti nel tuo conto in banca per pagare la multa.</Italian>
+</Key>
+<Key ID="STR_Cop_Ticket_NotEnoughNOTF">
+<French>%1 couldn't pay the ticket due to not having enough money.</French>
+<English>%1 couldn't pay the ticket due to not having enough money.</English>
+<German>%1 konnte den Strafzettel nicht bezahlen weil er nicht genug Geld hat.</German>
+<Original>% 1 ne pouvait pas payer la contravention car il n'avait pas assez d'argent.</Original>
+<Italian>%1 non può pagare la multa perchè non ha sufficienti fondi nel suo conto in banca.</Italian>
+</Key>
+<Key ID="STR_Cop_Ticket_Paid">
+<French>You have paid the ticket of $%1</French>
+<English>You have paid the ticket of $%1</English>
+<German>Du hast den Strafzettel von $1% bezahlt</German>
+<Original>Vous avez payé l'amende de $%1</Original>
+<Italian>Hai pagato la multa di €%1</Italian>
+</Key>
+<Key ID="STR_Cop_Ticket_PaidNOTF">
+<French>%1 paid the ticket of $%2</French>
+<English>%1 paid the ticket of $%2</English>
+<German>%1 zahlte einen Strafzettel von $%2</German>
+<Original>%1 payé la contravention de $%2</Original>
+<Italian>%1 ha pagato la multa di €%2</Italian>
+</Key>
+<Key ID="STR_Cop_Ticket_PaidNOTF_2">
+<French>%1 paid the ticket.</French>
+<English>%1 paid the ticket.</English>
+<German>%1 bezahlt den Strafzettel.</German>
+<Original>%1 payé la contravention.</Original>
+<Italian>%1 ha pagato la multa.</Italian>
+</Key>
+<Key ID="STR_Cop_Ticket_GUI_Given">
+<French>%1 has given you a ticket for $%2</French>
+<English>%1 has given you a ticket for $%2</English>
+<German>%1 hat dir einen Strafzettel von $%2 gegeben</German>
+<Original>%1 vous a donné une amende de $%2</Original>
+<Italian>%1 ti ha dato una multa di €%2</Italian>
+</Key>
+<Key ID="STR_Cop_Ticket_Refuse">
+<French>%1 refused to pay the ticket.</French>
+<English>%1 refused to pay the ticket.</English>
+<German>%1 weigert sich den Strafzettel zu bezahlen.</German>
+<Original>%1 refusé de payer l'amende.</Original>
+<Italian>%1 si è rifiutato di pagare la multa.</Italian>
+</Key>
+<Key ID="STR_Cop_BountyRecieve">
+<French>You have collected a bounty of $%1 for arresting a criminal.</French>
+<English>You have collected a bounty of $%1 for arresting a criminal.</English>
+<German>Du hast ein Kopfgeld von $%1 für die Festnahme eines Kriminellen bekommen.</German>
+<Original>Vous avez reçu une prime de $%1 pour avoir arrêté un criminel.</Original>
+<Italian>Hai ricevuto il pagamento di una taglia di €%1 per aver arrestato un criminale ricercato.</Italian>
+</Key>
+<Key ID="STR_Cop_BountyKill">
+<French>You have collected a bounty of $%1 for killing a wanted criminal, if you had arrested him you would of received $%2</French>
+<English>You have collected a bounty of $%1 for killing a wanted criminal, if you had arrested him you would of received $%2</English>
+<German>Du hast ein Kopfgeld von $%1 für das Töten eines gesuchten Verbrechers bekommen,Du hättest $%2 für die Festnahme bekommen</German>
+<Original>Vous avez reçu une prime de $%1 pour le meurtre d'un criminel recherché, si vous l'aviez arrêté, vous auriez reçu $%</Original>
+<Italian>Hai ricevuto il pagamento di una taglia di €%1 per aver ucciso un criminale ricercato, se lo avessi arrestato avresti ricevuto €%2</Italian>
+</Key>
+<Key ID="STR_Cop_Contraband">
+<French>%1 has $%2 worth of contraband on them.</French>
+<English>%1 has $%2 worth of contraband on them.</English>
+<German>%1 hat Schmuggelware im Wert von $%2 gefunden.</German>
+<Original>%1 a $%2 de contrebande sur lui.</Original>
+<Italian>%1 ha €%2 in materiali illegali con se.</Italian>
+</Key>
+<Key ID="STR_Cop_IllegalItems">
+<French>Illegal Items</French>
+<English>Illegal Items</English>
+<German>illegale Items</German>
+<Original>Articles illégaux</Original>
+<Italian>Oggetti Illegali</Italian>
+</Key>
+<Key ID="STR_Cop_Robber">
+<French>%1 was identified as the bank robber!</French>
+<English>%1 was identified as the bank robber!</English>
+<German>%1 wurde als Bankräuber identifiziert!</German>
+<Original>%1 à été identifié comme un braqueur de banque!</Original>
+<Italian>%1 è stato identificato come il rapinatore della banca!</Italian>
+</Key>
+<Key ID="STR_Cop_NoIllegal">
+<French>No illegal items</French>
+<English>No illegal items</English>
+<German>Keine illegalen Items</German>
+<Original>Aucun élément illégal</Original>
+<Italian>Nessun oggetto illegale</Italian>
+</Key>
+<Key ID="STR_Cop_NotaDoor">
+<French>You are not near a door!</French>
+<English>You are not near a door!</English>
+<German>Du bist nicht in der Nähe einer Tür!</German>
+<Original>Vous n'êtes pas près d'une porte!</Original>
+<Italian>Non sei vicno ad una porta!</Italian>
+</Key>
+<Key ID="STR_Cop_EnablePiP">
+<French>You need to enable Picture in Picture (PiP) through your video settings to use this!</French>
+<English>You need to enable Picture in Picture (PiP) through your video settings to use this!</English>
+<German>Du musst Picture in Picture (PiP) in deinen Video-Einstellungen aktivieren, um das nutzen zu können!</German>
+<Original>Vous devez activer le "Picture in Picture" (PiP) dans vos paramètre vidéo pour utilser ceci!</Original>
+<Italian>Devi attivare Picture in Picture (PiP) nelle tue impostazioni video per usare questa funzione!</Italian>
+</Key>
+<Key ID="STR_Cop_Licenses">
+<French>Licenses:</French>
+<English>Licenses:</English>
+<German>Lizenzen:</German>
+<Original>Licences:</Original>
+<Italian>Licenze:</Italian>
+</Key>
+<Key ID="STR_Cop_NoLicenses">
+<French>No Licenses</French>
+<English>No Licenses:</English>
+<German>Keine Lizenzen:</German>
+<Original>Aucune licence</Original>
+<Italian>Nessuna Licenza</Italian>
+</Key>
+<Key ID="STR_Cop_NoIllegalVeh">
+<French>Nothing illegal in this vehicle</French>
+<English>Nothing illegal in this vehicle</English>
+<German>Nichts illegales in diesem Fahrzeug</German>
+<Original>Rien d'illégal dans ce véhicule</Original>
+<Italian>Niente di illegale nel veicolo</Italian>
+</Key>
+<Key ID="STR_Cop_VehEmpty">
+<French>This vehicle is empty</French>
+<English>This vehicle is empty</English>
+<German>Dieses Fahrzeug ist leer</German>
+<Original>Ce véhicule est vide</Original>
+<Italian>Questo veicolo è vuoto</Italian>
+</Key>
+<Key ID="STR_Cop_RobberDead">
+<French>$%1 from the Federal Reserve robbery was returned from the robber being killed.</French>
+<English>$%1 from the Federal Reserve robbery was returned from the robber being killed.</English>
+<German>$%1 wurden in die Staatsbank zurückgebracht.</German>
+<Original>$%1 du vol de la Réserve fédérale est récupéré du voleur qui vient d'être tué.</Original>
+<Italian>€%1 della rapina alla Riserva Federale sono stati recuperati dal rapinatore ucciso.</Italian>
+</Key>
+<Key ID="STR_Cop_RepairVault">
+<French>Repairing vault...</French>
+<English>Repairing vault...</English>
+<German>Safe reparieren</German>
+<Original>Réparation du coffre...</Original>
+<Italian>Riparando il Caveau</Italian>
+</Key>
+<Key ID="STR_Cop_VaultRepaired">
+<French>The vault is now fixed and re-secured.</French>
+<English>The vault is now fixed and re-secured.</English>
+<German>Der Safe wurde repariert</German>
+<Original>Le coffre est de nouveau sécurisé.</Original>
+<Italian>Il Caveau è stato riparato e messo in sicurezza.</Italian>
+</Key>
+<Key ID="STR_Cop_VaultLocked">
+<French>The vault is already locked?</French>
+<English>The vault is already locked?</English>
+<German>Der Safe ist abgeschlossen</German>
+<Original>Le coffre est déjà fermé?</Original>
+<Italian>Il Caveau è già bloccato?</Italian>
+</Key>
+<Key ID="STR_Cop_VaultUnder1">
+<French>You can't enter anything below 1!</French>
+<English>You can't enter anything below 1!</English>
+<German>Nichts unter 1 eingeben!</German>
+<Original>Vous ne pouvez pas moins de 1!</Original>
+<Italian>Non puoi selezionare nulla sotto l'1!</Italian>
+</Key>
+<Key ID="STR_Cop_OnlyGold">
+<French>You can't store anything but gold bars in the safe.</French>
+<English>You can't store anything but gold bars in the safe.</English>
+<German>Du kannst nur Goldbarren in den Safe legen</German>
+<Original>Vous ne pouvez pas mettre autre chose que des lingot d'or.</Original>
+<Italian>Nella cassaforte puoi depositare solo lingotti d'oro.</Italian>
+</Key>
+<Key ID="STR_Cop_NotEnoughGold">
+<French>You don't have %1 gold bar(s)</French>
+<English>You don't have %1 gold bar(s)</English>
+<German>Du hast keine %1 Goldbarren</German>
+<Original>Vous n'avez pas %1 lingot(s) d'or</Original>
+<Italian>Non hai %1 lingotti d'oro</Italian>
+</Key>
+<Key ID="STR_Cop_CantRemove">
+<French>Couldn't remove the item(s) from your inventory to put in the safe.</French>
+<English>Couldn't remove the item(s) from your inventory to put in the safe.</English>
+<German>Item(s) konnten nicht in den Safe gepackt werden</German>
+<Original>Vous ne pouvez pas supprimer les items de votre inventaire pour les mettre dans le coffre.</Original>
+<Italian>Non è stato possibile rimuovere gli oggetti dal tuo inventario per metterli nella cassaforte.</Italian>
+</Key>
+<Key ID="STR_Cop_CouldntSearch">
+<French>Couldn't search %1</French>
+<English>Couldn't search %1</English>
+<German>Konnte %1 nicht durchsuchen</German>
+<Original>Impossible de fouiller %1</Original>
+<Italian>Impossibile ispezionare %1</Italian>
+</Key>
+<Key ID="STR_Cop_RepairingDoor">
+<French>Repairing Door...</French>
+<English>Repairing Door...</English>
+<German>Tür reparieren...</German>
+<Original>Réparation de la porte...</Original>
+<Italian>Riparando la porta...</Italian>
+</Key>
+<Key ID="STR_Cop_NoLicensesFound">
+<French>No Licenses&lt;br/&gt;</French>
+<English>No Licenses&lt;br/&gt;</English>
+<German>Keine Lizenzen&lt;br/&gt;</German>
+<Original>Aucune licence&lt;br/&gt;</Original>
+<Italian>Nessuna Licenza&lt;br/&gt;</Italian>
+</Key>
+<Key ID="STR_Cop_DealerQuestion">
+<French>No one has sold to this dealer recently.</French>
+<English>No one has sold to this dealer recently.</English>
+<German>Hier hat niemand etwas verkauft.</German>
+<Original>Personne n'est venu vendre à ce dealer récement</Original>
+<Italian>Non è stato visto nessuno vendere a questo spacciatore di recente.</Italian>
+</Key>
+<Key ID="STR_Cop_DealerMSG">
+<French>The following people have been selling to this dealer recently.</French>
+<English>The following people have been selling to this dealer recently.</English>
+<German>Die Folgenen Leute wurden hier kürzlich gesehen</German>
+<Original>Les personnes suivantes sont venues vendre à ce dealer récement.</Original>
+<Italian>Le seguenti persone sono state viste vendere a questo spacciatore.</Italian>
+</Key>
+<Key ID="STR_Cop_Radar">
+<French>Radar</French>
+<English>Radar</English>
+<German>Radar</German>
+<Original>Radar</Original>
+<Italian>Autovelox</Italian>
+</Key>
+<Key ID="STR_Cop_VehSpeed">
+<French>Vehicle Speed %1 km/h</French>
+<English>Vehicle Speed %1 km/h</English>
+<German>Geschwindigkeit %1 km/h</German>
+<Original>Vitesse du véhicule %1 km/h</Original>
+<Italian>Velocità veicolo %1 km/h</Italian>
+</Key>
+<Key ID="STR_Cop_ExcessiveRestrain">
+<French>You have been released automatically for excessive restrainment time</French>
+<English>You have been released automatically for excessive restrainment time</English>
+<German>Du wurdest frei gelassen</German>
+<Original>Vous êtes démenotté automatiquement pour un menottage excessivement long</Original>
+<Italian>Sei stato automaticamente liberato per essere rimasto ammanettato troppo tempo</Italian>
+</Key>
+<Key ID="STR_Cop_Retrained">
+<French>You have been restrained by %1</French>
+<English>You have been restrained by %1</English>
+<German>Du wurdest von %1 gefesselt</German>
+<Original>Vous avez été menotté par %1</Original>
+<Italian>%1 ti ha tolto le manette</Italian>
+</Key>
+</Package>
+<Package name="MISC_Strings">
+<Key ID="STR_MISC_TooMuch">
+<French>You tried to give %1 %2 %3 but they couldn't hold that so it was returned.</French>
+<English>You tried to give %1 %2 %3 but they couldn't hold that so it was returned.</English>
+<German>Du wolltest %1 %2 %3 geben aber er hat keinen Platz in seinem Inventar</German>
+<Original>Vous avez essayé de donner %1 %2 %3 mais il n'a pas assez de place et vous à tout redonné.</Original>
+<Italian>Hai provato a dare %1 %2 %3 ma non poteva trasportarlo quindi ti è stato restituito.</Italian>
+</Key>
+<Key ID="STR_MISC_TooMuch_2">
+<French>%1 returned %2 %3 because they couldn't hold that amount.</French>
+<English>%1 returned %2 %3 because they couldn't hold that amount.</English>
+<German>%1 hat %2 %3 zurückgegeben, weil er nicht so viel tragen kann.</German>
+<Original>%1 vous à redonné %2 %3 parce qu'ils ne pouvaient pas en tenir autant.</Original>
+<Italian>%1 ha restituito %2 %3 perchè non poteva trasportare quella quantità</Italian>
+</Key>
+<Key ID="STR_MISC_TooMuch_3">
+<French>%1 has gave you %2 but you can only hold %3 so %4 was returned back.</French>
+<English>%1 has gave you %2 but you can only hold %3 so %4 was returned back.</English>
+<German>%1 hat dir %2 gegeben du kannst aber nur %3 tragen also hast du %4 zurückgegeben.</German>
+<Original>%1 vous à donné %2 mais vous ne pouvez en tenir que %3 donc %4 à été redonné.</Original>
+<Italian>%1 ti ha dato %2 ma puoi portare solo %3 quindi %4 sono stati restituiti.</Italian>
+</Key>
+<Key ID="STR_MISC_AttachmentMSG">
+<French>Do you want to add this item to your weapon or inventory? If you add it to your weapon your current existing attachment will be lost!</French>
+<English>Do you want to add this item to your weapon or inventory? If you add it to your weapon your current existing attachment will be lost!</English>
+<German>Möchtest du den Aufsatz zu deiner Waffe oder deinem Inventar hinzufügen? Wenn du es zur Waffe hinzufügst wird der vorhandene Aufsatz entfernt!</German>
+<Original>Voulez-vous ajouter cet article à votre arme ou à votre inventaire? Si vous l'aajoutez à votre arme, votre attachement existant actuel sera perdu!</Original>
+<Italian>Vuoi aggiungere questo oggetto alla tua arma o all'inventario? Se lo aggiungerai all'arma verrà rimosso l'eventuale accessorio già presente su di essa!</Italian>
+</Key>
+<Key ID="STR_MISC_Attachment">
+<French>Attachment slot taken!</French>
+<English>Attachment slot taken!</English>
+<German>Aufsatz Platz belegt!</German>
+<Original>Fente de fixation pris!</Original>
+<Italian>Slot Accessorio preso!</Italian>
+</Key>
+<Key ID="STR_MISC_Weapon">
+<French>Weapon</French>
+<English>Weapon</English>
+<German>Waffen</German>
+<Original>Armes</Original>
+<Italian>Arma</Italian>
+</Key>
+<Key ID="STR_MISC_Inventory">
+<French>Inventory</French>
+<English>Inventory</English>
+<German>Inventar</German>
+<Original>Inventaire</Original>
+<Italian>Inventario</Italian>
+</Key>
+<Key ID="STR_MISC_Backpack">
+<French>You are not allowed to look into someone's backpack!</French>
+<English>You are not allowed to look into someone's backpack!</English>
+<German>Du bist nicht berechtigt in fremde Rucksäcke zu schauen!</German>
+<Original>Vous n'êtes pas autorisé à regarder dans le sac à dos de quelqu'un!</Original>
+<Italian>Non sei autorizzato a guardare negli zaini altrui!</Italian>
+</Key>
+<Key ID="STR_MISC_VehInventory">
+<French>You are not allowed to access this vehicle while its locked.</French>
+<English>You are not allowed to access this vehicle while its locked.</English>
+<German>Du bist nicht berechtigt auf dieses Fahrzeug zuzugreifen während es abgeschlossen ist.</German>
+<Original>Vous n'êtes pas autorisé à accéder à ce véhicule tant qu'il est vérouillé.</Original>
+<Italian>Non ti è permesso l'accesso a questo veicolo mentre è bloccato.</Italian>
+</Key>
+<Key ID="STR_MISC_VehInvUse">
+<French>This vehicle's trunk is in use, only one person can use it at a time.</French>
+<English>This vehicle's trunk is in use, only one person can use it at a time.</English>
+<German>Auf diesen Kofferraum wird bereits zugegriffen.</German>
+<Original>Le coffre de ce véhicule est en cours d'utilisation, une seule personne peut l'utiliser à la fois.</Original>
+<Italian>L'inventario di questo veicolo è in uso, può essere usato solo da una persona alla volta.</Italian>
+</Key>
+<Key ID="STR_MISC_DialogError">
+<French>Failed Creating Dialog</French>
+<English>Failed Creating Dialog</English>
+<German>Erstellen des Dialogs gescheitert</German>
+<Original>Échec à la création de dialogue</Original>
+<Italian>Creazione dialogo fallito</Italian>
+</Key>
+<Key ID="STR_MISC_VehUnlock">
+<French>You have unlocked your vehicle.</French>
+<English>You have unlocked your vehicle.</English>
+<German>Du hast dein Fahrzeug aufgeschlossen.</German>
+<Original>Vous avez débloqué votre véhicule.</Original>
+<Italian>Hai sbloccato il tuo veicolo.</Italian>
+</Key>
+<Key ID="STR_MISC_VehLock">
+<French>You have locked your vehicle.</French>
+<English>You have locked your vehicle.</English>
+<German>Du hast dein Fahrzeug abgeschlossen.</German>
+<Original>Vous avez verrouillé votre véhicule.</Original>
+<Italian>Hai bloccato il tuo veicolo</Italian>
+</Key>
+<Key ID="STR_MISC_SirensON">
+<French>Sirens On</French>
+<English>Sirens On</English>
+<German>Sirene An</German>
+<Original>Sirenes On</Original>
+<Italian>Sirene accese</Italian>
+</Key>
+<Key ID="STR_MISC_SirensOFF">
+<French>Sirens Off</French>
+<English>Sirens Off</English>
+<German>Sirene Aus</German>
+<Original>Sirenes Off</Original>
+<Italian>Sirene spente</Italian>
+</Key>
+<Key ID="STR_MISC_NoStorageWarn">
+<French>You need to install storage containers to have storing capabilities!</French>
+<English>You need to install storage containers to have storing capabilities!</English>
+<German>Du musst dir Largerboxen kaufen um etwas einzulagern!</German>
+<Original>Vous devez installer des conteneurs de stockage pour disposer de capacité de stockage!</Original>
+<Italian>Devi posizionare dei contenitori per aver la possibilità di depositare qualcosa!</Italian>
+</Key>
+<Key ID="STR_MISC_NoStorageVeh">
+<French>This vehicle isn't capable of storing virtual items.</French>
+<English>This vehicle isn't capable of storing virtual items.</English>
+<German>Dieses Fahrzeug kann keine virtuellen Gegenstände speichern.</German>
+<Original>Ce véhicule n'est pas en mesure de stocker des objets virtuels.</Original>
+<Italian>Questo veicolo non è in grado di trasportare oggetti virtuali.</Italian>
+</Key>
+<Key ID="STR_MISC_Weight">
+<French>Weight:</French>
+<English>Weight:</English>
+<German>Gewicht:</German>
+<Original>Poids:</Original>
+<Italian>Peso:</Italian>
+</Key>
+<Key ID="STR_MISC_HouseStorage">
+<French>House Storage</French>
+<English>House Storage</English>
+<German>Lagerplatz</German>
+<Original>Conteneur de stockage</Original>
+<Italian>Inventario Casa</Italian>
+</Key>
+<Key ID="STR_MISC_VehStorage">
+<French>Vehicle Trunk</French>
+<English>Vehicle Trunk</English>
+<German>Kofferraum</German>
+<Original>Coffre de véhicule</Original>
+<Italian>Inventario veicolo</Italian>
+</Key>
+<Key ID="STR_MISC_VehDoesntExist">
+<French>The vehicle either doesn't exist or is destroyed.</French>
+<English>The vehicle either doesn't exist or is destroyed.</English>
+<German>Entweder das Fahrzeug ist nicht vorhanden oder es wurde zerstört.</German>
+<Original>Le véhicule n'existe pas ou à est détruit</Original>
+<Italian>Il veicolo non esiste o è stato distrutto.</Italian>
+</Key>
+<Key ID="STR_MISC_WrongNumFormat">
+<French>Invalid Number format</French>
+<English>Invalid Number format.</English>
+<German>Ungültiges Nummern Format</German>
+<Original>Format de nombre invalide</Original>
+<Italian>Formato numerico non valido</Italian>
+</Key>
+<Key ID="STR_MISC_Under1">
+<French>You can't enter anything below 1!</French>
+<English>You can't enter anything below 1!</English>
+<German>Sie können nichts unter 1 eingeben!</German>
+<Original>Vous ne pouvez pas entrer quoi que ce soit en dessous de 1!</Original>
+<Italian>Non puoi inserire nulla al di sotto di 1!</Italian>
+</Key>
+<Key ID="STR_MISC_NotEnough">
+<French>The vehicle doesn't have that many of that item.</French>
+<English>The vehicle doesn't have that many of that item.</English>
+<German>Diese Anzahl ist nicht verfügbar.</German>
+<Original>Le véhicule n'e contient pas autant de cet objet.</Original>
+<Italian>Il veicolo non contiene così tanti oggetti.</Italian>
+</Key>
+</Package>
+<Package name="Housing_Strings">
+<Key ID="STR_House_ContainerError">
+<French>Error saving container, couldn't locate house?</French>
+<English>The vehicle doesn't have that many of that item.</English>
+<German>Fehler beim speichern der Container, es konnte kein Haus gefunden werden?</German>
+<Original>Erreur lors de la sauvegarde des conteneur, impossible de localiser la maison.</Original>
+<Italian>Errore nel salvataggio del contenitore, impossibile trovare la casa?</Italian>
+</Key>
+<Key ID="STR_House_ContainerDeny">
+<French>You are not allowed to access this storage container without the owner opening it.</French>
+<English>You are not allowed to access this storage container without the owner opening it.</English>
+<German>Du hast nicht die Erlaubnis des Besitzers, um in seine abgeschlossenen Boxen zu schauen.</German>
+<Original>Vous n'êtes pas autorisé à accéder à ce conteneur de stockage sans que le propriétaire ne l'ouvre.</Original>
+<Italian>Non sei autorizzato ad accedere a questo contentitore senza il permesso del proprietario.</Italian>
+</Key>
+<Key ID="STR_House_Door_Unlock">
+<French>You have unlocked the door.</French>
+<English>You have unlocked the door.</English>
+<German>Du hast die Tür aufgeschlossen.</German>
+<Original>Vous avez ouvert la porte.</Original>
+<Italian>Hai sbloccato la porta.</Italian>
+</Key>
+<Key ID="STR_House_Door_Lock">
+<French>You have locked the door.</French>
+<English>You have locked the door.</English>
+<German>Du hast die Tür abgeschlossen.</German>
+<Original>Vous avez verrouillé la porte.</Original>
+<Italian>Hai bloccato la porta.</Italian>
+</Key>
+<Key ID="STR_House_Door_NotNear">
+<French>You are not near a door!</French>
+<English>You are not near a door!</English>
+<German>Keine Tür in der Nähe.</German>
+<Original>Vous n'êtes pas près d'une porte!</Original>
+<Italian>Non sei vicino ad una porta!</Italian>
+</Key>
+<Key ID="STR_House_Sell_Process">
+<French>This house was recently sold and is still processing in the database.</French>
+<English>This house was recently sold and is still processing in the database.</English>
+<German>Dieses Haus wurde vor kurzem verkauft.</German>
+<Original>Cette maison a été récemment vendu et est en cours de traitement dans la base de données.</Original>
+<Italian>Questa casa è stata venduta di recente ed il database la sta ancora processando.</Italian>
+</Key>
+<Key ID="STR_House_License">
+<French>You do not have a home owners license!</French>
+<English>You do not have a home owners license!</English>
+<German>Du hast keine Hausbesitzer Lizenz!</German>
+<Original>Vous n'avez pas de permis de propriétaires de maison!</Original>
+<Italian>Non hai la licenza per il possesso delle case!</Italian>
+</Key>
+<Key ID="STR_House_Max_House">
+<French>You can only own %1 houses at a time.</French>
+<English>You can only own %1 houses at a time.</English>
+<German>Du darfst nur %1 Häuser zur selben Zeit besitzen.</German>
+<Original>Vous ne pouvez posséder que %1 maisons à la fois.</Original>
+<Italian>Puoi possedere solo %1 case</Italian>
+</Key>
+<Key ID="STR_House_NotEnough">
+<French>You do not have enough money!</French>
+<English>You do not have enough money!</English>
+<German>Du hast nicht genug Geld!</German>
+<Original>Vous n'avez pas assez d'argent!</Original>
+<Italian>Non hai fondi a sufficienza!</Italian>
+</Key>
+<Key ID="STR_House_BuyMSG">
+<French>This house is available for &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;It supports up to %2 storage containers</French>
+<English>This house is available for &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;It supports up to %2 storage containers</English>
+<German>Dieses Haus gibt es für &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt; Es unterstützt %2 Lagerbox(en)</German>
+<Original>Cette maison est disponible pour &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt; Il prend en charge jusqu'à %2 conteneurs de stockage</Original>
+<Italian>Questa casa è disponibile per &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;Può supportare fino a %2 contenitori</Italian>
+</Key>
+<Key ID="STR_House_Purchase">
+<French>Purchase House</French>
+<English>Purchase House</English>
+<German>Haus verkaufen</German>
+<Original>Acheter la Maison</Original>
+<Italian>Compra Casa</Italian>
+</Key>
+<Key ID="STR_House_Raid_NoOwner">
+<French>This house doesn't belong to anyone.</French>
+<English>This house doesn't belong to anyone</English>
+<German>Dieses Haus gehört niemandem</German>
+<Original>Cette maison n'appartient à personne.</Original>
+<Italian>Questa casa non appartiene a nessuno.</Italian>
+</Key>
+<Key ID="STR_House_Raid_OwnerOff">
+<French>This person is not online there for you cannot raid their house!</French>
+<English>This person is not online there for you cannot raid their house!</English>
+<German>Der Hausbesitzer ist nicht online!</German>
+<Original>Cette personne n'est pas en ligne, vous ne pouvez pas perquisitionner cette maison!</Original>
+<Italian>Questa persona non è online quindi non puoi perquisire la sua casa!</Italian>
+</Key>
+<Key ID="STR_House_Raid_DoorUnlocked">
+<French>The door is already unlocked!</French>	
+<English>The door is already unlocked!</English>
+<German>Die Tür ist bereits offen!</German>
+<Original>La porte est déjà débloqué!</Original>
+<Italian>La porta è già sbloccata!</Italian>
+</Key>
+<Key ID="STR_House_Raid_Progress">
+<French>Breaking lock on door</French>
+<English>Breaking lock on door</English>
+<German>Tür aufbrechen</German>
+<Original>En train de casser la sérrure</Original>
+<Italian>Sbloccando la porta</Italian>
+</Key>
+<Key ID="STR_House_Raid_NOTF">
+<French>%1 your house is being raided by the cops!</French>
+<English>%1 your house is being raided by the cops!</English>
+<German>%1 dein Haus wird von der Polizei durchsucht!</German>
+<Original>%1 votre maison est perquisitionnée par les flics!</Original>
+<Italian>%1 la Polizia si sta introducendo in casa tua!</Italian>
+</Key>
+<Key ID="STR_House_Raid_Owner">
+<French>House Owner</French>
+<English>House Owner</English>
+<German>Hauseigentümer</German>
+<Original>Propriétaire</Original>
+<Italian>Proprietario Casa</Italian>
+</Key>
+<Key ID="STR_House_Raid_Nothing">
+<French>There is nothing in this house.</French>
+<English>There is nothing in this house.</English>
+<German>Es gibt nichts in diesem Haus.</German>
+<Original>Il n'y a rien dans cette maison</Original>
+<Italian>In questa casa non c'è nulla.</Italian>
+</Key>
+<Key ID="STR_House_Raid_Searching">
+<French>Searching House...</French>
+<English>Searching House...</English>
+<German>Haus durchsuchen...</German>
+<Original>Recherche Maison...</Original>
+<Italian>Perquisendo la Casa...</Italian>
+</Key>
+<Key ID="STR_House_Raid_TooFar">
+<French>You went too far away from the house!</French>
+<English>You went too far away from the house!</English>
+<German>Du hast dich zu weit vom Haus entfernt!</German>
+<Original>Vous êtes parti trop loin de la maison!</Original>
+<Italian>Sei andato troppo distante dalla casa!</Italian>
+</Key>
+<Key ID="STR_House_Raid_Successful">
+<French>A house was raided and had $%1 worth of drugs / contraband.</French>
+<English>A house was raided and had $%1 worth of drugs / contraband.</English>
+<German>Ein Haus wurde durchsucht und man hat Drogen / Schmuggelware im Wert von $% gefunden.</German>
+<Original>Une maison a été perquisitionné et a $%1 de drogue / contrebande.</Original>
+<Italian>Una casa è stata perquisita e sono stati trovati €%1 in materiali illegali.</Italian>
+</Key>
+<Key ID="STR_House_Raid_NoIllegal">
+<French>Nothing illegal in this house.</French>
+<English>Nothing illegal in this house.</English>
+<German>Nichts illegales in diesem Haus.</German>
+<Original>Rien d'illégal dans cette maison</Original>
+<Italian>Questa casa non contiene nulla d'illegale.</Italian>
+</Key>
+<Key ID="STR_House_StorageUnlock">
+<French>House storage unlocked</French>
+<English>House storage unlocked</English>
+<German>Lagerplatz geöffnet</German>
+<Original>Stockage de la maison déverrouillé</Original>
+<Italian>Contenitori della casa sbloccati</Italian>
+</Key>
+<Key ID="STR_House_StorageLock">
+<French>House storage locked</French>
+<English>House storage locked</English>
+<German>Lagerplatz geschlossen</German>
+<Original>Stockage de Maison verrouillé</Original>
+<Italian>Contenitori della casa bloccati</Italian>
+</Key>
+<Key ID="STR_House_LockingUp">
+<French>Locking up house please wait...</French>
+<English>Locking up house please wait...</English>
+<German>Haus abschließen, bitte warten...</German>
+<Original>Fermeture de la maison veuiller patienter...</Original>
+<Italian>Bloccando la casa, attendere prego...</Italian>
+</Key>
+<Key ID="STR_House_LockedUp">
+<French>House has been locked up.</French>
+<English>House has been locked up.</English>
+<German>Haus wurde abgeschlossen.</German>
+<Italian>La casa è stata bloccata.</Italian>
+</Key>
+<Key ID="STR_House_SellHouseMSG">
+<French>Are you sure you want to sell your house? It will sell for: &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;</French>
+<English>Are you sure you want to sell your house? It will sell for: &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;.</English>
+<German>Bist Du sicher, dass du dein Haus verkaufen möchtest? Es wird für &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt; verkauft</German>
+<Original>Etes-vous sûr de vouloir vendre votre maison? Elle se vendra pour: &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;</Original>
+<Italian>Sei sicuro di voler vendere la tua casa? La venderai per: &lt;t color='#8cff9b'&gt;€1&lt;/t&gt;</Italian>
+</Key>
+</Package>
+<Package name="Vehicle_Service">
+<Key ID="STR_Service_Chopper_NoAir">
+<French>There isn't a chopper on the helipad!</French>
+<English>There isn't a chopper on the helipad!</English>
+<German>Es ist kein Helikopter auf dem Landeplatz </German>
+<Original>Il n'y a pas d'hélicopter sur l'héliport</Original>
+<Italian>Non c'è alcun elicottero sulla piazzola d'atterraggio</Italian>
+</Key>
+<Key ID="STR_Serive_Chopper_NotEnough">
+<French>You need $1,000 to service your chopper</French>
+<English>You need $1,000 to service your chopper</English>
+<German>Du benötigst $1,000 um deinen Helikopter zu reparieren</German>
+<Original>Vous devez $1000 pour l'entretien de votre hélico</Original>
+<Italian>Necessiti di €1.000 per fare manutenzione al tuo elicottero</Italian>
+</Key>
+<Key ID="STR_Service_Chopper_Servicing">
+<French>Servicing Chopper</French>
+<English>Servicing Chopper</English>
+<German>Helicopter Wartung</German>
+<Original>Entretien</Original>
+<Italian>Manutenendo Elicottero</Italian>
+</Key>
+<Key ID="STR_Service_Chopper_Missing">
+<French>The vehicle is no longer alive or on the helipad!</French>
+<English>The vehicle is no longer alive or on the helipad!</English>
+<German>Das Fahrzeug ist zerstört oder auf dem Helikopterlandeplatz!</German>
+<Original>Le véhicule est détruit ou n'est plus sur l'héliport!</Original>
+<Italian>Il veicolo non è più attivo sulla piazzola d'atterraggio!</Italian>
+</Key>
+<Key ID="STR_Service_Chopper_Done">
+<French>Your chopper is now repaired and refuelled.</French>
+<English>Your chopper is now repaired and refuelled.</English>
+<German>Der Helicopter ist nun repariert und aufgetankt.</German>
+<Original>Votre hélicoptère est maintenant réparé et ravitaillé</Original>
+<Italian>L'elicottero è stato riparato e rifornito di carburante.</Italian>
+</Key>
+</Package>
+<Package name="Life_Items">
+<Key ID="STR_Item_Cannabis">
+<French>Cannabis</French>
+<English>Cannabis</English>
+<German>Cannabis</German>
+<Original>Cannabis</Original>
+<Italian>Cannabis</Italian>
+</Key>
+<Key ID="STR_Item_Apple">
+<French>Apple</French>
+<English>Apple</English>
+<German>Apfel</German>
+<Original>Pomme</Original>
+<Italian>Mela</Italian>
+</Key>
+<Key ID="STR_Item_Apples">
+<French>Apples</French>
+<English>Apples</English>
+<German>Äpfel</German>
+<Original>Pommes</Original>
+<Italian>Mele</Italian>
+</Key>
+<Key ID="STR_Item_Cocaine">
+<French>Cocaine</French>
+<English>Cocaine</English>
+<German>Kokain</German>
+<Original>Cocaïne</Original>
+<Italian>Cocaina</Italian>
+</Key>
+<Key ID="STR_Item_Heroin">
+<French>Heroin</French>
+<English>Heroin</English>
+<German>Heroin</German>
+<Original>Heroïne</Original>
+<Italian>Eroina</Italian>
+</Key>
+<Key ID="STR_Item_Oil">
+<French>Oil</French>
+<English>Oil</English>
+<German>Öl</German>
+<Original>Pétrole</Original>
+<Italian>Olio</Italian>
+</Key>
+<Key ID="STR_Item_Peach">
+<French>Peach</French>
+<English>Peach</English>
+<German>Pfirsich</German>
+<Original>Pêche</Original>
+<Italian>Pesca</Italian>
+</Key>
+<Key ID="STR_Item_Peaches">
+<French>Peaches</French>
+<English>Peaches</English>
+<German>Pfirsiche</German>
+<Original>Pêches</Original>
+<Italian>Pesche</Italian>
+</Key>
+<Key ID="STR_Item_OilU">
+<French>Unprocessed Oil</French>
+<English>Unprocessed Oil</English>
+<German>unverarbeitetes Öl</German>
+<Original>Pétrole non raffiné</Original>
+<Italian>Olio non processato</Italian>
+</Key>
+<Key ID="STR_Item_OilP">
+<French>Processed Oil</French>
+<English>Processed Oil</English>
+<German>verarbeitetes Öl</German>
+<Original>Pétrole raffiné</Original>
+<Italian>Olio processato</Italian>
+</Key>
+<Key ID="STR_Item_HeroinU">
+<French>Unprocessed Heroin</French>
+<English>Unprocessed Heroin</English>
+<German>unverarbeitetes Heroin</German>
+<Original>Graine de pavot</Original>
+<Italian>Eroina non processata</Italian>
+</Key>
+<Key ID="STR_Item_HeroinP">
+<French>Processed Heroin</French>
+<English>Processed Heroin</English>
+<German>verarbeitetes Heroin</German>
+<Original>Héroine</Original>
+<Italian>Eroina processata</Italian>
+</Key>
+<Key ID="STR_Item_Marijuana">
+<French>Marijuana</French>
+<English>Marijuana</English>
+<German>Marihuana</German>
+<Original>Marijuana</Original>
+<Italian>Marijuana</Italian>
+</Key>
+<Key ID="STR_Item_RabbitMeat">
+<French>Rabbit Meat</French>
+<English>Rabbit Meat</English>
+<German>Kaninchenfleisch</German>
+<Original>Viande de Lapin</Original>
+<Italian>Carne di coniglio</Italian>
+</Key>
+<Key ID="STR_Item_SalemaMeat">
+<French>Salema Meat</French>
+<English>Salema Meat</English>
+<German>Salema Fleisch</German>
+<Original>Filet de Saupe</Original>
+<Italian>Carne di Salmone</Italian>
+</Key>
+<Key ID="STR_Item_OrnateMeat">
+<French>Ornate Meat</French>
+<English>Ornate Meat</English>
+<German>Ornate Fleisch</German>
+<Original>Filet d'Ornate</Original>
+<Italian>Carne di Orata</Italian>
+</Key>
+<Key ID="STR_Item_MackerelMeat">
+<French>Mackerel Meat</French>
+<English>Mackerel Meat</English>
+<German>Makrelen Fleisch</German>
+<Original>Filet de Maquereau</Original>
+<Italian>Carne di Sgombro</Italian>
+</Key>
+<Key ID="STR_Item_TunaMeat">
+<French>Tuna Meat</French>
+<English>Tuna Meat</English>
+<German>Thunfisch Fleisch </German>
+<Original>Filet de Thon</Original>
+<Italian>Carne di Tonno</Italian>
+</Key>
+<Key ID="STR_Item_MulletMeat">
+<French>Mullet Meat</French>
+<English>Mullet Meat</English>
+<German>Mullet Fleisch</German>
+<Original>Filet de Mulet</Original>
+<Italian>Carne di Triglia</Italian>
+</Key>
+<Key ID="STR_Item_CatSharkMeat">
+<French>Cat Shark Meat</French>
+<English>Cat Shark Meat</English>
+<German>Katzenhai Fleisch</German>
+<Original>Filet de Poisson Chat</Original>
+<Italian>Carne di Squalo</Italian>
+</Key>
+<Key ID="STR_Item_TurtleMeat">
+<French>Turtle Meat</French>
+<English>Turtle Meat</English>
+<German>Schildkröten Fleisch</German>
+<Original>Viande de Tortue</Original>
+<Italian>Carne di Tartaruga</Italian>
+</Key>
+<Key ID="STR_Item_FishingPole">
+<French>Fishing Pole</French>
+<English>Fishing Pole</English>
+<German>Angel</German>
+<Original>Canne à pêche</Original>
+<Italian>Canna da pesca</Italian>
+</Key>
+<Key ID="STR_Item_WaterBottle">
+<French>Water Bottle</French>
+<English>Water Bottle</English>
+<German>Wasser</German>
+<Original>Bouteille d'eau</Original>
+<Italian>Bottiglia d'acqua</Italian>
+</Key>
+<Key ID="STR_Item_Coffee">
+<French>Coffee</French>
+<English>Coffee</English>
+<German>Kaffee</German>
+<Original>Café</Original>
+<Italian>Caffè</Italian>
+</Key>
+<Key ID="STR_Item_TurtleSoup">
+<French>Turtle Soup</French>
+<English>Turtle Soup</English>
+<German>Schildkrötensuppe</German>
+<Original>Soupe à la Tortue</Original>
+<Italian>Zuppa di Tartaruga</Italian>
+</Key>
+<Key ID="STR_Item_Donuts">
+<French>Donuts</French>
+<English>Donuts</English>
+<German>Donuts</German>
+<Original>Donuts</Original>
+<Italian>Ciambelle</Italian>
+</Key>
+<Key ID="STR_Item_FuelE">
+<French>Empty Fuel Can</French>
+<English>Empty Fuel Can</English>
+<German>leerer Benzinkanister</German>
+<Original>Jerrican Vide</Original>
+<Italian>Tanica di carburante vuota</Italian>
+</Key>
+<Key ID="STR_Item_FuelF">
+<French>Full Fuel Can</French>
+<English>Full Fuel Can</English>
+<German>Benzinkanister</German>
+<Original>Jerrican de Carburant</Original>
+<Italian>Tanica di carburante piena</Italian>
+</Key>
+<Key ID="STR_Item_Pickaxe">
+<French>Pickaxe</French>
+<English>Pickaxe</English>
+<German>Spitzhacke</German>
+<Original>Pioche</Original>
+<Italian>Piccone</Italian>
+</Key>
+<Key ID="STR_Item_CopperOre">
+<French>Copper Ore</French>
+<English>Copper Ore</English>
+<German>Kupfererz</German>
+<Original>Minerai de Cuivre</Original>
+<Italian>Minerale di Rame</Italian>
+</Key>
+<Key ID="STR_Item_IronOre">
+<French>Iron Ore</French>
+<English>Iron Ore</English>
+<German>Eisenerz</German>
+<Original>Minerai de Fer</Original>
+<Italian>Minerale di Ferro</Italian>
+</Key>
+<Key ID="STR_Item_IronIngot">
+<French>Iron Ingot</French>
+<English>Iron Ingot</English>
+<German>Eisenbarren</German>
+<Original>Lingot de Fer</Original>
+<Italian>Lingotto di ferro</Italian>
+</Key>
+<Key ID="STR_Item_CopperIngot">
+<French>Copper Ingot</French>
+<English>Copper Ingot</English>
+<German>Kupferbarren</German>
+<Original>Lingot de cuivre</Original>
+<Italian>Lingotto di Rame</Italian>
+</Key>
+<Key ID="STR_Item_Sand">
+<French>Sand</French>
+<English>Sand</English>
+<German>Sand</German>
+<Original>Sable</Original>
+<Italian>Sabbia</Italian>
+</Key>
+<Key ID="STR_Item_Salt">
+<French>Salt</French>
+<English>Salt</English>
+<German>Salz</German>
+<Original>Sel</Original>
+<Italian>Sale</Italian>
+</Key>
+<Key ID="STR_Item_SaltR">
+<French>Refined Salt</French>
+<English>Refined Salt</English>
+<German>raffiniertes Salz</German>
+<Original>Sel traité</Original>
+<Italian>Sale raffinato</Italian>
+</Key>
+<Key ID="STR_Item_Glass">
+<French>Glass</French>
+<English>Glass</English>
+<German>Glas</German>
+<Original>Verre</Original>
+<Italian>Vetro</Italian>
+</Key>
+<Key ID="STR_Item_DiamondC">
+<French>Diamond Cut</French>
+<English>Diamond Cut</English>
+<German>geschliffene Diamanten</German>
+<Original>Diamant Taillé</Original>
+<Italian>Diamante tagliato</Italian>
+</Key>
+<Key ID="STR_Item_DiamondU">
+<French>Diamond Uncut</French>
+<English>Diamond Uncut</English>
+<German>Ungeschliffene Diamanten</German>
+<Original>Diamant Brut</Original>
+<Italian>Diamante grezzo</Italian>
+</Key>
+<Key ID="STR_Item_TBacon">
+<French>Tactical Bacon</French>
+<English>Tactical Bacon</English>
+<German>taktischer Speck</German>
+<Original>Bacon tactique</Original>
+<Italian>Carne secca</Italian>
+</Key>
+<Key ID="STR_Item_RedGull">
+<French>RedGull</French>
+<English>RedGull</English>
+<German>RedGull</German>
+<Original>RedGull</Original>
+<Italian>RedGull</Italian>
+</Key>
+<Key ID="STR_Item_Lockpick">
+<French>Lockpick</French>
+<English>Lockpick</English>
+<German>Dietrich</German>
+<Original>Outil de crochetage</Original>
+<Italian>Grimaldello</Italian>
+</Key>
+<Key ID="STR_Item_Rock">
+<French>Rock</French>
+<English>Rock</English>
+<German>Stein</German>
+<Original>Pierre</Original>
+<Italian>Roccia</Italian>
+</Key>
+<Key ID="STR_Item_CementBag">
+<French>Cement Bag</French>
+<English>Cement Bag</English>
+<German>Zement Sack</German>
+<Original>Sac de ciment</Original>
+<Italian>Sacco di Cemento</Italian>
+</Key>
+<Key ID="STR_Item_GoldBar">
+<French>Gold Bar</French>
+<English>Gold Bar</English>
+<German>Goldbarren</German>
+<Original>Lingot d'or</Original>
+<Italian>Lingotto d'Oro</Italian>
+</Key>
+<Key ID="STR_Item_BCharge">
+<French>Blasting Charge</French>
+<English>Blasting Charge</English>
+<German>Sprengladung</German>
+<Original>Charge de dynamite</Original>
+<Italian>Carica Esplosiva</Italian>
+</Key>
+<Key ID="STR_Item_BCutter">
+<French>Bolt Cutter</French>
+<English>Bolt Cutter</English>
+<German>Bolzenschneider</German>
+<Original>Outils de sérrurier</Original>
+<Italian>Tronchese</Italian>
+</Key>
+<Key ID="STR_Item_DefuseKit">
+<French>Bomb Defuse Kit</French>
+<English>Bomb Defuse Kit</English>
+<German>Entschärfungs Kit</German>
+<Original>Outils de désamorçage</Original>
+<Italian>Attrezzi per il disinnesco</Italian>
+</Key>
+<Key ID="STR_Item_StorageBS">
+<French>Small Storage Box</French>
+<English>Small Storage Box</English>
+<German>kleine Lagerbox</German>
+<Original>Petit Conteneur de stockage</Original>
+<Italian>Contenitore piccolo</Italian>
+</Key>
+<Key ID="STR_Item_StorageBL">
+<French>Large Storage Box</French>
+<English>Large Storage Box</English>
+<German>große Lagerbox</German>
+<Original>Grand Conteneur de stockage</Original>
+<Italian>Contenitore grande</Italian>
+</Key>
+<Key ID="STR_Item_CocaineU">
+<French>Unprocessed Cocaine</French>
+<English>Unprocessed Cocaine</English>
+<German>unverarbeitetes Kokain</German>
+<Original>Feuille de Coca</Original>
+<Italian>Cocaina non processata</Italian>
+</Key>
+<Key ID="STR_Item_CocaineP">
+<French>Processed Cocaine</French>
+<English>Processed Cocaine</English>
+<German>verarbeitetes Kokain</German>
+<Original>Cocaine</Original>
+<Italian>Cocaina processata</Italian>
+</Key>
+<Key ID="STR_Item_SpikeStrip">
+<French>Spike Strip</French>
+<English>Spike Strip</English>
+<German>Nagelband</German>
+<Original>Herse</Original>
+<Italian>Striscia Chiodata</Italian>
+</Key>
+</Package>
+<Package name="Life_License">
+<Key ID="STR_License_Driver">
+<French>Driver License</French>
+<English>Driver License</English>
+<German>Führerschein</German>
+<Original>Permis de Conduire</Original>
+<Italian>Licenza di Guida</Italian>
+</Key>
+<Key ID="STR_License_Pilot">
+<French>Pilot License</French>
+<English>Pilot License</English>
+<German>Pilotenschein</German>
+<Original>License de Pilote</Original>
+<Italian>Licenza da Pilota</Italian>
+</Key>
+<Key ID="STR_License_Heroin">
+<French>Heroin Training</French>
+<English>Heroin Training</English>
+<German>Heroin Ausbildung</German>
+<Original>Transformation du Pavot</Original>
+<Italian>Processo Eroina</Italian>
+</Key>
+<Key ID="STR_License_Oil">
+<French>Oil Processing</French>
+<English>Oil Processing</English>
+<German>Öl Verarbeitung</German>
+<Original>Raffinage de du pétrole</Original>
+<Italian>Processo Olio</Italian>
+</Key>
+<Key ID="STR_License_Diving">
+<French>Diving License</French>
+<English>Diving License</English>
+<German>Taucherschein</German>
+<Original>Permis de Plongée</Original>
+<Italian>Licenza di Pesca</Italian>
+</Key>
+<Key ID="STR_License_Boat">
+<French>Boating License</French>
+<English>Boating License</English>
+<German>Bootschein</German>
+<Original>Permis Bateau</Original>
+<Italian>Licenza Nautica</Italian>
+</Key>
+<Key ID="STR_License_Firearm">
+<French>Firearm License</French>
+<English>Firearm License</English>
+<German>Waffenschein</German>
+<Original>Permis de Port d'Arme</Original>
+<Italian>Porto d'Armi</Italian>
+</Key>
+<Key ID="STR_License_Swat">
+<French>SWAT License</French>
+<English>SWAT License</English>
+<German>SWAT Lizenz</German>
+<Original>License du SWAT</Original>
+<Italian>Licenza SWAT</Italian>
+</Key>
+<Key ID="STR_License_CG">
+<French>Coast Guard License</French>
+<English>Coast Guard License</English>
+<German>Küstenwache</German>
+<Original>Garde-Cotes</Original>
+<Italian>Licenza Guardia Costiera</Italian>
+</Key>
+<Key ID="STR_License_Rebel">
+<French>Rebel Training</French>
+<English>Rebel Training</English>
+<German>Rebellen Ausbildung</German>
+<Original>Entrainement rebelle</Original>
+<Italian>Licenza da Ribelle</Italian>
+</Key>
+<Key ID="STR_License_Truck">
+<French>Truck License</French>
+<English>Truck License</English>
+<German>Truck Lizenz</German>
+<Original>Permis Poids Lourds</Original>
+<Italian>Licenza Camion</Italian>
+</Key>
+<Key ID="STR_License_Diamond">
+<French>Diamond Processing</French>
+<English>Diamond Processing</English>
+<German>Diamanten Verarbeitung</German>
+<Original>Taillage des Diamands</Original>
+<Italian>Processo Diamanti</Italian>
+</Key>
+<Key ID="STR_License_Copper">
+<French>Copper Processing</French>
+<English>Copper Processing</English>
+<German>Kupfer Verarbeitung</German>
+<Original>Fonte du Cuivre</Original>
+<Italian>Processo Rame</Italian>
+</Key>
+<Key ID="STR_License_Iron">
+<French>Iron Processing</French>
+<English>Iron Processing</English>
+<German>Eisen Verarbeitung</German>
+<Original>Fonte du Fer</Original>
+<Italian>Processo Ferro</Italian>
+</Key>
+<Key ID="STR_License_Sand">
+<French>Sand Processing</French>
+<English>Sand Processing</English>
+<German>Sand Aufbereitung</German>
+<Original>Traitement du Sable</Original>
+<Italian>Processo Sabbia</Italian>
+</Key>
+<Key ID="STR_License_Salt">
+<French>Salt Processing</French>
+<English>Salt Processing</English>
+<German>Salz Verarbeitung</German>
+<Original>Traitement du Sel</Original>
+<Italian>Processo Sale</Italian>
+</Key>
+<Key ID="STR_License_Cocaine">
+<French>Cocaine Training</French>
+<English>Cocaine Training</English>
+<German>Kokain Ausbildung</German>
+<Original>Transformation de la Coca</Original>
+<Italian>Processo Cocaina</Italian>
+</Key>
+<Key ID="STR_License_Marijuana">
+<French>Marijuana Training</French>
+<English>Marijuana Training</English>
+<German>Marihuana Ausbildung</German>
+<Original>Traitement du Cannabis</Original>
+<Italian>Processo Marijuana</Italian>
+</Key>
+<Key ID="STR_License_Cement">
+<French>Cement Mixing License</French>
+<English>Cement Mixing License</English>
+<German>Zementmisch Lizenz</German>
+<Original>Fabrication du Ciment</Original>
+<Italian>Processo Cemento</Italian>
+</Key>
+<Key ID="STR_License_Home">
+<French>Home Owners License</French>
+<English>Home Owners License</English>
+<German>Hausbesitzer Lizenz</German>
+<Original>Droit de Propriété</Original>
+<Italian>Licenza possesso Casa</Italian>
+</Key>
+</Package>
+<Package name="More_Item_Strings">
+<Key ID="STR_ISTR_Blast_VaultOnly">
+<French>This can only be used on a vault.</French>
+<English>This can only be used on a vault.</English>
+<German>Das kann nur an einem Safe benutzt werden.</German>
+<Original>Cela ne peut être utilisé que sur un coffre-fort.</Original>
+<Italian>Può essere usata solo sulla cassaforte.</Italian>
+</Key>
+<Key ID="STR_ISTR_Blast_AlreadyPlaced">
+<French>There is already a charge placed on this vault.</French>
+<English>There is already a charge placed on this vault</English>
+<German>Es gibt bereits eine Ladung am Safe</German>
+<Original>Une charge de dynamite est déjà placé sur ce coffre.</Original>
+<Italian>C'è già una carica piazzata sulla cassaforte.</Italian>
+</Key>
+<Key ID="STR_ISTR_Blast_AlreadyOpen">
+<French>The vault is already opened.</French>
+<English>The vault is already opened.</English>
+<German>Der Safe ist bereits offen</German>
+<Original>Le coffre est déjà ouvert.</Original>
+<Italian>La cassaforte è già aperta.</Italian>
+</Key>
+<Key ID="STR_ISTR_Blast_Placed">
+<French>A blasting charge has been placed on the federal reserves vault, You have till the clock runs out to disarm the charge!</French>
+<English>A blasting charge has been placed on the federal reserves vault, You have till the clock runs out to disarm the charge!</English>
+<German>Eine Sprengladung wurde am Safe angebracht, du hast Zeit bis die Uhr abläuft um die Ladung zu entschärfen!</German>
+<Original>Une charge de dynamite a été placé sur le coffre des réserves fédérales, Vous avez jusqu'au temps imparti pour désarmorcer la charge!</Original>
+<Italian>Una carica esplosiva è stata piazzata sulla cassaforte della Riserva Federale, puoi cercare di disinnescarla prima che scada il tempo!</Italian>
+</Key>
+<Key ID="STR_ISTR_Blast_KeepOff">
+<French>The timer is ticking! Keep the cops away from the vault!</French>
+<English>The timer is ticking! Keep the cops away from the vault!</English>
+<German>Der Timer läuft! Halte die Polizei von Safe fern!</German>
+<Original>La minuterie est lancée! Gardez les flics loin de la bombe!</Original>
+<Italian>Il tempo sta scorrendo! Tieni la polizia lontana dalla cassaforte!</Italian>
+</Key>
+<Key ID="STR_ISTR_Blast_Disarmed">
+<French>The charge has been disarmed!</French>
+<English>The charge has been disarmed!</English>
+<German>Die Ladung wurde entschärft</German>
+<Original>La charge a été désamorcée!</Original>
+<Italian>La carica esplosiva è stata disinnescata!</Italian>
+</Key>
+<Key ID="STR_ISTR_Blast_Opened">
+<French>The vault is now opened</French>
+<English>The vault is now opened</English>
+<German>Der Safe ist jetzt offen</German>
+<Original>Le coffre est maintenant ouvert</Original>
+<Italian>La cassaforte è stata aperta</Italian>
+</Key>
+<Key ID="STR_ISTR_Bolt_NotNear">
+<French>You are not looking at a house door.</French>
+<English>You are not looking at a house door.</English>
+<German>Das ist keine Haustür</German>
+<Original>Vous n'êtes pas en face de la porte.</Original>
+<Italian>Non sei girato verso la porta di una casa.</Italian>
+</Key>
+<Key ID="STR_ISTR_Bolt_AlertFed">
+<French>!!!!! SOMEONE IS BREAKING INTO THE FEDERAL RESERVE !!!!!!</French>
+<English>!!!!! SOMEONE IS BREAKING INTO THE FEDERAL RESERVE !!!!!!</English>
+<German>!!!!! JEMAND BRICHT IN DIE ZENTRALBANK EIN !!!!!!</German>
+<Original>!!!!! QUELQU'UN TENTE DE S'INTRODUIRe DANS LA RÈSERVE FÈDÈRALE !!!!!!</Original>
+<Italian>!!!!!! QUALCUNO STA CERCANDO DI INTRODURSI NELLA RISERVA FEDERALE !!!!!!</Italian>
+</Key>
+<Key ID="STR_ISTR_Bolt_AlertHouse">
+<French>%1 was seen breaking into a house.</French>
+<English>%1 was seen breaking into a house.</English>
+<German>%1 wurde beim Einbruch in ein Haus gesehen.</German>
+<Original>%1 a été vu rentrant dans une maison par effraction.</Original>
+<Italian>%1 è stato visto fare irruzione in una casa.</Italian>
+</Key>
+<Key ID="STR_ISTR_Bolt_Process">
+<French>Cutting lock on door</French>
+<English>Cutting lock on door</English>
+<German>Schloss aufbrechen</German>
+<Original>Crochetage de la serrure</Original>
+<Italian>Tranciando i blocchi sulla porta</Italian>
+</Key>
+<Key ID="STR_ISTR_Defuse_Nothing">
+<French>There is no charge on the vault?</French>
+<English>There is no charge on the vault?</English>
+<German>Es gibt keine Ladung am Safe</German>
+<Original>Il n'y a pas de dynamite sur le coffre?</Original>
+<Italian>Non c'è alcuna carica esplosiva sulla cassaforte</Italian>
+</Key>
+<Key ID="STR_ISTR_Defuse_Process">
+<French>Defusing charge...</French>
+<English>Defusing charge...</English>
+<German>Ladung entschärfen...</German>
+<Original>Désamorçage de la charge...</Original>
+<Italian>Disinnescando la carica esplosiva...</Italian>
+</Key>
+<Key ID="STR_ISTR_Defuse_Success">
+<French>The charge has been defused</French>
+<English>The charge has been defused</English>
+<German>Die Ladung wurde entschärft</German>
+<Original>La charge a été désamorcée</Original>
+<Italian>La carica esplosiva è stata disinnescata</Italian>
+</Key>
+<Key ID="STR_ISTR_Jerry_NotLooking">
+<French>You need to look at the vehicle you want to refuel!</French>
+<English>You need to look at the vehicle you want to refuel!</English>
+<German>Du musst am Fahrzeug stehen um es zu betanken</German>
+<Original>Vous avez besoin de regarder le véhicule dont vous voulez faire le plein!</Original>
+<Italian>Devi essere girato verso il veicolo che vuoi rifornire!</Italian>
+</Key>
+<Key ID="STR_ISTR_Jerry_NotNear">
+<French>You need to be closer to the vehicle!</French>
+<English>You need to be closer to the vehicle!</English>
+<German>Du musst näher am Fahrzeug sein</German>
+<Original>Vous devez être plus proche du véhicule!</Original>
+<Italian>Devi stare più vicino al veicolo!</Italian>
+</Key>
+<Key ID="STR_ISTR_Jerry_Process">
+<French>Refuelling %1</French>
+<English>Refuelling %1</English>
+<German>Tanken %1</German>
+<Original>Ravitaillement %1</Original>
+<Italian>Rifornendo %1</Italian>
+</Key>
+<Key ID="STR_ISTR_Jerry_Success">
+<French>You have refuelled that %1</French>
+<English>You have refuelled that %1</English>
+<German>Du hast deinen %1 aufgetankt</German>
+<Original>Vous avez ravitaillé %1</Original>
+<Italian>Hai rifornito di carburante un %1</Italian>
+</Key>
+<Key ID="STR_ISTR_Lock_AlreadyHave">
+<French>This vehicle is already in your key-chain.</French>
+<English>This vehicle is already in your key-chain.</English>
+<German>Du besitzt diesen Schlüssel bereits</German>
+<Original>Ce véhicule est déjà dans votre porte-clé.</Original>
+<Italian>Possiedi già le chiavi di questo veicolo.</Italian>
+</Key>
+<Key ID="STR_ISTR_Lock_Process">
+<French>Lock-picking %1</French>
+<English>Lock-picking %1</English>
+<German>aufbrechen %1</German>
+<Original>Crochetage %1</Original>
+<Italian>Scassinando %1</Italian>
+</Key>
+<Key ID="STR_ISTR_Lock_TooFar">
+<French>You got to far away from the target.</French>
+<English>You got to far away from the target.</English>
+<German>Du hast dich zu weit vom Ziel entfernt.</German>
+<Original>Vous êtes trop loin de la cible.</Original>
+<Italian>Sei andato troppo lontano dall'obbiettivo</Italian>
+</Key>
+<Key ID="STR_ISTR_Lock_Success">
+<French>You now have keys to this vehicle.</French>
+<English>You now have keys to this vehicle.</English>
+<German>Du hast nun einen Schlüssel zum Fahrzeug.</German>
+<Original>Vous avez maintenant les clés de ce véhicule</Original>
+<Italian>Sei ora in possesso delle chiavi di questo veicolo.</Italian>
+</Key>
+<Key ID="STR_ISTR_Lock_Failed">
+<French>The lockpick broke.</French>
+<English>The lockpick broke.</English>
+<German>Der Dietrich ist abgebrochen.</German>
+<Original>L'outil de crochetage à cassé</Original>
+<Italian>Il grimaldello si è rotto.</Italian>
+</Key>
+<Key ID="STR_ISTR_Lock_FailedNOTF">
+<French>%1 was seen trying to lockpick a car.</French>
+<English>%1 was seen trying to lockpick a car</English>
+<German>%1 wurde gesehen wie er ein Auto knacken wollte.</German>
+<Original>%1 a été vu essayant de crocheter une voiture</Original>
+<Italian>%1 è stato visto provare a scassinare un veicolo.</Italian>
+</Key>
+<Key ID="STR_ISTR_Pick_NotNear">
+<French>You are not near a mine!</French>
+<English>You are not near a mine!</English>
+<German>Du bist nicht in der Nähe einer Mine!</German>
+<Original>Vous n'êtes pas près d'une mine!</Original>
+<Italian>Non ti trovi vicino ad una mina!</Italian>
+</Key>
+<Key ID="STR_ISTR_Pick_MineVeh">
+<French>You can't mine from inside a car!</French>
+<English>You can't mine from inside a car!</English>
+<German>Du kannst nicht in deinem Auto abbauen!</German>
+<Original>Vous ne pouvez pas miner à l'intérieur d'une voiture!</Original>	
+<Italian>Non puoi piazzare mine da dentro un veicolo!</Italian>	
+</Key>
+<Key ID="STR_ISTR_Pick_Success">
+<French>You have mined %2 %1</French>
+<English>You have mined %2 %1</English>
+<German>Du hast %2 %1 abgebaut</German>
+<Original>Vous avez miné %2 %1</Original>
+<Italian>Hai minato %2 %1</Italian>
+</Key>
+<Key ID="STR_ISTR_Spike_Place">
+<French>Place Spike Strip</French>
+<English>Place Spike Strip</English>
+<German>Nagelband platzieren</German>
+<Original>Placer la herse</Original>
+<Italian>Posa striscie chiodate</Italian>
+</Key>
+<Key ID="STR_ISTR_Spike_Pack">
+<French>Pack up Spike Strip</French>
+<English>Pack up Spike Strip</English>
+<German>Nagelband zusammenpacken</German>
+<Original>Ranger la herse</Original>
+<Italian>Recupera striscie chiodate</Italian>
+</Key>
+<Key ID="STR_ISTR_Box_NotinHouse">
+<French>You need to be inside your house to place this.</French>
+<English>You need to be inside your house to place this</English>
+<German>Du musst in deinem Haus sein</German>
+<Original>Vous devez être à l'interieur de votre maison pour placer ceci</Original>
+<Italian>Devi essere all'interno della tua casa per posizionare questo.</Italian>
+</Key>
+<Key ID="STR_ISTR_Box_HouseFull">
+<French>You cannot place any more storage containers in your house.</French>
+<English>You cannot place any more storage containers in your house.</English>
+<German>Es können keine weiteren Lagercontainer in dein Haus gestellt werden.</German>
+<Original>Vous ne pouvez pas placer d'autres conteneur dans votre maison.</Original>
+<Italian>Non puoi installare altri contenitori in casa tua.</Italian>
+</Key>
+<Key ID="STR_ISTR_Box_HouseFull_2">
+<French>No more free storage spaces in your house.</French>
+<English>No more free storage spaces in your house.</English>
+<German>Es ist kein Platz mehr für Lagercontainer.</German>
+<Original>Plus d'espace libre dans votre maison.</Original>
+<Italian>I contenitori in casa tua hanno finito lo spazio disponibile.</Italian>
+</Key>
+</Package>
+<Package name="Process_Action">
+<Key ID="STR_Process_Oil">
+<French>Processing Oil</French>
+<English>Processing Oil</English>
+<German>Öl verarbeiten</German>
+<Original>Raffinage de Pétrole</Original>
+<Italian>Processando l'Olio</Italian>
+</Key>
+<Key ID="STR_Process_Diamond">
+<French>Cutting Diamonds</French>
+<English>Cutting Diamonds</English>
+<German>Diamanten schleifen</German>
+<Original>Taillage de diamant</Original>
+<Italian>Raffinando diamanti</Italian>
+</Key>
+<Key ID="STR_Process_Heroin">
+<French>Processing Heroin</French>
+<English>Processing Heroin</English>
+<German>Heroin verarbeiten</German>
+<Original>Traitement d'Heroine</Original>
+<Italian>Processando Eroina</Italian>
+</Key>
+<Key ID="STR_Process_Copper">
+<French>Processing Copper</French>
+<English>Processing Copper</English>
+<German>Kupfer verarbeiten</German>
+<Original>Fonte de Cuivre</Original>
+<Italian>Processando Rame</Italian>
+</Key>
+<Key ID="STR_Process_Iron">
+<French>Processing Iron</French>
+<English>Processing Iron</English>
+<German>Eisen verarbeiten</German>
+<Original>Fonte de fer</Original>
+<Italian>Processando Ferro</Italian>
+</Key>
+<Key ID="STR_Process_Sand">
+<French>Processing Sand</French>
+<English>Processing Sand</English>
+<German>Sand verarbeiten</German>
+<Original>Fonte du Sable</Original>
+<Italian>Processando Sabbia</Italian>
+</Key>
+<Key ID="STR_Process_Salt">
+<French>Processing Salt</French>
+<English>Processing Salt</English>
+<German>Salz verarbeiten</German>
+<Original>Traitement du Sel</Original>
+<Italian>Processando Sale</Italian>
+</Key>
+<Key ID="STR_Process_Cocaine">
+<French>Processing Cocain</French>
+<English>Processing Cocain</English>
+<German>Kokain verarbeiten</German>
+<Original>Traitement de Cocaine</Original>
+<Italian>Processando Cocaina</Italian>
+</Key>
+<Key ID="STR_Process_Marijuana">
+<French>Processing Marijuana</French>
+<English>Processing Marijuana</English>
+<German>Marihuana verarbeiten</German>
+<Original>Traitement de Marijuana</Original>
+<Italian>Processando Marijuana</Italian>
+</Key>
+<Key ID="STR_Process_Cement">
+<French>Mixing Cement</French>
+<English>Mixing Cement</English>
+<German>Zement mischen</German>
+<Original>Mélange de ciment</Original>
+<Italian>Processando Cemento</Italian>
+</Key>
+<Key ID="STR_Process_Stay">
+<French>You need to stay within 10m to process.</French>
+<English>You need to stay within 10m to process</English>
+<German>Du musst innerhalb von 10m bleiben, um zu verarbeiten</German>
+<Original>Vous devez rester à 10m pour traiter</Original>
+<Italian>Devi stare entro 10m per processare.</Italian>
+</Key>
+<Key ID="STR_Process_License">
+<French>You need $%1 to process without a license!</French>
+<English>You need $%1 to process without a license!</English>
+<German>Du brauchst $%1 um ohne eine Lizenz zu verarbeiten!</German>
+<Original>Vous devez $1% pour traiter sans permis!</Original>
+<Italian>Hai bisogno di €%1 per processare senza la dovuta licenza!</Italian>
+</Key>
+<Key ID="STR_Process_Processed">
+<French>You have processed %1 into %2</French>
+<English>You have processed %1 into %2</English>
+<German>Du hast %1 in %2 verarbeitet</German>
+<Original>Vous avez traité %1 en %2</Original>
+<Italian>Hai processato %1 in %2</Italian>
+</Key>
+<Key ID="STR_Process_Processed2">
+<French>You have processed %1 into %2 for $%3</French>
+<English>You have processed %1 into %2 for $%3</English>
+<German>Du hast %1 in %2 für $%3 verarbeitet</German>
+<Original>Vous avez traité %1 en %2 pour $3%</Original>
+<Italian>Hai processato %1 in %2 al costo di €%3</Italian>
+</Key>
+</Package>
+<Package name="Gather_Items">
+<Key ID="STR_Gather_Apples">
+<French>Gather Apples</French>
+<English>Gather Apples</English>
+<German>pflücke Äpfel</German>
+<Original>Récolter des pommes</Original>
+<Italian>Raccogli Mele</Italian>
+</Key>
+<Key ID="STR_Gather_Peaches">
+<French>Gather Peaches</French>
+<English>Gather Peaches</English>
+<German>Sammle Pfirsiche</German>
+<Original>pflücke des pêches</Original>
+<Italian>Raccogli Pesche</Italian>
+</Key>
+<Key ID="STR_Gather_Heroin">
+<French>Gather Heroin</French>
+<English>Gather Heroin</English>
+<German>sammle Heroin</German>
+<Original>Récolter des graines de Pavot</Original>
+<Italian>Raccogli Eroina</Italian>
+</Key>
+<Key ID="STR_Gather_Cannabis">
+<French>Gather Cannabis</French>
+<English>Gather Cannabis</English>
+<German>sammle Cannabis</German>
+<Original>Récolter du Cannabis</Original>
+<Italian>Raccogli Cannabis</Italian>
+</Key>
+<Key ID="STR_Gather_Cocaine">
+<French>Gather Cocaine</French>
+<English>Gather Cocaine</English>
+<German>sammle Kokain</German>
+<Original>Récolte de la Cocaine</Original>
+<Italian>Raccogli Cocaina</Italian>
+</Key>
+</Package>
+<Package name="Medical_Strings">
+<Key ID="STR_Medic_Online">
+<French>Medics Online: %1</French>
+<English>Medics Online: %1</English>
+<German>Sanitäter Online: %1</German>
+<Original>Medics en ligne: %1</Original>
+<Italian>Medici Online: %1</Italian>
+</Key>
+<Key ID="STR_Medic_Near">
+<French>Medics Nearby: %1</French>
+<English>Medics Nearby: %1</English>
+<German>Sanitäter in der Nähe:%1</German>
+<Original>Medics à proximité: %1</Original>
+<Italian>Medici Vicini: %1</Italian>
+</Key>
+<Key ID="STR_Medic_Request">
+<French>%1 is requesting EMS Revive.</French>
+<English>%1 is requesting EMS Revive.</English>
+<German>%1 benötigt medizinische Hilfe</German>
+<Original>%1 demande de l'aide d'un EMS.</Original>
+<Italian>%1 sta richiedendo l'intervento medico.</Italian>
+</Key>
+<Key ID="STR_Medic_Respawn">
+<French>Respawn Available in: %1</French>
+<English>Respawn Available in: %1</English>
+<German>Respawn verfügbar in: %1</German>
+<Original>Respawn Disponible dans: %1</Original>
+<Italian>Respawn disponibile in: $1</Italian>
+</Key>
+<Key ID="STR_Medic_Respawn_2">
+<French>You can now respawn</French>
+<English>You can now respawn</English>
+<German>Du kannst nun respawnen</German>
+<Original>Vous pouvez désormais réapparaître</Original>
+<Italian>Puoi ora fare respawn</Italian>
+</Key>
+<Key ID="STR_Medic_RevivePay">
+<French>%1 has revived you and a fee of $%2 was taken from your bank account for their services.</French>
+<English>%1 has revived you and a fee of $%2 was taken from your bank account for their services.</English>
+<German>%1 hat dich wiederbelebt und eine Gebühr von $2% wurde von deinem Bankkonto für die Dienste abgehoben.</German>
+<Original>%1 vous à réanimé, les fraits de $%2 sont transféré depuit votre compte bancaire pour leurs services.</Original>
+<Italian>%1 ti ha rianimato e sono stati prelevati €%2 dal tuo conto in banca per pagare la prestazione.</Italian>
+</Key>
+<Key ID="STR_Medic_AlreadyReviving">
+<French>Someone else is already reviving this person</French>
+<English>Someone else is already reviving this person</English>
+<German>Jemand anderes belebt diese Person bereits wieder</German>
+<Original>Quelqu'un d'autre s'occupe déjà de cette personne</Original>
+<Italian>Qualcun'altro sta già provando a rianimare questa persona</Italian>
+</Key>
+<Key ID="STR_Medic_Progress">
+<French>Reviving %1</French>
+<English>Reviving %1</English>
+<German>Wiederbelebung %1</German>
+<Original>Réanimations %1</Original>
+<Italian>Rianimando %1</Italian>
+</Key>
+<Key ID="STR_Medic_RevivedRespawned">
+<French>This person either respawned or was already revived.</French>
+<English>This person either respawned or was already revived.</English>
+<German>Diese Person ist entweder respawnt oder wurde bereits wiederbelebt.</German>
+<Original>Cette personne à soit réapparue, soit a déjà été réanimée.</Original>
+<Italian>Questa persona è stata già rianimata o ha fatto respawn.</Italian>
+</Key>
+<Key ID="STR_Medic_RevivePayReceive">
+<French>You have revived %1 and received $%2 for your services.</French>
+<English>You have revived %1 and received $%2 for your services.</English>
+<German>Du hast %1 wiederbelebt und bekamst $%2 für deine Dienste.</German>
+<Original>Vous avez réanimé %1 vous avez reçu $%2 pour votre aide</Original>
+<Italian>Hai rianimato %1 e hai ricevuto €%2 per la tua prestazione.</Italian>
+</Key>
+<Key ID="STR_Medic_TooFar">
+<French>You got to far away from the body.</French>
+<English>You got to far away from the body.</English>
+<German>Du bist zu weit weg vom Körper</German>
+<Original>Vous êtes trop loin du corps.</Original>
+<Italian>Sei andato troppo distante dal corpo.</Italian>
+</Key>
+</Package>
+<Package name="Federal_Reserve">
+<Key ID="STR_NOTF_FRRobbery_fail">
+<French>The robbery has failed due to unknown reasons</French>
+<English>The robbery has failed due to unknown reasons</English>
+<German>Der Raub ist fehlgeschlagen</German>
+<Original>Le vol de la réserve fédérale a échoué pour des raisons inconnues</Original>
+<Italian>La rapina è fallita per cause sconosciute</Italian>
+</Key>
+<Key ID="STR_NOTF_FRRobbery_Success">
+<French>$%1 was stolen from the robbery on the federal reserve</French>
+<English>$%1 was stolen from the robbery on the federal reserve</English>
+<German>$%1 wurden von den Räubern aus der Zentralbank gestohlen</German>
+<Original>$%1 a été volé à la réserve fédérale.</Original>
+<Italian>€%1 sono stati rubati durante la rapina alla banca</Italian>
+</Key>
+<Key ID="STR_FEDR_VInUse">
+<French>This vault is already being robbed by someone else</French>
+<English>This vault is already being robbed by someone else</English>
+<German>Der Tresor wird bereits von jemand anderem ausgeraubt</German>
+<Original>Ce coffre est déjà pillé par quelqu'un d'autre</Original>
+<Italian>Questo Caveau sta venendo rapinando da qualcun'altro</Italian>
+</Key>
+<Key ID="STR_FEDR_VRecently">
+<French>This vault was already robbed recently</French>
+<English>This vault was already robbed recently</English>
+<German>Der Tresor wurde bereits vor kurzem ausgeraubt</German>
+<Original>Ce coffre a déjà été pillé récemment</Original>
+<Italian>Questo Caveau è stato svaligiato di recente</Italian>
+</Key>
+</Package>
+<Package name="Other_GUI_Stuff">
+<Key ID="STR_GUI_Garage">
+<French>Garage</French>
+<English>Garage</English>
+<German>Garage</German>
+<Original>Garage</Original>
+<Italian>Garage</Italian>
+</Key>
+<Key ID="STR_GUI_YourVeh">
+<French>Your Vehicles</French>
+<English>Your Vehicles</English>
+<German>deine Fahrzeuge</German>
+<Original>Vos vehicules</Original>
+<Italian>I tuoi Veicoli</Italian>
+</Key>
+<Key ID="STR_GUI_VehInfo">
+<French>Vehicle Information</French>
+<English>Vehicle Information</English>
+<German>Fahrzeuginformationen</German>
+<Original>Carte grise du vehicule</Original>
+<Italian>Informazioni Veicolo</Italian>
+</Key>
+<Key ID="STR_GUI_PlayerReveal">
+<French>Automatically reveals nearest objects within 15m, turn this setting off if you are experiencing performance issues.</French>
+<English>Automatically reveals nearest objects within 15m, turn this setting off if you are experiencing performance issues.</English>
+<German>Zeigt automatisch nächstgelegene Objekte innerhalb von 15m an, deaktiviere es wenn du Leistungprobleme hast.</German>
+<Original>Révèle automatiquement les objets les plus proches au sein de 15m, désactiver ce paramètre si vous rencontrez des problèmes de performance.</Original>
+<Italian>Rivela automaticamente gli oggettivi vicini entro 15m, disattiva quest'impostazione se riscontri dei problemi di perfomance di sistema.</Italian>
+</Key>
+<Key ID="STR_GUI_PlayTags">
+<French>Controls whether or not players will have name tags above their head.</French>
+<English>Controls whether or not players will have name tags above their head.</English>
+<German>regelt, ob die Spieler Namensschilder über dem Kopf haben.</German>
+<Original>Contrôle si les joueurs auront ou non leur noms au dessus de leur tête</Original>
+<Italian>Controlla la visualizzazione delle tags sopra la testa dei giocatori</Italian>
+</Key>
+<Key ID="STR_GUI_ShopStock">
+<French>Shop Stock</French>
+<English>Shop Stock</English>
+<German>Lagerbestand</German>
+<Original>Shop Stock</Original>
+<Italian>Stock Negozio</Italian>
+</Key>
+</Package>
+<Package name="Player_Interaction">
+<Key ID="STR_pInAct_Title">
+<French>Player Interaction Menu</French>
+<English>Player Interaction Menu</English>
+<German>Interaktions Menü</German>
+<Original>Menu Interaction du Joueur</Original>
+<Italian>Menu d'interazione Giocatore</Italian>
+</Key>
+<Key ID="STR_pInAct_PutInCar">
+<French>Put in vehicle</French>
+<English>Put in vehicle</English>
+<German>ins Fahrzeug setzen</German>
+<Original>Embarquer</Original>
+<Italian>Metti nel Veicolo</Italian>
+</Key>
+<Key ID="STR_pInAct_Unrestrain">
+<French>Un-Restrain</French>
+<English>Un-Restrain</English>
+<German>entfesseln</German>
+<Original>Démenotter</Original>
+<Italian>Togli Manette</Italian>
+</Key>
+<Key ID="STR_pInAct_checkLicenses">
+<French>Check Licenses</French>
+<English>Check Licenses</English>
+<German>Lizenzen überprüfen</German>
+<Original>Vérifier Licences</Original>
+<Italian>Controlla Licenze</Italian>
+</Key>
+<Key ID="STR_pInAct_SearchPlayer">
+<French>Search Player</French>
+<English>Search Player</English>
+<German>durchsuchen</German>
+<Original>Fouiller Joueur</Original>
+<Italian>Ricerca Giocatore</Italian>
+</Key>
+<Key ID="STR_pInAct_StopEscort">
+<French>Stop Escorting</French>
+<English>Stop Escorting</English>
+<German>eskortieren stoppen</German>
+<Original>Arrêter Escorte</Original>
+<Italian>Ferma Scorta</Italian>
+</Key>
+<Key ID="STR_pInAct_Escort">
+<French>Escort Player</French>
+<English>Escort-Player</English>
+<German>eskortiere Spieler</German>
+<Original>Escorter Joueur</Original>
+<Italian>Scorta Giocatore</Italian>
+</Key>
+<Key ID="STR_pInAct_TicketBtn">
+<French>Ticket Player</French>
+<English>Ticket-Player</English>
+<German>Strafzettel</German>
+<Original>Amende Joueur</Original>
+<Italian>Multa Giocatore</Italian>
+</Key>
+<Key ID="STR_pInAct_Arrest">
+<French>Send to jail</French>
+<English>Send to jail</English>
+<German>Gefängnis</German>
+<Original>Envoyer en prison</Original>
+<Italian>Arresta</Italian>
+</Key>
+<Key ID="STR_pInAct_Repair">
+<French>Repair Door</French>
+<English>Repair Door</English>
+<German>Tür reparieren</German>
+<Original>Réparer la porte</Original>
+<Italian>Ripara porta</Italian>
+</Key>
+<Key ID="STR_pInAct_CloseOpen">
+<French>Open / Close</French>
+<English>Open / Close</English>
+<German>Öffnen/Schließen</German>
+<Original>Ouvrir / Fermer</Original>
+<Italian>Apri / Chiudi</Italian>
+</Key>
+<Key ID="STR_pInAct_BreakDown">
+<French>Break down door</French>
+<English>Break down door</English>
+<German>Tür aufbrechen</German>
+<Original>Forcer la porte</Original>
+<Italian>Sfonda Porta</Italian>
+</Key>
+<Key ID="STR_pInAct_SearchHouse">
+<French>Search house</French>
+<English>Search house</English>
+<German>durchsuche Haus</German>
+<Original>Fouiller la maison</Original>
+<Italian>Cerca Casa</Italian>
+</Key>
+<Key ID="STR_pInAct_LockHouse">
+<French>Lock up house</French>
+<English>Lock up house</English>
+<German>Haus öffnen</German>
+<Original>Fermer la maison</Original>
+<Italian>Chiudi Casa</Italian>
+</Key>
+<Key ID="STR_pInAct_BuyHouse">
+<French>Buy House</French>
+<English>Buy House</English>
+<German>Haus kaufen</German>
+<Original>Acheter la maison</Original>
+<Italian>Compra Casa</Italian>
+</Key>
+<Key ID="STR_pInAct_SellGarage">
+<French>Sell Garage</French>
+<English>Sell Garage</English>
+<German>Garage verkaufen</German>
+<Original>Vendre le garage</Original>
+<Italian>Vendi Garage</Italian>
+</Key>
+<Key ID="STR_pInAct_AccessGarage">
+<French>Garage</French>
+<English>Garage</English>
+<German>Garage</German>
+<Original>Accés au garage</Original>
+<Italian>Garage</Italian>
+</Key>
+<Key ID="STR_pInAct_StoreVeh">
+<French>Store Vehicle</French>
+<English>Store Vehicle</English>
+<German>Fahrzeug parken</German>
+<Original>Ranger le vehicule</Original>
+<Italian>Parcheggia Veicolo</Italian>
+</Key>
+<Key ID="STR_pInAct_SellHouse">
+<French>Sell House</French>
+<English>Sell House</English>
+<German>Haus verkaufen</German>
+<Original>Vendre la maison</Original>
+<Italian>Vendi Casa</Italian>
+</Key>
+<Key ID="STR_pInAct_UnlockStorage">
+<French>Unlock Storage</French>
+<English>Unlock Storage</English>
+<German>Lagerplatz öffnen</German>
+<Original>Déverrouiller l'inventaire</Original>
+<Italian>Sblocca contenitori</Italian>
+</Key>
+<Key ID="STR_pInAct_LockStorage">
+<French>Lock Storage</French>
+<English>Lock Storage</English>
+<German>Lagerplatz schließen</German>
+<Original>Verrouiller l'inventaire</Original>
+<Italian>Blocca contenitori</Italian>
+</Key>
+<Key ID="STR_pInAct_LightsOff">
+<French>Turn Lights Off</French>
+<English>Turn Lights Off</English>
+<German>Licht Aus</German>
+<Original>Lumières éteintes</Original>
+<Italian>Spegni luci</Italian>
+</Key>
+<Key ID="STR_pInAct_LightsOn">
+<French>Turn Lights On</French>
+<English>Turn Lights On</English>
+<German>Licht An</German>
+<Original>Lumières allumées</Original>
+<Italian>Accendi luci</Italian>
+</Key>
+<Key ID="STR_pInAct_DepositToGang">
+<French>Deposit To Gang</French>
+<English>Deposit To Gang</English>
+<German>Einzahlen Gang</German>
+<Original>Déposer pour le gang</Original>
+<Italian>Deposita alla Gang</Italian>
+</Key>
+</Package>
+<Package name="Vehicle_Interaction">
+<Key ID="STR_vInAct_Title">
+<French>Vehicle Interaction Menu</French>
+<English>Vehicle Interaction Menu</English>
+<German>Fahrzeug Interaktions Menü</German>
+<Original>Menu Interaction Véhicule</Original>
+<Italian>Menu d'interazione Veicolo</Italian>
+</Key>
+<Key ID="STR_vInAct_Unflip">
+<French>Unflip Vehicle</French>
+<English>Unflip Vehicle</English>
+<German>umdrehen</German>
+<Original>Retourner Véhicule</Original>
+<Italian>Raddrizza veicolo</Italian>
+</Key>
+<Key ID="STR_vInAct_GetInKart">
+<French>Get In Kart</French>
+<English>Get In Kart</English>
+<German>ins Kart setzen</German>
+<Original>Mettre dans le kart</Original>
+<Italian>Entra nel Kart</Italian>
+</Key>
+<Key ID="STR_vInAct_PushBoat">
+<French>Push Boat</French>
+<English>Push Boat</English>
+<German>Boot schieben</German>
+<Original>Pousser bateau</Original>	
+<Italian>Spingi Barca</Italian>	
+</Key>
+<Key ID="STR_vInAct_Repair">
+<French>Repair Vehicle</French>
+<English>Repair Vehicle</English>
+<German>Fahrzeug reparieren</German>
+<Original>Réparer Véhicule</Original>
+<Italian>Ripara Veicolo</Italian>
+</Key>
+<Key ID="STR_vInAct_Registration">
+<French>Registration</French>
+<English>Registration</English>
+<German>Eigentümer</German>
+<Original>Enregistrement</Original>
+<Italian>Registrazione</Italian>
+</Key>
+<Key ID="STR_vInAct_SearchVehicle">
+<French>Search Vehicle</French>
+<English>Search Vehicle</English>
+<German>durchsuchen</German>
+<Original>Fouiller Véhicule</Original>
+<Italian>Cerca Veicolo</Italian>
+</Key>
+<Key ID="STR_vInAct_PullOut">
+<French>Pullout Players</French>
+<English>Pullout Players</English>
+<German>aus Fahrzeug ziehen</German>
+<Original>Sortir Personnes</Original>
+<Italian>Estrai Giocatore</Italian>
+</Key>
+<Key ID="STR_vInAct_Impound">
+<French>Impound Vehicle</French>
+<English>Impound Vehicle</English>
+<German>beschlagnahmen</German>
+<Original>Mise en fourrière</Original>
+<Italian>Sequestra Veicolo</Italian>
+</Key>
+<Key ID="STR_vInAct_DeviceMine">
+<French>Mine from device</French>
+<English>Mine from device</English>
+<German>Das Gerät startet</German>
+<Original>Dispositif de minage</Original>
+<Italian>Piazza mine dal veicolo</Italian>
+</Key>
+</Package>
+<Package name="Session_Strings">
+<Key ID="STR_Session_Query">
+<French>Sending request to server for player information UID [%1]</French>
+<English>Sending request to server for player information UID [%1]</English>
+<German>Frage Spieler Informationen zu UID [%1] ab</German>
+<Original>Envoi de la requête au serveur pour obtenir des informations lecteur UID [%1]</Original>
+<Italian>Invio richiesta al server per le informazioni del giocatore UID [%1]</Italian>
+</Key>
+<Key ID="STR_Session_QueryFail">
+<French>The server didn't find any player information matching your UID, attempting to add player to system.</French>
+<English>The server didn't find any player information matching your UID, attempting to add player to system.</English>
+<German>Der Server hat keine Spieler Informationen zu deiner UID gefunden, versuche Spieler ins System hinzuzufügen.</German>
+<Original>Le serveur n'a pas trouvé toutes les informations de lecteur correspondant à votre UID, tentative d'ajout du joueur dans le système.</Original>
+<Italian>Il server non ha trovato alcuna informazione sul giocatore con il tuo UID, tentativo di aggiunta del giocatore al sistema.</Italian>
+</Key>
+<Key ID="STR_Session_Error">
+<French>There was an error in trying to setup your client.</French>
+<English>There was an error in trying to setup your client.</English>
+<German>Es gab einen Fehler beim Versuch, den Client hinzuzufügen.</German>
+<Original>Il y avait une erreur en essayant de configurer votre client.</Original>
+<Italian>C'è stato qualche errore nel cercare di inizializzare il tuo client</Italian>
+</Key>
+<Key ID="STR_Session_Received">
+<French>Received request from server... Validating...</French>
+<English>Received request from server... Validating...</English>
+<German>Empfangene Daten vom Server... Überprüfen...</German>
+<Original>Demande reçue du serveur... Validation...</Original>
+<Italian>Ricevuta richiesta dal server... Convalida...</Italian>
+</Key>
+<Key ID="STR_Session_SyncdAlready">
+<French>You have already used the sync option, you can only use this feature once every 5 minutes.</French>
+<English>You have already used the sync option, you can only use this feature once every 5 minutes.</English>
+<German>Du hast bereits die Sync-Option verwendet, du kannst diese Funktion nur einmal alle 5 Minuten verwenden.</German>
+<Original>Vous avez déjà utilisé l'option de synchronisation, vous ne pouvez utiliser cette fonction une fois toutes les 5 minutes.</Original>
+<Italian>Hai già utilizzato la funzione di salva dati, puoi usare quest'opzione solo una volta ogni 5 minuti.</Italian>
+</Key>
+<Key ID="STR_Session_SyncCheater">
+<French>Because of some cheater corrupting the BIS MP Framework they have stopped you from enjoying our mission.\n\nYou can try this again in a minute if you feel it is a mistake.</French>
+<English>Because of some cheater corrupting the BIS MP Framework they have stopped you from enjoying our mission.\n\nYou can try this again in a minute if you feel it is a mistake.</English>
+<German>Wegen einiger Cheater ist das BIS MP Framework beschädigt. Versuche es in einer Minute nochmal.</German>
+<Original>En raison de certains tricheur tentant corrompre le BIS MP Framework,ils vous ont empêché de profiter de notre mission.\n\nVous pouvez essayer ce nouveau dans une minute si vous pensez que c'est une erreur.</Original>
+<Italian>A causa di qualche cheater che ha corrotto il BIS MP Framework il tuo divertimento in questa missione finisce qui per ora.\n\nPuoi provare a rientrare a breve se pensi sia un errore.</Italian>
+</Key>
+<Key ID="STR_Session_SyncData">
+<French>Syncing player information to the server.\n\nPlease wait up to 20 seconds before leaving.</French>
+<English>Syncing player information to the server.\n\nPlease wait up to 20 seconds before leaving.</English>
+<German>Synchronisieren der Spieler Informationen mit dem Server. \n\nBitte warte bis zu 20 Sekunden vor dem disconnecten.</German>
+<Original>Synchronisation des informations de joueur sur le serveur.\n\nS'il vous plaît veuiller attendre 20 secondes avant de quitter.</Original>
+<Italian>Salvando le informazioni giocatore sul server.\n\nAttendere fino a 20 secondi prima di abbandonare.</Italian>
+</Key>
+</Package>
+<Package name="Shop_Strings">
+<Key ID="STR_Shop_ATMRobbed">
+<French>Because you robbed the bank you can't use the ATM for 5 minutes.</French>
+<English>Because you robbed the bank you can't use the ATM for 5 minutes.</English>
+<German>Da du die Bank ausgeraubt hast, kannst du für 5 Minuten keine ATM´s nutzen.</German>
+<Original>Vous avez pillé la banque, vous ne pouvez pas utiliser le guichet automatique pendant 5 minutes.</Original>
+<Italian>Avendo appena rapinato la banca non puoi utilizzare il Bancomat per 5 minuti.</Italian>
+</Key>
+<Key ID="STR_Shop_NoClothes">
+<French>You didn't choose the clothes you wanted to buy.</French>
+<English>You didn't choose the clothes you wanted to buy.</English>
+<German>Du hast nicht die Kleidung ausgewählt, die du kaufen wolltest</German>
+<Original>Vous n'avez pas choisi les vêtements que vous vouliez acheter.</Original>
+<Italian>Non hai selezionato i vestiti che vuoi comprare.</Italian>
+</Key>
+<Key ID="STR_Shop_NotEnoughClothes">
+<French>Sorry sir, you don't have enough money to buy those clothes.</French>
+<English>Sorry sir, you don't have enough money to buy those clothes.</English>
+<German>Es tut uns leid, du hast nicht genug Geld um es zu kaufen.</German>
+<Original>Désolé monsieur, vous n'avez pas assez d'argent pour acheter ces vêtements.</Original>
+<Italian>Spiacente ma non hai fondi a sufficienza per comprare questi vestiti.</Italian>
+</Key>
+<Key ID="STR_Shop_Total">
+<French>Total:</French>
+<English>Total:</English>
+<German>Total:</German>
+<Original>Total:</Original>
+<Italian>Totale:</Italian>
+</Key>
+<Key ID="STR_Shop_NoSelection">
+<French>No Selection</French>
+<English>No Selection</English>
+<German>Keine Auswahl</German>
+<Original>Aucune Sélection</Original>
+<Italian>Nessuna Selezione</Italian>
+</Key>
+<Key ID="STR_Shop_NoDisplay">
+<French>No Display</French>
+<English>No Display</English>
+<German>Keine Anzeige</German>
+<Original>Pas d'affichage</Original>
+<Italian>No Display</Italian>
+</Key>
+<Key ID="STR_Shop_NoVehNear">
+<French>There are no vehicles near to sell.</French>
+<English>There are no vehicles near to sell.</English>
+<German>Es ist keine Fahrzeug in der Nähe zum verkaufen.</German>
+<Original>Il n'y a pas de véhicules à proximité à vendre</Original>
+<Italian>Nelle vicinanze non ci sono veicoli da vendere.</Italian>
+</Key>
+<Key ID="STR_Shop_ChopShopError">
+<French>There was a problem opening the chop shop menu.</French>
+<English>There was a problem opening the chop shop menu.</English>
+<German>Es gab ein Problem beim öffnen des Chop Shop-Menüs.</German>
+<Original>Il y a un probleme en ouvrant le menu du concessionnaire de véhicule illégal.</Original>
+<Italian>C'è stato un problema aprendo il menu del ricettatore</Italian>
+</Key>
+<Key ID="STR_Shop_ChopShopSelling">
+<French>Selling vehicle please wait...</French>
+<English>Selling vehicle please wait...</English>
+<German>Verkaufe Fahrzeug, bitte warten...</German>
+<Original>Vente du véhicule, veuillez patienter...</Original>
+<Italian>Vendendo il veicolo, attendere prego...</Italian>
+</Key>
+<Key ID="STR_Shop_NotaCiv">
+<French>You need to be a civilian to use this store!</French>
+<English>You need to be a civilian to use this store</English>
+<German>Du musst ein Zivilist sein, um diesen Shop zu nutzen!</German>
+<Original>Vous devez être un civil pour utiliser ce magasin!</Original>
+<Italian>Devi essere un civile per utilizzare questo negozio!</Italian>
+</Key>
+<Key ID="STR_Shop_NotaCop">
+<French>You need to be a cop to use this store!</French>
+<English>You need to be a cop to use this store!</English>
+<German>Du musst ein Polizist sein, um diesen Shop zu nutzen!</German>
+<Original>Vous devez être un flic pour utiliser ce magasin!</Original>
+<Italian>Devi essere un poliziotto per utilizzare questo negozio!</Italian>
+</Key>
+<Key ID="STR_Shop_NotaReb">
+<French>You don't have rebel training yet!</French>
+<English>You don't have rebel training yet!</English>
+<German>Du besitzt keine Rebellen Lizenz!</German>
+<Original>Vous n'avez pas encore d'entrainement rebelle!</Original>
+<Italian>Devi essere ribelle per poter utilizzare questo negozio!</Italian>
+</Key>
+<Key ID="STR_Shop_NotaDive">
+<French>You need a Diving license to use this shop!</French>
+<English>You need a Diving license to use this shop!</English>
+<German>Du benötigst eine Lizenz, um diesen Tauchershop zu nutzen!</German>
+<Original>Vous devez avoir votre diplome de plongée pour utiliser ce magasin!</Original>
+<Italian>Ti serve la licenza di pesca per usare questo negozio!</Italian>
+</Key>
+<Key ID="STR_Shop_YouNeed">
+<French>You need a %1 to buy from this shop!</French>
+<English>You need a %1 to buy from this shop!</English>
+<German>DU benötigst eine %1 um in diesem Shop zu kaufen!</German>
+<Original>Vous avez besoin de %1 pour acheter dans ce magasin</Original>
+<Italian>Hai bisogno di %1 per comprare da questo negozio!</Italian>
+</Key>
+<Key ID="STR_Shop_UI_Clothing">
+<French>Clothing</French>
+<English>Clothing</English>
+<German>Kleidung</German>
+<Original>Tenues</Original>
+<Italian>Abiti</Italian>
+</Key>
+<Key ID="STR_Shop_UI_Hats">
+<French>Hats</French>
+<English>Hats</English>
+<German>Kopfbedeckung</German>
+<Original>Chapeaux</Original>
+<Italian>Copricapi</Italian>
+</Key>
+<Key ID="STR_Shop_UI_Glasses">
+<French>Glasses</French>
+<English>Glasses</English>
+<German>Brillen</German>
+<Original>Lunettes</Original>
+<Italian>Occhiali</Italian>
+</Key>
+<Key ID="STR_Shop_UI_Vests">
+<French>Vests</French>
+<English>Vests</English>
+<German>Westen</German>
+<Original>Gilet</Original>
+<Italian>Vesti</Italian>
+</Key>
+<Key ID="STR_Shop_UI_Backpack">
+<French>Backpack</French>
+<English>Backpack</English>
+<German>Rucksack</German>
+<Original>Sac-à-dos</Original>
+<Italian>Zaini</Italian>
+</Key>
+<Key ID="STR_Shop_Unimpound_VehExist">
+<French>There is currently a car there.</French>
+<English>There is currently a car there.</English>
+<German>Dort ist bereits ein Auto.</German>
+<Original>Il y a actuellement une voiture.</Original>
+<Italian>C'è già un veicolo qui.</Italian>
+</Key>
+<Key ID="STR_Shop_Unimpound_NotEnough">
+<French>You do not have enough money on you or in your bank to get your car back.</French>
+<English>You do not have enough money on you or in your bank to get your car back.</English>
+<German>Du hast nicht genug Geld um dein Auto auszuparken.</German>
+<Original>Vous n'avez pas assez d'argent sur vous ou dans votre banque pour obtenir votre voiture</Original>
+<Italian>Non hai abbastanza fondi alla mano o nel tuo conto in banca per poter riavere il tuo veicolo.</Italian>
+</Key>
+<Key ID="STR_Shop_Unimpound_Success">
+<French>You have unimpounded your %1 for $%3</French>
+<English>You have unimpounded your %1 for $%3</English>
+<German>Du hast deinen %1 für $%3 ausgeparkt</German>
+<Original>Vous avez sorti votre %1 pour $%3</Original>
+<Italian>Hai ritirato dal sequestro il tuo %1 al costo di €%3</Italian>
+</Key>
+<Key ID="STR_Shop_Veh_DidntPick">
+<French>You did not pick a vehicle!</French>
+<English>You did not pick a vehicle!</English>
+<German>DU hast kein Fahrzeug ausgewählt</German>
+<Original>Vous n'avez pas choisi de véhicule!</Original>
+<Italian>Non hai selezionato un veicolo!</Italian>
+</Key>
+<Key ID="STR_Shop_Veh_NotEnough">
+<French>You do not have enough cash to purchase this vehicle.\n\nAmount Lacking: $%1</French>
+<English>You do not have enough cash to purchase this vehicle.\n\nAmount Lacking: $%1</English>
+<German>Du hast nicht genug Geld um das Fahrzeug zu kaufen.\n\nEs fehlen: $%1</German>
+<Original>Vous n'avez pas assez d'argent pour acheter ce véhicule \n\nArgent Manquant: $%1</Original>
+<Italian>Non hai fondi sufficienti per comprare questo veicolo.\n\nTi mancano: €%1</Italian>
+</Key>
+<Key ID="STR_Shop_Veh_NoLicense">
+<French>You do not have the required license!</French>
+<English>You do not have the required license!</English>
+<German>Du hast nicht die benötigte Lizenz!</German>
+<Original>Vous n'avez pas la licence requise!</Original>
+<Italian>Non hai la licenza richiesta per l'acquisto!</Italian>
+</Key>
+<Key ID="STR_Shop_Veh_Block">
+<French>There is a vehicle currently blocking the spawn point</French>
+<English>There is a vehicle currently blocking the spawn point</English>
+<German>Derzeit blockiert ein Fahrzeug den Spawn Punkt</German>
+<Original>Il y a actuellement un véhicule qui bloque le point de spawn</Original>
+<Italian>C'è già un veicolo che blocca la zona di spawn</Italian>
+</Key>
+<Key ID="STR_Shop_Veh_Bought">
+<French>You bought a %1 for $%2</French>
+<English>You bought a %1 for $%2</English>
+<German>Du kaufst eine(n) %1 für $%2</German>
+<Original>Vous avez acheté un %1 pour $%2</Original>
+<Italian>Hai comprato un %1 al costo di €%2</Italian>
+</Key>
+<Key ID="STR_Shop_Veh_UI_Rental">
+<French>Rental Price:</French>
+<English>Rental Price:</English>
+<German>Mietpreis:</German>
+<Original>Prix de location:</Original>
+<Italian>Costo Noleggio:</Italian>
+</Key>
+<Key ID="STR_Shop_Veh_UI_Ownership">
+<French>Ownership Price:</French>
+<English>Ownership Price:</English>
+<German>Kaufpreis:</German>
+<Original>Prix d'achat:</Original>
+<Italian>Costo Acquisto:</Italian>
+</Key>
+<Key ID="STR_Shop_Veh_UI_MaxSpeed">
+<French>Max Speed:</French>
+<English>Max Speed:</English>
+<German>Max. Speed:</German>
+<Original>Vitesse Max:</Original>
+<Italian>Velocità Max:</Italian>
+</Key>
+<Key ID="STR_Shop_Veh_UI_HPower">
+<French>Horse Power:</French>
+<English>Horse Power:</English>
+<German>Pferdestärken:</German>
+<Original>Puissance en chevaux:</Original>
+<Italian>Cavalli:</Italian>
+</Key>
+<Key ID="STR_Shop_Veh_UI_PSeats">
+<French>Passenger Seats:</French>
+<English>Passenger Seats:</English>
+<German>Passagierplätze:</German>
+<Original>Sieges passager:</Original>
+<Italian>Sedili passeggeri:</Italian>
+</Key>
+<Key ID="STR_Shop_Veh_UI_Trunk">
+<French>Trunk Capacity:</French>
+<English>Trunk Capacity:</English>
+<German>Lager Kapazität:</German>
+<Original>Capacité du coffre:</Original>
+<Italian>Capacità Inventario:</Italian>
+</Key>
+<Key ID="STR_Shop_Veh_UI_Fuel">
+<French>Fuel Capacity:</French>
+<English>Fuel Capacity:</English>
+<German>Tankkapazität:</German>
+<Original>Capacité du réservoir:</Original>
+<Italian>Capacità Serbatoio:</Italian>
+</Key>
+<Key ID="STR_Shop_Veh_UI_Armor">
+<French>Armor Rating:</French>
+<English>Armor Rating:</English>
+<German>Munition:</German>
+<Original>Blindage:</Original>
+<Italian>Resistenza:</Italian>
+</Key>
+<Key ID="STR_Shop_Veh_UI_RetrievalP">
+<French>Retrieval Price:</French>
+<English>Retrieval Price:</English>
+<German>Garagengebühr:</German>
+<Original>Prix de sortie:</Original>
+<Italian>Costo di ritiro:</Italian>
+</Key>
+<Key ID="STR_Shop_Veh_UI_SellP">
+<French>Sell Price:</French>
+<English>Sell Price:</English>
+<German>Verkaufspreis:</German>
+<Original>Prix de vente</Original>
+<Italian>Costo di vendita:</Italian>
+</Key>
+<Key ID="STR_Shop_Veh_UI_Color">
+<French>Color:</French>
+<English>Color:</English>
+<German>Farbe:</German>
+<Original>Couleur</Original>
+<Italian>Colore:</Italian>
+</Key>
+<Key ID="STR_Shop_Veh_NotAllowed">
+<French>You are not allowed to use this shop!</French>
+<English>You are not allowed to use this shop!</English>
+<German>Du bist nicht befugt diesen Shop zu nutzen</German>
+<Original>Vous n'êtes pas autorisé à utiliser cette boutique!</Original>
+<Italian>Non sei autorizzato ad usare questo negozio!</Italian>
+</Key>
+<Key ID="STR_Shop_Virt_Nothing">
+<French>You need to select an item to buy.</French>
+<English>You need to select an item to buy.</English>
+<German>Du musst ein Item auswählen um es zu verkaufen.</German>
+<Original>Vous devez selectionner un objet pour l'acheter.</Original>
+<Italian>Seleziona un oggetto per poterlo comprare.</Italian>
+</Key>
+<Key ID="STR_Shop_Virt_NoNum">
+<French>You didn't enter an actual number</French>
+<English>You didn't enter an actual number</English>
+<German>Das ist keine Zahl</German>
+<Original>Vous n'avez pas saisi un nombre réel</Original>
+<Italian>Non hai inserito correttamente un numero</Italian>
+</Key>
+<Key ID="STR_Shop_Virt_NotEnough">
+<French>You don't have that many items to sell!</French>
+<English>You don't have that many items to sell!</English>
+<German>Du hast nicht so viel zum verkaufen!</German>
+<Original>Vous n'avez pas autant d'articles à vendre!</Original>
+<Italian>Non hai tutti quegli oggetti da vendere!</Italian>
+</Key>
+<Key ID="STR_Shop_Virt_Gang_FundsMSG">
+<French>The gang has enough funds to pay for this, would you like to pay with the gangs funds or your own?</French>
+<English>The gang has enough funds to pay for this, would you like to pay with the gangs funds or your own?</English>
+<German>Die Gang hat genügend Mittel, um dafür zu bezahlen, willst du es mit dem Gang Geld oder deinem eigenen Geld zahlen?</German>
+<Original>Le gang a suffisamment de fonds pour payer pour cela, voulez-vous payer avec les fonds de gangs ou les vôtres?</Original>
+<Italian>La Gang ha fondi a sufficienza per pagare questo, vuoi usare i fondi della Gang o i tuoi personali?</Italian>
+</Key>
+<Key ID="STR_Shop_Virt_Gang_Funds">
+<French>Gang Funds:</French>
+<English>Gang Funds:</English>
+<German>Gang Mittel:</German>
+<Original>Fonds du gang:</Original>
+<Italian>Fondi Gang:</Italian>
+</Key>
+<Key ID="STR_Shop_Virt_YourFunds">
+<French>Your Cash:</French>
+<English>Your Cash:</English>
+<German>Bargeld:</German>
+<Original>Votre argent:</Original>
+<Italian>Tuoi Fondi:</Italian>
+</Key>
+<Key ID="STR_Shop_Virt_YourorGang">
+<French>Pay with cash or gang funds</French>
+<English>Pay with cash or gang funds</English>
+<German>mit Bargeld oder mit Gang Geld bezahlen</German>
+<Original>Payez avec votre argent ou avec les fonds du gangs</Original>
+<Italian>Paga con i tuoi contanti o i fondi della Gang</Italian>
+</Key>
+<Key ID="STR_Shop_Virt_UI_GangFunds">
+<French>Gang Funds</French>
+<English>Gang Funds</English>
+<German>Gang Mittel</German>
+<Original>Fonds du gang:</Original>
+<Italian>Fondi Gang</Italian>
+</Key>
+<Key ID="STR_Shop_Virt_UI_YourCash">
+<French>Your Cash</French>
+<English>Your Cash</English>
+<German>Bargeld</German>
+<Original>Votre argent</Original>
+<Italian>Tuoi Fondi</Italian>
+</Key>
+<Key ID="STR_Shop_Virt_BoughtGang">
+<French>You bought %1 %2 for $%3 with the gangs funds</French>
+<English>You bought %1 %2 for $%3 with the gangs funds</English>
+<German>Du kaufst %1 %2 für $%3 mit dem Gang Geld</German>
+<Original>Vous avez acheté %1 %2 pour $%3 avec les fonds gangs</Original>
+<Italian>Hai comprato %1 %2 al costo di €%3 con i fondi della Gang</Italian>
+</Key>
+<Key ID="STR_Shop_Virt_BoughtItem">
+<French>You bought %1 %2 for $%3</French>
+<English>You bought %1 %2 for $%3</English>
+<German>Du kaufst %1 %2 für $%3</German>
+<Original>Vous avez acheté %1 %2 pour $%3</Original>
+<Italian>Hai comprato %1 %2 al costo di €%3</Italian>
+</Key>
+<Key ID="STR_Shop_Virt_SellItem">
+<French>You sold %1 %2 for $%3</French>
+<English>You sold %1 %2 for $%3</English>
+<German>Du verkaufst %1 %2 für $%3</German>
+<Original>Vous avez vendu %1 %2 pour $%3</Original>
+<Italian>Hai venduto %1 %2 al prezzo di €%3</Italian>
+</Key>
+<Key ID="STR_Shop_Weapon_NoSelect">
+<French>You need to select an item to buy/sell.</French>
+<English>You need to select an item to buy/sell.</English>
+<German>Du musst ein Item auswählen zum kaufen/verkaufen</German>
+<Original>Vous devez sélectionner un élément pour acheter/vendre</Original>
+<Italian>Devi selezionare un oggetto per comprare/vendere.</Italian>
+</Key>
+<Key ID="STR_Shop_Weapon_Sold">
+<French>You sold a %1 for &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</French>
+<English>You sold a %1 for &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</English>
+<German>Du hast %1 für &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt; verkauft</German>
+<Original>Vous avez vendu un %1 pour &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</Original>
+<Italian>Hai venduto un %1 al prezzo di &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</Italian>
+</Key>
+<Key ID="STR_Shop_Weapon_BoughtGang">
+<French>You bought a %1 for &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt; with the gangs funds.</French>
+<English>You bought a %1 for &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt; with the gangs funds.</English>
+<German>Du hast %1 für &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt; gekauft</German>
+<Original>Vous avez acheté un %1 pour &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt; avec les fonds du gang.</Original>
+<Italian>Hai comprato un %1 al costo di &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt; con i fondi della Gang.</Italian>
+</Key>
+<Key ID="STR_Shop_Weapon_BoughtItem">
+<French>You bought a %1 for &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</French>
+<English>You bought a %1 for &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</English>
+<German>Du hast %1 für &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt; gekauft</German>
+<Original>Vous avez acheté un %1 pour &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</Original>
+<Italian>Hai comprato un %1 al costo di &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</Italian>
+</Key>
+<Key ID="STR_Shop_Weapon_ShopInv">
+<French>Shop Inventory</French>
+<English>Shop Inventory</English>
+<German>Shop Inventar</German>
+<Original>Inventaire de la boutique</Original>
+<Italian>Inventario Negozio</Italian>
+<Italian>Inventario Negozio</Italian>
+</Key>
+<Key ID="STR_Shop_Weapon_YourInv">
+<French>Your Inventory</French>
+<English>Your Inventory</English>
+<German>Dein Inventar</German>
+<Original>Votre inventaire</Original>
+<Italian>Inventario Personale</Italian>
+<Italian>Inventario Personale</Italian>
+</Key>
+</Package>
+<Package name="FSM_Strings">
+<Key ID="STR_FSM_Paycheck">
+<French>You will receive your next paycheck in %1 minutes</French>
+<English>You will receive your next paycheck in %1 minutes</English>
+<German>Du erhältst deinen nächsten Lohn in %1 Minuten"</German>
+<Original>Vous recevrez votre prochain chèque de paie dans %1 minutes</Original>
+<Italian>Riceverai il tuo prossimo stipendio in %1 minuti</Italian>	
+</Key>
+<Key ID="STR_FSM_MissedPay">
+<French>You have missed a paycheck because you were dead.</French>
+<English>You have missed a paycheck because you were dead.</English>
+<German>Du erhältst kein Lohn da du gestorben bist.</German>
+<Original>Vous avez manqué un chèque de paie parce que vous étiez mort.</Original>
+<Italian>Hai perso uno stipendio perche eri morto.</Italian>
+</Key>
+<Key ID="STR_FSM_ReceivedPay">
+<French>You have received a paycheck of $%1</French>
+<English>You have received a paycheck of $%1</English>
+<German>Du hast deinen Gehaltscheck in Höhe von $%1 erhalten</German>
+<Original>Vous avez reçu un salaire de $%1</Original>
+<Italian>Hai ricevuto uno stipendio di €%1</Italian>
+</Key>
+</Package>
+</Project>
+
